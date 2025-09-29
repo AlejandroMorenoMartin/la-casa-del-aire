@@ -1,5 +1,5 @@
-/* Reset */
-/* Reset moderno */
+/* RESET + ESTILOS BASE */
+
 *,
 *::before,
 *::after {
@@ -51,7 +51,7 @@ img {
 video {
   max-width: 100%;
   height: auto;
-  aspect-ratio: 16 / 9; /* Fuerza formato widescreen */
+  aspect-ratio: 16 / 9; 
   display: block;  
 }
 
@@ -100,6 +100,68 @@ h6 {
 
 .icon:hover {
   fill: var(--primary-300);
+}
+
+h1 {
+  font-family: var(--font-family);
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--white);
+}
+
+h2 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--white);
+}
+
+.large-bold {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.large {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--white-100);
+}
+
+.regular-bold {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--white-200);
+}
+
+.regular {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--white-300);
+}
+
+.small-bold {
+  font-size: 8px;
+  font-weight: 600;
+  color: var(--white-300);
+}
+
+.small {
+  font-size: 8px;
+  font-weight: 300;
+  color: var(--white-400);
+}
+
+/* Desktop (≥1200px) */
+@media (min-width: var(--bp-desktop)) {
+  h1 { font-size: 48px; }
+  h2 { font-size: 32px; }
+  .large-bold { font-size: 20px; }
+  .large { font-size: 20px; }
+  .regular-bold { font-size: 16px; }
+  .regular { font-size: 16px; }
+  .small-bold { font-size: 12px; }
+  .small { font-size: 12px; }
 }
 
 

@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
+import "./Casa.css";
 
 export default function Casa() {
   const { t, i18n } = useTranslation();

@@ -3,6 +3,7 @@ import FacebookIcon from "../assets/icons/Facebook.svg?react";
 import InstagramIcon from "../assets/icons/Instagram.svg?react";
 import WhatsappIcon from "../assets/icons/Whatsapp.svg?react";
 import EmailIcon from "../assets/icons/Email.svg?react";
+import "./Footer.css";
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -12,7 +13,7 @@ export default function Footer() {
       <p>
         © 2025 {t("footer.rights")} {t("footer.madeWith")}{" "}
         <span className="heart">♥</span> {t("footer.by")}{" "}
-        <a href="https://tu-portfolio.com" target="_blank" rel="noreferrer">
+        <a href="https://www.alejandromorenomartin.com/" target="_blank" rel="noreferrer">
           Alejandro Moreno
         </a>.
       </p>

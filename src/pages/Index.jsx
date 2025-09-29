@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import Navbar from "../components/Navbar";
 import VideoHero from "../components/VideoHero";
 import Footer from "../components/Footer";
+import "./Index.css";
 
 export default function Index() {
   const { t, i18n } = useTranslation();

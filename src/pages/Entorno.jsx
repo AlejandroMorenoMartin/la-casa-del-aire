@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
+import "./Entorno.css";
 
 export default function Entorno() {
   const { t, i18n } = useTranslation();

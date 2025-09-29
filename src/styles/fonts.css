@@ -1,3 +1,5 @@
+/* CARGA LA FUENTE DESDE LOCAL */
+
 @font-face {
   font-family: "Acumin Variable Concept";
   src: url("/fonts/AcuminVariableConcept.woff2") format("woff2"),

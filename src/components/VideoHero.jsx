@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import "./VideoHero.css";
 
 export default function VideoHero() {
   const { t } = useTranslation();

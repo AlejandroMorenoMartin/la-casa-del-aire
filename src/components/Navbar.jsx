@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import Logo from "../assets/icons/Logo.svg?react";
 import Menu from "../assets/icons/Menu.svg?react";
+import "./Navbar.css";
 
 export default function Navbar() {
   const { t } = useTranslation();
@@ -10,7 +11,7 @@ export default function Navbar() {
     <nav className="navbar">
       {/* Logo */}
       <div className="logo">
-        <Link to="/casa" aria-label={t("navbar.logo")}>
+        <Link to="pages/Index.jsx" aria-label={t("navbar.logo")}>
           <Logo className="logo-icon" />
         </Link>
       </div>
