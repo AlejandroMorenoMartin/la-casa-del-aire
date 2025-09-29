@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import { ReactComponent as Logo } from "../assets/icons/Logo.svg";
-import { ReactComponent as Menu } from "../assets/icons/Menu.svg";
+import Logo from "../assets/icons/Logo.svg?react";
+import Menu from "../assets/icons/Menu.svg?react";
 
 export default function Navbar() {
   const { t } = useTranslation();
