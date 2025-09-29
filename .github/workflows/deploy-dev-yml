@@ -1,13 +1,14 @@
-name: Build & Deploy to IONOS (SFTP)
+name: Deploy to IONOS (dev)
 
 on:
   push:
-    branches: ["main"] # cada push a main despliega
-  workflow_dispatch: # también puedes lanzar manualmente
+    branches: ["dev"]
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -24,18 +25,18 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Deploy via SFTP
+      - name: Deploy dist folder to IONOS (dev subdomain)
         uses: wlixcc/SFTP-Deploy-Action@v1.2.6
         with:
           server: ${{ secrets.SFTP_HOST }}
           username: ${{ secrets.SFTP_USER }}
           password: ${{ secrets.SFTP_PASSWORD }}
           port: ${{ secrets.SFTP_PORT }}
-          local_path: "./dist/*" # Vite usa "dist"
-          remote_path: "/dev" # ajusta si tu docroot es otro
+          local_path: "./dist/*"
+          remote_path: "/dev"   # carpeta raíz del subdominio en IONOS
           sftp_only: true
 
-      - name: Upload .htaccess
+      - name: Upload .htaccess (dev)
         uses: wlixcc/SFTP-Deploy-Action@v1.2.6
         with:
           server: ${{ secrets.SFTP_HOST }}

@@ -1,0 +1,54 @@
+# name: 🚫 Build & Deploy to IONOS (PRODUCCIÓN)
+#
+# ⚠️ ATENCIÓN:
+# Este workflow está DESHABILITADO para evitar pisar la web principal
+# en /clickandbuilds/Casadelaire que actualmente es un WordPress.
+# 
+# Cuando el cliente confirme que la web en React sustituirá a la principal,
+# descomenta este archivo y ajusta lo que haga falta.
+#
+# on:
+#   push:
+#     branches: ["main"]   # Solo despliega cuando hay cambios en main
+#   workflow_dispatch:     # También se puede lanzar manualmente
+#
+# jobs:
+#   build-and-deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout repo
+#         uses: actions/checkout@v4
+#
+#       - name: Setup Node
+#         uses: actions/setup-node@v4
+#         with:
+#           node-version: 20
+#           cache: npm
+#
+#       - name: Install dependencies
+#         run: npm ci
+#
+#       - name: Build project
+#         run: npm run build
+#
+#       - name: Deploy via SFTP
+#         uses: wlixcc/SFTP-Deploy-Action@v1.2.6
+#         with:
+#           server: ${{ secrets.SFTP_HOST }}
+#           username: ${{ secrets.SFTP_USER }}
+#           password: ${{ secrets.SFTP_PASSWORD }}
+#           port: ${{ secrets.SFTP_PORT }}
+#           local_path: "./dist/*"   # Vite genera la carpeta dist
+#           remote_path: "/clickandbuilds/Casadelaire"
+#           sftp_only: true
+#
+#       - name: Upload .htaccess
+#         uses: wlixcc/SFTP-Deploy-Action@v1.2.6
+#         with:
+#           server: ${{ secrets.SFTP_HOST }}
+#           username: ${{ secrets.SFTP_USER }}
+#           password: ${{ secrets.SFTP_PASSWORD }}
+#           port: ${{ secrets.SFTP_PORT }}
+#           local_path: "./.htaccess"
+#           remote_path: "/clickandbuilds/Casadelaire/.htaccess"
+#           sftp_only: true
