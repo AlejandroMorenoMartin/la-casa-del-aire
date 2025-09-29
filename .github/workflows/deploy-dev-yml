@@ -33,7 +33,7 @@ jobs:
           password: ${{ secrets.SFTP_PASSWORD }}
           port: ${{ secrets.SFTP_PORT }}
           local_path: "./dist/*"
-          remote_path: "/dev"   # carpeta raíz del subdominio en IONOS
+          remote_path: "/dev"   
           sftp_only: true
 
       - name: Upload .htaccess (dev)

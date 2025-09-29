@@ -29,7 +29,7 @@ export default function Footer() {
             <WhatsappIcon className="icon" />
           </a>
           <a href="mailto:correo@casadelaire.es">
-            <MailIcon className="icon" />
+            <EmailIcon className="icon" />
           </a>
         </div>
       </div>
