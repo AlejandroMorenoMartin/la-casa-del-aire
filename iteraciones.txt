@@ -1,4 +1,0 @@
-Os paso lo que seria la pagina de entrada. Como me comentasteis, incluimos el video únicamente, yo he añadido:
-* una barra de navegación arriba, con el logo y el menu, que abrirá un menu lateral en el que se despliegan las dos paginas (La casa, Reconocimientos). 
-* por encima del video un texto que indica un poco de que se trata la página y que se puede hacer aquí, incluyendo el botón principal que navega hasta la reserva. 
-* en el footer se incluye el copyright, un botón para el cambio de idioma (que abrirá un modal para elegir entre Español, inglés, Francés y Portugués), además incluimos también los botones de enlace a redes y correo.

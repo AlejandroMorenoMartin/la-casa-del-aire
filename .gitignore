@@ -1,27 +1,44 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
+# ========================
+# LOGS Y ARCHIVOS DE DEBUG
+# ========================
+logs/                   # Carpeta de logs locales
+*.log                   # Archivos de log en general
+npm-debug.log*          # Logs de errores npm
+yarn-debug.log*         # Logs de errores yarn
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+pnpm-debug.log*         # Logs de errores pnpm
+lerna-debug.log*        # Logs de errores lerna (monorepos)
 
-node_modules
-dist
-dist-ssr
-*.local
+# ========================
+# DEPENDENCIAS Y BUILDS
+# ========================
+node_modules/           # Dependencias instaladas por npm (pesan y se regeneran siempre)
+dist/                   # Carpeta generada al hacer el build con Vite
+dist-ssr/               # Carpeta de build para server-side rendering (si algún día se usa)
+.vite/                  # Caché de Vite (archivos temporales de build)
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# ========================
+# CONFIGURACIONES LOCALES
+# ========================
+*.local                 # Archivos locales con configuración privada
+.env                    # Variables de entorno (claves, tokens, etc.)
+.env.local
+.env.*.local            # Versiones específicas de .env para distintos entornos
 
-# No subir medios pesados
-media/
+# ========================
+# CONFIGURACIONES DE EDITOR
+# ========================
+.vscode/*               # Configuración personal de VSCode
+!.vscode/extensions.json # Excepto lista de extensiones recomendadas
+.idea/                  # Configuración de JetBrains (WebStorm, PhpStorm, etc.)
+.DS_Store               # Archivos ocultos que crea macOS
+*.suo                   # Archivos de configuración de Visual Studio
+*.ntvs*                 # Config de Node Tools para Visual Studio
+*.njsproj               # Proyectos Node.js de Visual Studio
+*.sln                   # Soluciones de Visual Studio
+*.sw?                   # Archivos swap de editores tipo Vim
+
+# ========================
+# ARCHIVOS PROPIOS DEL PROYECTO
+# ========================
+assets-local/           # Carpeta local donde guardas imágenes/vídeos originales y optimizados

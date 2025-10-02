@@ -1,0 +1,30 @@
+/* ================================
+   🎨 Colors - Foundations
+   Basado en guía de diseño
+================================= */
+
+:root {
+  /* Primary */
+  --color-primary-100: #FFDEBD;
+  --color-primary-200: #F29E4A;
+  --color-primary-300: #CB731A;
+  --color-primary-400: #894908;
+  --color-primary-500: #3B1F03;
+  --color-primary-600: #1F1001;
+
+  /* Black scale */
+  --color-black: #000000;
+  --color-black-100: #050505;
+  --color-black-200: #111111;
+  --color-black-300: #151515;
+  --color-black-400: #222222;
+  --color-black-500: #444444;
+
+  /* White scale */
+  --color-white: #FFFFFF;
+  --color-white-100: #EEEEEE;
+  --color-white-200: #DDDDDD;
+  --color-white-300: #CCCCCC;
+  --color-white-400: #BBBBBB;
+  --color-white-500: #AAAAAA;
+}

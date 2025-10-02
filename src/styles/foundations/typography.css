@@ -1,0 +1,64 @@
+/* ================================
+   📂 typography.css
+   Tipografía global del proyecto
+================================ */
+
+/* Fuente principal */
+@font-face {
+  font-family: 'Acumin Variable Concept';
+  src: url('../assets/fonts/acumin-variable-concept.woff2') format('woff2'),
+       url('../assets/fonts/acumin-variable-concept.woff') format('woff'),
+       url('../assets/fonts/acumin-variable-concept.ttf') format('truetype');
+  font-weight: 100 900; /* soporta pesos variables */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Fuente secundaria opcional */
+@font-face {
+  font-family: 'Acumin Variable Concept Italic';
+  src: url('../assets/fonts/acumin-variable-concept-Italic.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Aplicación por defecto */
+body {
+  font-family: 'Acumin Variable Concept', sans-serif;
+}
+
+
+/* ================================
+   Estilos base → Mobile / Tablet
+   (por debajo de 1200px)
+================================= */
+
+h1 { font-size: var(--h1-mobile); }
+h2 { font-size: var(--h2-mobile); }
+
+.subtitle-bold { font-size: var(--large-bold-mobile); }
+.subtitle { font-size: var(--large-mobile); }
+
+.body-bold { font-size: var(--regular-bold-mobile); }
+.body { font-size: var(--regular-mobile); }
+
+.caption-bold { font-size: var(--small-bold-mobile); }
+.caption { font-size: var(--small-mobile); }
+
+/* ================================
+   Desktop → desde 1200px en adelante
+================================= */
+@media screen and (min-width: 1200px) {
+  h1 { font-size: var(--h1-desktop); }
+  h2 { font-size: var(--h2-desktop); }
+
+  .subtitle-bold { font-size: var(--large-bold-desktop); }
+  .subtitle { font-size: var(--large-desktop); }
+
+  .body-bold { font-size: var(--regular-bold-desktop); }
+  .body { font-size: var(--regular-desktop); }
+
+  .caption-bold { font-size: var(--small-bold-desktop); }
+  .caption { font-size: var(--small-desktop); }
+}
