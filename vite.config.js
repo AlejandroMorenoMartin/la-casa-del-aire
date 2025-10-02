@@ -1,10 +1,17 @@
 import { defineConfig } from 'vite'
+import { resolve } from 'path'
 
-// Configuración básica para proyectos sin React
 export default defineConfig({
-  root: './src', // aquí está tu código fuente
+  root: './src',
   build: {
-    outDir: '../dist', // salida de la build en /dist
+    outDir: '../dist',
     emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        index: resolve(__dirname, 'src/index.html'),
+        home: resolve(__dirname, 'src/home.html'),
+        environment: resolve(__dirname, 'src/environment.html'),
+      },
+    },
   },
 })
