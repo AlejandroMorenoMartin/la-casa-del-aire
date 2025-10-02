@@ -1,0 +1,13 @@
+/* TEAM */
+Designer & Developer: Alejandro Moreno (Product Designer)
+Location: Madrid, Spain
+Contact: https://www.alejandromorenomartin.com/
+
+/* SITE */
+Last update: 2025-10-02
+Language: es, en, fr, pt
+Standards: HTML5, CSS3, ES6
+Components: Vite, Node.js scripts
+
+/* THANKS */
+Thanks to: La Casa del Aire team
