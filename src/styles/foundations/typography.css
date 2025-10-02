@@ -3,23 +3,14 @@
    Tipografía global del proyecto
 ================================ */
 
-/* Fuente principal */
 @font-face {
   font-family: 'Acumin Variable Concept';
-  src: url('../assets/fonts/acumin-variable-concept.woff2') format('woff2'),
-       url('../assets/fonts/acumin-variable-concept.woff') format('woff'),
-       url('../assets/fonts/acumin-variable-concept.ttf') format('truetype');
-  font-weight: 100 900; /* soporta pesos variables */
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Fuente secundaria opcional */
-@font-face {
-  font-family: 'Acumin Variable Concept Italic';
-  src: url('../assets/fonts/acumin-variable-concept-Italic.woff2') format('woff2');
+  src: url('/fonts/acumin-variable-concept.woff2') format('woff2'),
+       url('/fonts/acumin-variable-concept.woff') format('woff'),
+       url('/fonts/acumin-variable-concept.ttf') format('truetype'),
+       url('/fonts/acumin-variable-concept.otf') format('opentype');
+       
   font-weight: 100 900;
-  font-style: italic;
   font-display: swap;
 }
 

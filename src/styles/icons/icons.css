@@ -1,5 +1,8 @@
-.icon {  
-  color: var(--black-300);
+.icon {
+  display: inline-block;
+  fill: currentColor; /* <-- clave para heredar color */
+  stroke: currentColor;
+  vertical-align: middle;
 }
 
 .icon.large {
@@ -18,20 +21,22 @@
 }
 
 .icon.small {
-  width: .75rem;
-  height: .75rem; 
+  width: 0.75rem;
+  height: 0.75rem; 
 }
 
 .icon.tiny {
-  width: .5rem;
-  height: .5rem; 
+  width: 0.5rem;
+  height: 0.5rem; 
 }
 
+/* Logo en navbar */
 .logo {
   width: 4rem;
   height: 4rem;  
+  color: var(--black-300);
 }
 
 .logo:hover {
-  color: var(--primary-300);  
+  color: var(--primary-300);
 }
