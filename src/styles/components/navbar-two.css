@@ -1,0 +1,27 @@
+/* ================================
+   📐 Navbar
+================================ */
+.navbar-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* ================================
+   📱 Mobile (≤1200px)
+================================ */
+@media screen and (max-width: 1200px) {
+  .navbar-two {
+    padding: 1rem 2rem;
+    backdrop-filter: blur(60px);
+    -webkit-backdrop-filter: blur(60px);
+  }
+}

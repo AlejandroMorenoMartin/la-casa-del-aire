@@ -1,38 +1,18 @@
 /* ===== Reset y layout ===== */
-@import url('./reset.css');
-@import url('./layout.css');
+@import url('@/styles/reset.css');
+@import url('@/styles/layout.css');
 
 /* ===== Foundations ===== */
-@import url('./foundations/colors.css');
-@import url('./foundations/typography.css');
-@import url('./foundations/surfaces.css');
+@import url('@/styles/foundations/colors.css');
+@import url('@/styles/foundations/typography.css');
+@import url('@/styles/foundations/surfaces.css');
 
 /* ===== Assets ===== */
-@import url('./icons/icons.css');
-@import url('./images/images.css');
-@import url('./videos/videos.css');
+@import url('@/styles/icons/icons.css');
 
 /* ===== Components ===== */
-@import url('./components/navbar.css');
-@import url('./components/footer.css');
-@import url('./components/video-container.css');
-@import url('./components/modal-menu.css');
-@import url('./components/header-modal.css');
-@import url('./components/modal-slider.css');
-@import url('./components/button-primary.css');
-@import url('./components/button-secondary.css');
-@import url('./components/button-terciary.css');
-@import url('./components/link-internal.css');
-@import url('./components/link-external.css');
-@import url('./components/card-icon-link-regular.css');
-@import url('./components/card-icon-link-small.css');
-@import url('./components/card-icon-link-regular.css');
-@import url('./components/card-icon-nolink-regular.css');
-@import url('./components/card-icon-nolink-small.css');
-@import url('./components/card-review.css');
-@import url('./components/copyright.css');
-@import url('./components/header-page.css');
-@import url('./components/header-section.css');
-@import url('./components/modal-email.css');
-@import url('./components/modal-language.css');
-@import url('./components/modal-reserva.css');
+@import url('@/styles/components/navbar.css');
+@import url('@/styles/components/navbar-two.css');
+@import url('@/styles/components/buttons.css');
+@import url('@/styles/components/video-container.css');
+

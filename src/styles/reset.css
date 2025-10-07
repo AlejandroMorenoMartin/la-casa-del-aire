@@ -36,6 +36,12 @@ figure {
   object-fit: cover;
   /* (Opcional) */
   object-position: center center;
+}
+
+img,
+picture,
+iframe,
+figure {
   border-radius: var(--br-4);
 }
 

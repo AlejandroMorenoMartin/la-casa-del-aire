@@ -1,55 +1,129 @@
 /* ================================
-   📂 typography.css
-   Tipografía global del proyecto
+   ✳️ Typography — Base setup
+================================ */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--black-300);
+  line-height: 1.5;
+}
+
+/* ================================
+   🧱 Text Styles (Desktop ≥1200px)
 ================================ */
 
-@font-face {
-  font-family: 'Acumin Variable Concept';
-  src: url('/fonts/acumin-variable-concept.woff2') format('woff2'),
-       url('/fonts/acumin-variable-concept.woff') format('woff'),
-       url('/fonts/acumin-variable-concept.ttf') format('truetype'),
-       url('/fonts/acumin-variable-concept.otf') format('opentype');
-       
-  font-weight: 100 900;
-  font-display: swap;
+/* --- Titles --- */
+h1 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: auto;
+  letter-spacing: 0em;
+  color: var(--black);
 }
 
-/* Aplicación por defecto */
-body {
-  font-family: 'Acumin Variable Concept', sans-serif;
+h2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: auto;
+  letter-spacing: 0em;
+  color: var(--black);
 }
 
+/* --- Subtitles --- */
+.large-bold {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: auto;
+  letter-spacing: 0em;
+  color: var(--black);
+}
+
+.large {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: auto;
+  letter-spacing: 0em;
+  color: var(--black-100);
+}
+
+/* --- Body text --- */
+.regular-bold {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: auto;
+  letter-spacing: 0em;
+  color: var(--black-200);
+}
+
+.regular {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: auto;
+  letter-spacing: 0em;
+  color: var(--black-300);
+}
+
+/* --- Captions --- */
+.small-bold {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: auto;
+  letter-spacing: 0em;
+  color: var(--black-300);
+}
+
+.small {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: auto;
+  letter-spacing: 0em;
+  color: var(--black-400);
+}
 
 /* ================================
-   Estilos base → Mobile / Tablet
-   (por debajo de 1200px)
-================================= */
+   📱 Mobile (≤1200px)
+================================ */
+@media screen and (max-width: 1200px) {
+  /* --- Titles --- */
+  h1 {
+    font-size: 32px;
+    font-weight: 500;
+  }
 
-h1 { font-size: var(--h1-mobile); }
-h2 { font-size: var(--h2-mobile); }
+  h2 {
+    font-size: 24px;
+    font-weight: 500;
+  }
 
-.subtitle-bold { font-size: var(--large-bold-mobile); }
-.subtitle { font-size: var(--large-mobile); }
+  /* --- Subtitles --- */
+  .large-bold {
+    font-size: 16px;
+    font-weight: 500;
+  }
 
-.body-bold { font-size: var(--regular-bold-mobile); }
-.body { font-size: var(--regular-mobile); }
+  .large {
+    font-size: 16px;
+    font-weight: 400;
+  }
 
-.caption-bold { font-size: var(--small-bold-mobile); }
-.caption { font-size: var(--small-mobile); }
+  /* --- Body text --- */
+  .regular-bold {
+    font-size: 12px;
+    font-weight: 600;
+  }
 
-/* ================================
-   Desktop → desde 1200px en adelante
-================================= */
-@media screen and (min-width: 1200px) {
-  h1 { font-size: var(--h1-desktop); }
-  h2 { font-size: var(--h2-desktop); }
+  .regular {
+    font-size: 12px;
+    font-weight: 400;
+  }
 
-  .subtitle-bold { font-size: var(--large-bold-desktop); }
-  .subtitle { font-size: var(--large-desktop); }
+  /* --- Captions --- */
+  .small-bold {
+    font-size: 8px;
+    font-weight: 500;
+  }
 
-  .body-bold { font-size: var(--regular-bold-desktop); }
-  .body { font-size: var(--regular-desktop); }
-
-  .caption-bold { font-size: var(--small-bold-desktop); }
-  .caption { font-size: var(--small-desktop); }
+  .small {
+    font-size: 8px;
+    font-weight: 400;
+  }
 }

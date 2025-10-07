@@ -1,11 +1,12 @@
 {
   "name": "La Casa del Aire",
   "short_name": "Casa del Aire",
-  "description": "Rural accommodation in the Extremaduran dehesa. Enjoy nature, comfort, and tradition.",
-  "start_url": "/",
+  "description": "Alojamiento rural en la dehesa extremeña. Disfruta de la naturaleza, el confort y la tradición.",
+  "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#CB731A",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "/favicon-192x192.png",
@@ -20,7 +21,13 @@
     {
       "src": "/apple-touch-icon.png",
       "sizes": "180x180",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
     }
   ]
 }
