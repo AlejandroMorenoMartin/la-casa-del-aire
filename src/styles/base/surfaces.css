@@ -1,0 +1,36 @@
+/* ============================================
+   🪞 SURFACES — Fondos, efectos y profundidad
+   Controla gradientes, transparencias y filtros
+============================================ */
+
+:root {
+  /* ----- Gradientes ----- */
+  --linear-dark: linear-gradient(
+    360deg,
+    rgba(0, 0, 0, 0.25) 0%,
+    rgba(0, 0, 0, 0.125) 100%
+  );
+
+  --linear-light: linear-gradient(
+    360deg,
+    rgba(255, 255, 255, 0.35) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+
+  /* Gradiente principal de marca (opcional, si lo usas para hero banners) */
+  --linear-brand: linear-gradient(
+    180deg,
+    var(--primary-300) 0%,
+    var(--primary-400) 100%
+  );
+
+  /* ----- Filtros (blur, brillo, opacidad) ----- */
+  --blur-strong: blur(100px);
+  --blur-soft: blur(40px);
+  --blur-light: blur(15px);
+
+  /* Ejemplo para vidrio / glassmorphism */
+  --glass-effect: 
+    var(--linear-dark) 
+    backdrop-filter: blur(40px);
+}

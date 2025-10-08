@@ -1,18 +1,30 @@
-/* ===== Reset y layout ===== */
-@import url('@/styles/reset.css');
-@import url('@/styles/layout.css');
+/* ============================================
+   🧱 CORE — Fundamentos globales
+   (Se cargan primero para definir la base visual)
+============================================ */
+@import url("./base/reset.css");
+@import url("./base/variables.css");
+@import url("./base/typography.css");
+@import url("./base/utilities.css");
+@import url("./base/surfaces.css");
 
-/* ===== Foundations ===== */
-@import url('@/styles/foundations/colors.css');
-@import url('@/styles/foundations/typography.css');
-@import url('@/styles/foundations/surfaces.css');
+/* ============================================
+   🧩 COMPONENTS — Elementos reutilizables
+   (Dependen de las variables globales)
+============================================ */
+@import url("./components/buttons.css");
+@import url("./components/icons.css");
+@import url("./components/links.css");
 
-/* ===== Assets ===== */
-@import url('@/styles/icons/icons.css');
+/* ----- Modales y bloques específicos ----- */
+@import url("./components/modal-menu.css");
+@import url("./components/modal-profile.css");
+@import url("./components/modal-reserve.css");
+@import url("./components/navbar.css");
+@import url("./components/video-container.css");
 
-/* ===== Components ===== */
-@import url('@/styles/components/navbar.css');
-@import url('@/styles/components/navbar-two.css');
-@import url('@/styles/components/buttons.css');
-@import url('@/styles/components/video-container.css');
-
+/* ============================================
+   🧭 LAYOUT — Estructura de página
+   (Se carga al final para controlar disposición y overrides)
+============================================ */
+@import url("./layout/layout.css");

@@ -1,13 +1,23 @@
+<!-- video-container -->
 <section class="video-container">
   <video class="background-video" autoplay muted loop playsinline>
     <source src="/media/videos/video_720.webm" type="video/webm" />
-    <source src="/media/videos/video_720.mp4"  type="video/mp4" />
+    <source src="/media/videos/video_720.mp4" type="video/mp4" />
   </video>
 
   <div class="video-overlay">
-    <h1 data-key="video.title">Naturaleza y confort en la dehesa extremeña</h1>
-    <button class="button-primary_large">
-      <p class="regular-bold" data-key="video.button">Reservar</p>
+    <h1 data-key="components.video-container.caption">
+      Alojamiento rural en la dehesa extremeña
+    </h1>
+
+    <button
+      class="button-primary_large"
+      aria-label="Open reservation form"
+      data-modal-target="modal-reserve"
+    >
+      <span class="regular-bold" data-key="components.video-container.cta">
+        Reservar
+      </span>
     </button>
   </div>
 </section>

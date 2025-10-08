@@ -1,10 +1,14 @@
 {
-  "home": {
-    "hero_title": "Welcome to La Casa del Aire",
-    "hero_subtitle": "A rural experience in the heart of Extremadura",
-    "btn_menu": "Menu",
-    "footer_text": "La Casa del Aire"
+  "components": {
+    "navbar": {},
+    "modal-menu": {},
+    "modal-profile": {},
+    "modal-reserve": {},
+    "video-container": {}
   },
-  "about": {},
-  "environment": {}
+  "pages": {
+    "index": {},
+    "home": {},
+    "environment": {}
+  }
 }

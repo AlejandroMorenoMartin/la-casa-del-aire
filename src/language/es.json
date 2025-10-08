@@ -1,10 +1,38 @@
 {
-  "home": {
-    "hero_title": "Bienvenido a La Casa del Aire",
-    "hero_subtitle": "Una experiencia rural en el corazón de Extremadura",
-    "btn_menu": "Menú",
-    "footer_text": "La Casa del Aire"
+  "components": {
+    "navbar": {
+      "reserve": "Reservar"     
+    },
+    "modal-menu": {
+      "pages-section": "Páginas",
+      "pages-one": "Video",
+      "pages-two": "Casa",
+      "pages-three": "Entorno",
+      "languages-section": "Idiomas",
+      "languages-one": "Español (ES)",
+      "languages-two": "Inglés (EN)",
+      "languages-three": "Francés (FR)",
+      "languages-four": "Portugués (PT)",
+      "footer-conditions": "Condiciones generales",
+      "footer-designer": "Diseñado y desarrollado por"
+    },
+    "modal-profile": {
+      "cta": "Reservar",
+      "caption": "Tu alojamiento rural en la dehesa extremeña"
+    },
+    "modal-reserve": {
+      "cta": "Reservar",
+      "caption": "Tu alojamiento rural en la dehesa extremeña"
+    },
+    "video-container": {
+      "cta": "Reservar",
+      "caption": "Tu alojamiento rural en la dehesa extremeña"
+    }
   },
-  "about": {},
-  "environment": {}
+
+  "pages": {
+    "index": {},
+    "home": {},
+    "environment": {}
+  }
 }

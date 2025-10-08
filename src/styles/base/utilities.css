@@ -1,0 +1,77 @@
+/* ================================
+   🧩 Utilities — Text, Color & Layout helpers
+================================ */
+
+/* ----- 🎨 Text colors ----- */
+.text-dark {
+  color: var(--black);
+}
+.text-black {
+  color: var(--black-300);
+}
+.text-muted {
+  color: var(--black-400);
+}
+.text-white {
+  color: var(--white);
+}
+.text-primary {
+  color: var(--primary-300);
+}
+.text-primary-dark {
+  color: var(--primary-400);
+}
+
+/* ----- 🧱 Font weights ----- */
+.text-bold {
+  font-weight: 600;
+}
+.text-semibold {
+  font-weight: 500;
+}
+.text-regular {
+  font-weight: 400;
+}
+.text-light {
+  font-weight: 300;
+}
+
+/* ----- 📐 Alignment ----- */
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+
+/* ----- 🔠 Transformations ----- */
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+/* ----- ✨ Spacing control (inline text) ----- */
+.text-nowrap {
+  white-space: nowrap;
+}
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ----- 💡 Visibility helpers ----- */
+.text-hidden {
+  visibility: hidden;
+}
+.text-transparent {
+  color: transparent;
+}

@@ -1,0 +1,81 @@
+/* ============================================
+   🔗 LINKS — Sistema global de enlaces
+   Estilos consistentes y adaptables según contexto
+============================================ */
+
+/* ================================
+   🔹 Base: enlaces globales
+   (se aplica a todo <a> del proyecto)
+================================ */
+a {
+  color: var(--primary-300);
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+  color: var(--primary-400);
+}
+
+a:visited {
+  color: var(--primary-400);
+}
+
+/* ================================
+   🔹 Enlaces dentro de párrafos
+   (mantienen alineación y flujo del texto)
+================================ */
+p a {
+  display: inline;
+  vertical-align: baseline;
+  text-decoration: underline;
+  color: var(--primary-300);  
+  transition: color 0.2s ease-in-out;
+}
+
+p a:hover,
+p a:focus {
+  color: var(--primary-400);
+}
+
+/* ================================
+   🔹 Enlaces de acción / estilo UI
+   (.link-internal, .link-external)
+================================ */
+.link-internal,
+.link-external {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xxs);
+  color: var(--primary-300);
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out;
+}
+
+/* Estados */
+.link-internal:hover,
+.link-external:hover,
+.link-internal:focus,
+.link-external:focus {
+  color: var(--primary-400);
+}
+
+.link-internal:visited,
+.link-external:visited {
+  color: var(--primary-400);
+}
+
+/* ================================
+   🔹 Enlace externo con icono FontAwesome
+================================ */
+.link-external::after {
+  content: "\f061"; /* Unicode del ícono 'arrow-right' */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  display: inline-block;
+  margin-left: 0.25em;
+  font-size: 0.9em;
+  transform: rotate(-45deg); /* 🔹 Flecha en diagonal ↗ */
+  transition: transform 0.3s ease-in-out, color 0.2s ease-in-out;
+}

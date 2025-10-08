@@ -1,0 +1,138 @@
+<!-- modal-menu -->
+<div
+  class="modal-menu"
+  id="modal-menu"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Navigation menu"
+>
+  <!-- Overlay (click to close) -->
+  <div class="modal-menu__overlay" data-modal-close="true"></div>
+
+  <!-- Modal content -->
+  <div class="modal-menu__content">
+    <button
+      class="button-terciary button-close"
+      aria-label="Close menu"
+      data-modal-close="true"
+    >
+      <i class="fa-solid fa-xmark icon icon--rg" aria-hidden="true"></i>
+    </button>
+
+    <!-- Pages -->
+    <section class="modal-menu__section" aria-labelledby="modal-menu-pages">
+      <p id="modal-menu-pages" class="regular-bold" data-key="components.modal-menu.pages-section">
+        Pages
+      </p>
+
+      <!-- Video -->
+      <button
+        class="button-secondary"
+        data-nav-target="index.html"
+        data-page="index"
+      >
+        <i class="fa-solid fa-video icon icon--md" aria-hidden="true"></i>
+        <span class="regular" data-key="components.modal-menu.pages-one">Video</span>
+      </button>
+
+      <!-- Home -->
+      <button
+        class="button-secondary"
+        data-nav-target="home.html"
+        data-page="home"
+      >
+        <i class="fa-solid fa-house icon icon--md" aria-hidden="true"></i>
+        <span class="regular" data-key="components.modal-menu.pages-two">Home</span>
+      </button>
+
+      <!-- Environment -->
+      <button
+        class="button-secondary"
+        data-nav-target="environment.html"
+        data-page="environment"
+      >
+        <i class="fa-solid fa-seedling icon icon--md" aria-hidden="true"></i>
+        <span class="regular" data-key="components.modal-menu.pages-three"
+          >Environment</span
+        >
+      </button>
+    </section>
+
+    <!-- Languages -->
+    <section class="modal-menu__section" aria-labelledby="modal-menu-languages">
+      <p
+        id="modal-menu-languages"
+        class="regular-bold"
+        data-key="components.modal-menu.languages-section"
+      >
+        Language
+      </p>
+
+      <!-- Spanish -->
+      <button
+        class="button-secondary"
+        data-lang="es"
+        aria-label="Switch to Spanish"
+      >
+        <i class="fa-solid fa-language icon icon--md" aria-hidden="true"></i>
+        <span class="regular" data-key="components.modal-menu.languages-one">Spanish (ES)</span>
+      </button>
+
+      <!-- English -->
+      <button
+        class="button-secondary"
+        data-lang="en"
+        aria-label="Switch to English"
+      >
+        <i class="fa-solid fa-language icon icon--md" aria-hidden="true"></i>
+        <span class="regular" data-key="components.modal-menu.languages-two">English (EN)</span>
+      </button>
+
+      <!-- French -->
+      <button
+        class="button-secondary"
+        data-lang="fr"
+        aria-label="Switch to French"
+      >
+        <i class="fa-solid fa-language icon icon--md" aria-hidden="true"></i>
+        <span class="regular" data-key="components.modal-menu.languages-three">French (FR)</span>
+      </button>
+
+      <!-- Portuguese -->
+      <button
+        class="button-secondary"
+        data-lang="pt"
+        aria-label="Switch to Portuguese"
+      >
+        <i class="fa-solid fa-language icon icon--md" aria-hidden="true"></i>
+        <span class="regular" data-key="components.modal-menu.languages-four"
+          >Portuguese (PT)</span
+        >
+      </button>
+    </section>
+
+    <footer class="modal-menu__footer">
+      <a
+        href="#"
+        class="small link-internal"
+        aria-label="Open general conditions"
+        data-modal-target="modal-conditions"
+        data-key="components.modal-menu.footer-conditions"
+      >
+        General conditions
+      </a>
+
+      <p class="small">
+        © 2025. La Casa del Aire.
+        <span data-key="components.modal-menu.footer-designer">Design and development by</span>
+        <a
+          href="https://alejandromorenomartin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="small link-external"
+          >Alejandro Moreno</a
+        >
+      </p>
+    </footer>
+  </div>
+</div>

@@ -24,7 +24,7 @@ export default defineConfig({
       '@styles': path.resolve(__dirname, 'src/styles'),
       '@components': path.resolve(__dirname, 'src/components'),
       '@assets': path.resolve(__dirname, 'src/assets'),
-      '@media': path.resolve(__dirname, '../www/media'),
+      '@media': path.resolve(__dirname, '../www/media'), 
     },
   },
 
@@ -34,19 +34,13 @@ export default defineConfig({
     open: true,
     host: true,
     hmr: { overlay: true },
-    fs: {
-      allow: [
-        './',
-        '../www' // 👈 Permitimos leer /www
-      ],
-    },
+    fs: { allow: ['./', '../www'] }, // quítalo si no usas /www
   },
 
   plugins: [
-    // 🔁 Recarga completa cuando cambian componentes HTML
+    // Recarga al cambiar componentes/partials HTML
     fullReload(['src/components/**/*.html', 'src/partials/**/*.html']),
-
-    // 🌐 Servir /www/media como ruta pública /media
+    // Sirve /www/media como /media (borra este bloque si no lo necesitas)
     {
       name: 'serve-external-media',
       configureServer(server) {
