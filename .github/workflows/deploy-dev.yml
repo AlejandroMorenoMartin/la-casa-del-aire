@@ -13,7 +13,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 🟢 Desplegar solo los archivos del repositorio (sin assets)
       - name: Deploy la-casa-del-aire to IONOS /dev
         uses: wlixcc/SFTP-Deploy-Action@v1.2.6
         with:
@@ -23,12 +22,5 @@ jobs:
           port: ${{ secrets.SFTP_PORT }}
           local_path: "./la-casa-del-aire/*"
           remote_path: "/dev"
-          sftp_only: true
-          exclude: |
-            assets/**
-            .github/**
-            node_modules/**
-            .gitignore
-            package.json
-            package-lock.json
-            README.md
+          sftp_only: false             # usamos rsync, permite excluir
+          args: "--exclude 'assets/' --exclude '.github/' --exclude 'node_modules/' --exclude '.gitignore' --exclude 'package.json' --exclude 'package-lock.json' --exclude 'README.md'"
