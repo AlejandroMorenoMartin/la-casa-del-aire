@@ -1,0 +1,51 @@
+# ⚠️ ATENCIÓN:
+# Este workflow sigue DESHABILITADO para evitar sobrescribir
+# la web principal en /clickandbuilds/Casadelaire (WordPress).
+#
+# Cuando el cliente confirme el cambio a la nueva versión,
+# descomenta todo este bloque y ajusta el remote_path si es necesario.
+
+# on:
+#   push:
+#     branches: ["main"]     # Solo despliega cuando hay cambios en main
+#   workflow_dispatch:       # También puede lanzarse manualmente desde GitHub
+
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
+#
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v4
+#
+#       # 🟢 Despliega solo los archivos del proyecto (sin build, sin assets)
+#       - name: Deploy la-casa-del-aire to IONOS /clickandbuilds/Casadelaire
+#         uses: wlixcc/SFTP-Deploy-Action@v1.2.6
+#         with:
+#           server: ${{ secrets.SFTP_HOST }}
+#           username: ${{ secrets.SFTP_USER }}
+#           password: ${{ secrets.SFTP_PASSWORD }}
+#           port: ${{ secrets.SFTP_PORT }}
+#           local_path: "./la-casa-del-aire/*"
+#           remote_path: "/clickandbuilds/Casadelaire"
+#           sftp_only: true
+#           exclude: |
+#             assets/**
+#             .github/**
+#             node_modules/**
+#             .gitignore
+#             package.json
+#             package-lock.json
+#             README.md
+#
+#       # 🧱 (Opcional) Subida de .htaccess si se requiere reemplazar reglas
+#       # - name: Upload .htaccess (producción)
+#       #   uses: wlixcc/SFTP-Deploy-Action@v1.2.6
+#       #   with:
+#       #     server: ${{ secrets.SFTP_HOST }}
+#       #     username: ${{ secrets.SFTP_USER }}
+#       #     password: ${{ secrets.SFTP_PASSWORD }}
+#       #     port: ${{ secrets.SFTP_PORT }}
+#       #     local_path: "./la-casa-del-aire/.htaccess"
+#       #     remote_path: "/clickandbuilds/Casadelaire/.htaccess"
+#       #     sftp_only: true

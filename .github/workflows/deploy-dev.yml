@@ -6,43 +6,29 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: npm
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build project
-        run: npm run build
-
-      - name: Deploy dist folder to IONOS (dev subdomain)
+      # 🟢 Desplegar solo los archivos del repositorio (sin assets)
+      - name: Deploy la-casa-del-aire to IONOS /dev
         uses: wlixcc/SFTP-Deploy-Action@v1.2.6
         with:
           server: ${{ secrets.SFTP_HOST }}
           username: ${{ secrets.SFTP_USER }}
           password: ${{ secrets.SFTP_PASSWORD }}
           port: ${{ secrets.SFTP_PORT }}
-          local_path: "./dist/*"
+          local_path: "./la-casa-del-aire/*"
           remote_path: "/dev"
           sftp_only: true
-
-      - name: Upload .htaccess (dev)
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.6
-        with:
-          server: ${{ secrets.SFTP_HOST }}
-          username: ${{ secrets.SFTP_USER }}
-          password: ${{ secrets.SFTP_PASSWORD }}
-          port: ${{ secrets.SFTP_PORT }}
-          local_path: "./.htaccess"
-          remote_path: "/dev/.htaccess"
-          sftp_only: true
+          exclude: |
+            assets/**
+            .github/**
+            node_modules/**
+            .gitignore
+            package.json
+            package-lock.json
+            README.md
