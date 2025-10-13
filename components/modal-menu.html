@@ -1,0 +1,214 @@
+<!-- modal-menu -->
+<div
+  class="modals modal-menu"
+  id="modal-menu"
+  aria-hidden="true"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Navigation menu"
+>
+  <!-- Modal overlay -->
+  <div
+    class="modal__overlay"
+    data-modal-close="true"
+    style="background: transparent"
+  ></div>
+
+  <!-- Modal content -->
+  <div class="modal__content">
+    <!-- Páginas -->
+    <section class="modal__section" aria-labelledby="modal-menu-pages">
+      <span
+        id="modal-menu-pages"
+        class="small-bold"
+        data-key="components.modals.menu.pages-section"
+      >
+        Páginas
+      </span>
+
+      <!-- Video -->
+      <a
+        href="./index.html"
+        class="button button-content"
+        data-nav-target="index.html"
+        data-page="index"
+      >
+        <i class="fa-solid fa-video icon"></i>
+        <span class="regular" data-key="components.modals.menu.pages.video">
+          Video
+        </span>
+      </a>
+
+      <!-- Home -->
+      <a
+        href="./home.html"
+        class="button button-content"
+        data-nav-target="home.html"
+        data-page="home"
+      >
+        <i class="fa-solid fa-house icon"></i>
+        <span class="regular" data-key="components.modals.menu.pages.home">
+          Home
+        </span>
+      </a>
+
+      <!-- Environment -->
+      <a
+        href="./environment.html"
+        class="button button-content"
+        data-nav-target="environment.html"
+        data-page="environment"
+      >
+        <i class="fa-solid fa-seedling icon"></i>
+        <span class="regular" data-key="components.modals.menu.pages.environment">
+          Entorno
+        </span>
+      </a>
+    </section>
+
+    <!-- Idiomas -->
+    <section class="modal__section" aria-labelledby="modal-menu-languages">
+      <span
+        id="modal-menu-languages"
+        class="small-bold"
+        data-key="components.modals.menu.languages-section"
+      >
+        Idiomas
+      </span>
+
+      <button
+        class="button button-content"
+        data-lang="es"
+        aria-label="Cambiar a español"
+      >
+        <i class="fa-solid fa-language icon" aria-hidden="true"></i>
+        <span class="regular" data-key="components.modals.menu.languages.es">
+          Español (ES)
+        </span>
+      </button>
+
+      <button
+        class="button button-content"
+        data-lang="en"
+        aria-label="Switch to English"
+      >
+        <i class="fa-solid fa-language icon"></i>
+        <span class="regular" data-key="components.modals.menu.languages.en">
+          Inglés (EN)
+        </span>
+      </button>
+
+      <button
+        class="button button-content"
+        data-lang="fr"
+        aria-label="Passer au français"
+      >
+        <i class="fa-solid fa-language icon"></i>
+        <span class="regular" data-key="components.modals.menu.languages.fr">
+          Francés (FR)
+        </span>
+      </button>
+
+      <button
+        class="button button-content"
+        data-lang="pt"
+        aria-label="Mudar para português"
+      >
+        <i class="fa-solid fa-language icon"></i>
+        <span class="regular" data-key="components.modals.menu.languages.pt">
+          Portugués (PT)
+        </span>
+      </button>
+    </section>
+
+    <!-- Contacto -->
+    <section class="modal__section" aria-labelledby="modal-menu-contact">
+      <span
+        id="modal-menu-contact"
+        class="small-bold"
+        data-key="components.modals.menu.contact-section"
+      >
+        Contacto
+      </span>
+
+      <div class="modal__contact">
+        <!-- Facebook -->
+        <a
+          href="https://www.facebook.com/people/Casa-del-Aire/61566947403204/?mibextid=LQQJ4d"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button button-icon"
+          aria-label="Abrir perfil de Facebook"
+        >
+          <i class="fa-brands fa-facebook icon"></i>
+        </a>
+
+        <!-- Instagram -->
+        <a
+          href="https://www.instagram.com/casadelaire_extremadura/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button button-icon"
+          aria-label="Abrir perfil de Instagram"
+        >
+          <i class="fa-brands fa-instagram icon"></i>
+        </a>
+
+        <!-- WhatsApp -->
+        <a
+          href="https://wa.me/34637159169?text=Hola%2C%20vi%20La%20Casa%20del%20Aire%20y%20me%20gustar%C3%ADa%20poder%20hablar%20acerca%20de%20una%20reserva."
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button button-icon"
+          aria-label="Contactar por WhatsApp"
+        >
+          <i class="fa-brands fa-whatsapp icon"></i>
+        </a>
+
+        <!-- Email -->
+        <a
+          href="mailto:adan.housing@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button button-icon"
+          aria-label="Enviar correo electrónico"
+        >
+          <i class="fa-solid fa-envelope icon"></i>
+        </a>
+
+        <!-- Gmail -->
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=adan.housing@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button button-icon"
+          aria-label="Abrir composición en Gmail"
+        >
+          <i class="fa-brands fa-google icon"></i>
+        </a>
+
+        <!-- Yahoo -->
+        <a
+          href="http://compose.mail.yahoo.com/?to=adan.housing@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button button-icon"
+          aria-label="Abrir composición en Yahoo"
+        >
+          <i class="fa-brands fa-yahoo icon"></i>
+        </a>
+
+        <!-- iCloud -->
+        <a
+          href="https://www.icloud.com/mail/compose?to=adan.housing@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button button-icon"
+          aria-label="Abrir composición en iCloud Mail"
+        >
+          <i class="fa-brands fa-apple icon"></i>
+        </a>
+      </div>
+    </section>
+  </div>
+</div>

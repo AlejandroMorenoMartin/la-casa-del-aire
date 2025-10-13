@@ -1,0 +1,10 @@
+/* =========================================
+   ICON BASE
+========================================= */
+.icon { 
+  font-size: var(--icon-ss);
+  box-sizing: content-box;
+  vertical-align: middle;   
+  color: inherit;   
+  transition: var(--transition-button); 
+}

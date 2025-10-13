@@ -1,0 +1,69 @@
+<!-- modal-share -->
+<div
+  class="modals modal-share"
+  id="modal-share"
+  aria-hidden="true"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Share menu"
+>
+  <!-- Modal overlay -->
+  <div
+    class="modal__overlay"
+    data-modal-close="true"
+    style="background: transparent"
+  ></div>
+
+  <!-- Modal content -->
+  <div class="modal__content">
+    <!-- Link -->
+    <a
+      href="#"
+      class="button button-content"
+      aria-label="Copiar enlace"
+      id="copy-link"
+    >
+      <i class="fa-solid fa-link icon"></i>
+      <span
+        class="regular"
+        data-key="components.modals.share.copy-link"
+      >
+        Copiar enlace
+      </span>
+    </a>
+
+    <!-- Facebook -->
+    <a
+      href="https://www.facebook.com/sharer/sharer.php?u=https://casadelaire.es/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="button button-content"
+      aria-label="Compartir en Facebook"
+    >
+      <i class="fa-brands fa-facebook icon"></i>
+      <span
+        class="regular"
+        data-key="components.modals.share.facebook"
+      >
+        Compartir en Facebook
+      </span>
+    </a>
+
+    <!-- WhatsApp -->
+    <a
+      href="https://wa.me/?text=https://casadelaire.es/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="button button-content"
+      aria-label="Compartir en WhatsApp"
+    >
+      <i class="fa-brands fa-whatsapp icon"></i>
+      <span
+        class="regular"
+        data-key="components.modals.share.whatsapp"
+      >
+        Compartir en WhatsApp
+      </span>
+    </a>
+  </div>
+</div>

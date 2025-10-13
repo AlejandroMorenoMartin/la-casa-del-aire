@@ -1,0 +1,159 @@
+/* =========================================
+BUTTON BASE
+========================================= */
+.button {
+  font-family: var(--ff-base);
+  font-weight: var(--fw-medium);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--sp-xs);
+  padding: var(--sp-xs) var(--sp-sm);
+  color: inherit;
+  border-radius: var(--br-4);
+  border: none;
+  cursor: pointer;
+  transition: var(--transition-button);
+}
+
+.button:active {
+  transform: var(--transform-button);
+}
+
+/* =========================================
+BUTTON PRIMARY
+========================================= */
+.button-primary {
+  background-color: var(--pr-300);
+  max-height: var(--sp-md);
+  padding: var(--sp-xs) var(--sp-sm);
+}
+
+.button-primary:hover {
+  background-color: var(--pr-400);
+}
+
+.button-primary span {
+  color: var(--pr-100);
+}
+
+/* =========================================
+BUTTON CONTENT
+========================================= */
+.button-content {
+  border-radius: var(--br-4);
+  background-color: var(--wh-500);
+  color: var(--bl-300);
+}
+
+.button-content:hover {
+  background-color: var(--wh-400);
+}
+
+.button-content.active {
+  background-color: var(--wh-300);
+}
+
+.button-content.active:hover {
+  background-color: var(--wh-400);
+}
+
+/* =========================================
+BUTTON ICON
+========================================= */
+.button-icon {
+  border-radius: var(--br-4);
+  background-color: var(--wh-500);
+  color: var(--bl-300);
+  padding: var(--sp-xs);
+  display: inline-flex;
+  align-self: flex-end;
+  width: var(--sp-md);
+  height: var(--sp-md);
+  justify-content: center;
+}
+
+.button-icon:hover {
+  background-color: var(--wh-400);
+}
+
+.button-icon.active {
+  background-color: var(--wh-300);
+}
+
+/* =========================================
+BUTTON TOP
+========================================= */
+/* 🔸 Si el componente se carga dinámicamente, no genera layout */
+[data-component="button-top"] {
+  display: contents;
+  position: static;
+  height: 0;
+  overflow: visible;
+}
+
+/* 🔸 Estado hidden del botón */
+.button-top[hidden] {
+  display: none !important;
+}
+
+/* 🔸 Estilo base */
+.button-top {
+  display: inline-flex;
+  position: fixed;
+  bottom: var(--sp-sm);
+  right: var(--sp-sm);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  /* Colores */
+  background-color: var(--bl-300);
+  color: var(--wh-500);
+
+  /* Tamaño */
+  width: var(--sp-md);
+  height: var(--sp-md);
+  border-radius: var(--br-4);
+
+  /* Animación de aparición/desaparición */
+  transition:
+    opacity var(--anim-duration) var(--anim-ease),
+    transform var(--anim-duration) var(--anim-ease);
+
+  transform: translateY(var(--anim-translate));
+  opacity: 0;
+  pointer-events: none;
+  z-index: var(--z-three);
+}
+
+/* 🔸 Hover */
+.button-top:hover {
+  background-color: var(--bl-400);
+}
+
+/* 🔸 Estado visible / oculto controlado por JS */
+.button-top[data-state="visible"] {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.button-top[data-state="hidden"] {
+  opacity: 0;
+  transform: translateY(var(--anim-translate));
+  pointer-events: none;
+}
+
+/* 🔸 Respeta las safe areas en iOS */
+@supports (padding: max(0px)) {
+  .button-top {
+    bottom: max(var(--sp-xs), env(safe-area-inset-bottom));
+    right: max(var(--sp-xs), env(safe-area-inset-right));
+  }
+}
+
+/* =========================================
+RESPONSIVE (≤1200px)
+========================================= */

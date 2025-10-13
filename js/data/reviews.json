@@ -1,0 +1,32 @@
+[
+  {
+    "authorAttribution": {
+      "displayName": "Laura Gómez",
+      "photoURI": "https://randomuser.me/api/portraits/women/65.jpg"
+    },
+    "rating": 5,
+    "relativePublishTimeDescription": "hace 2 semanas",
+    "text": "Una experiencia fantástica. La casa es acogedora, limpia y muy bien equipada. Perfecta para desconectar unos días.",
+    "platform": "Google"
+  },
+  {
+    "authorAttribution": {
+      "displayName": "Carlos Martín",
+      "photoURI": "https://randomuser.me/api/portraits/men/72.jpg"
+    },
+    "rating": 4,
+    "relativePublishTimeDescription": "hace 1 mes",
+    "text": "Lugar tranquilo y muy bien situado. El entorno natural es impresionante. Volveré sin duda.",
+    "platform": "Google"
+  },
+  {
+    "authorAttribution": {
+      "displayName": "Ana Ruiz",
+      "photoURI": "https://randomuser.me/api/portraits/women/81.jpg"
+    },
+    "rating": 5,
+    "relativePublishTimeDescription": "hace 3 meses",
+    "text": "Todo impecable. La atención y el trato con los anfitriones fue excelente. Ideal para escapadas rurales.",
+    "platform": "Google"
+  }
+]

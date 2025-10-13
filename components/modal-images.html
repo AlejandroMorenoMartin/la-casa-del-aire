@@ -1,0 +1,67 @@
+<!-- modal-images -->
+<div
+  class="modals modal-images"
+  id="modal-images"
+  aria-hidden="true"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Images carousel"
+>
+  <!-- Modal overlay -->
+  <div class="modal__overlay" data-modal-close="true"></div>
+
+  <!-- Modal content -->
+  <div class="modal__content">
+    <!-- Botón cerrar -->
+    <button
+      class="button button-icon"
+      aria-label="Cerrar galería"
+      data-modal-close="true"
+    >
+      <i class="fa-solid fa-xmark icon"></i>
+    </button>
+    
+    <!-- Descripción -->
+    <div class="modal__section" id="modal-image-description">
+      <p class="regular-bold" id="modal-image-title" data-key="components.modals.images.title">
+        Título de la imagen
+      </p>
+      <p class="regular" id="modal-image-caption" data-key="components.modals.images.caption">
+        Descripción breve de la imagen.
+      </p>
+    </div>
+
+    <!-- Imagen principal -->
+    <picture class="modal__image-wrapper">
+      <img
+        id="modal-image-viewer"
+        src=""
+        alt="Imagen de la galería"
+        loading="lazy"
+      />
+    </picture>
+    
+    <!-- Controles -->
+    <div class="flex-row">
+      <button
+        class="button button-icon prev"
+        aria-label="Imagen anterior"
+        id="gallery-prev"
+      >
+        <i class="fa-solid fa-chevron-left icon"></i>
+      </button>
+
+      <span class="regular gallery-counter" id="gallery-counter" data-key="components.modals.images.counter">
+        1 / 10
+      </span>
+
+      <button
+        class="button button-icon next"
+        aria-label="Imagen siguiente"
+        id="gallery-next"
+      >
+        <i class="fa-solid fa-chevron-right icon"></i>
+      </button>
+    </div>
+  </div>
+</div>

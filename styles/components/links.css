@@ -1,0 +1,37 @@
+/* =========================================
+LINK BASE
+========================================= */
+.link {
+  display: inline-flex;
+  color: var(--bl-300);
+  text-decoration: underline;
+  transition: var(--transition-button);
+  align-self: flex-start;
+  align-items: center;
+  gap: var(--sp-xxs);
+}
+
+.link:hover {
+  color: var(--pr-300);
+}
+
+.link:visited {
+  color: var(--pr-400);
+}
+
+.link:visited .icon {
+  color: var(--pr-400);
+}
+
+/* =========================================
+LINK EXTERNO
+========================================= */
+.link-external::after {
+  content: "\f08e";
+  font-family: "Font Awesome 6 Free";
+  font-size: var(--fs-xs);
+  font-weight: 900; 
+  margin-left: var(--sp-xxxs);
+  display: inline-block;
+  vertical-align: middle;
+}

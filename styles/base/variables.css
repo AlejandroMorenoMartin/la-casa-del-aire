@@ -1,0 +1,168 @@
+:root {
+  /*
+  =================================
+  ESCALADO DE FUENTE BASE
+  (Desktop-First: 1rem = 18px por defecto)
+  =================================
+  */
+  font-size: 100%;
+
+  /* ================================
+  PALETA DE COLORES
+  ================================ */
+  --wh-500: #ffffff;
+  --wh-400: #f0f0f0;
+  --wh-300: #e1e1e1;
+  --wh-200: #d2d2d2;
+  --wh-100: #c3c3c3;
+
+  --bl-500: #000000;
+  --bl-400: #151515;
+  --bl-300: #333333;
+  --bl-200: #454545;
+  --bl-100: #666666;
+
+  --pr-500: #190d02;
+  --pr-400: #aa5d0f;
+  --pr-300: #cb731a;
+  --pr-200: #e49342;
+  --pr-100: #f1e8df;
+
+  /* ================================
+  TIPOGRAFÍA
+  ================================ */
+  --ff-base: "Roboto", sans-serif;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --fs-h1: 3rem;
+  --fs-h2: 1.5rem;
+  --fs-large: 1.25rem;
+  --fs-regular: 1rem;
+  --fs-small: 0.8rem;
+  --fs-xs: 0.7rem;
+
+  --lh-medium: 1.8;
+  --lh-regular: 1.55;
+  --lh-light: 1.2;
+
+  /* ================================
+  ICONOGRAFÍA
+  ================================ */
+  --icon-sb: 1.3333rem;
+  --icon-ss: 1rem;
+  --icon-weight: var(--fw-regular);
+
+  /* ================================
+  LINKS
+  ================================ */
+  --link-color-base: var(--pr-300);
+  --link-color-hover: var(--pr-400);
+
+  /* ================================
+  ESPACIADO & DIMENSIONES
+  ================================ */
+  --sp-xxxs: 0.075rem;
+  --sp-xxs: 0.25rem;
+  --sp-xs: 0.5rem;
+  --sp-sm: 1rem;
+  --sp-md: 2rem;
+  --sp-lg: 3rem;
+  --sp-xl: 4rem;
+  --sp-xxl: 6rem;
+  --sp-xxxl: 8rem;
+  --sp-giant: 10rem;
+
+  --br-0: 0rem;
+  --br-2: 0.125rem;
+  --br-4: 0.25rem;
+  --br-8: 0.5rem;
+  --br-16: 1rem;
+  --br-full: 50%;
+
+  --height-regular-line: 1.75rem;
+
+  --menu-width: 14rem;
+  --modal-width: 50rem;
+  --modal-height: 50rem;
+
+  --width-content: 75rem;
+
+  /* ================================
+  BORDES
+  ================================ */
+  --bw-thin: 0.003125rem;
+  --bw-regular: 0.125rem;
+  --bw-thick: 0.25rem;
+
+  --br-solid: solid;
+
+  --border-thin: var(--bw-thin) var(--br-solid) var(--wh-100);
+  --border-regular: var(--bw-regular) var(--br-solid) var(--bl-500);
+  --border-thick: var(--bw-thick) var(--br-solid) var(--bl-500);
+
+  --sh-border-thin: 0 0 0 var(--bw-thin) var(--bl-100);
+  --sh-border-regular: 0 0 0 var(--bw-regular) var(--bl-500);
+
+  /* ================================
+  Z-INDEX
+  ================================ */
+  --z-zero: 0;
+  --z-one: 100;
+  --z-two: 200;
+  --z-three: 300;
+
+  /* ============================================
+   SOMBRAS & SUPERFICIES
+   ============================================ */
+  --overlay-dark: rgba(0, 0, 0, 0.5);
+
+  --drop-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.15);
+
+  --linear-dark: linear-gradient(
+    360deg,
+    rgba(0, 0, 0, 0.25) 0%,
+    rgba(0, 0, 0, 0.125) 100%
+  );
+  --linear-light: linear-gradient(
+    360deg,
+    rgba(255, 255, 255, 0.35) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  --linear-brand: linear-gradient(180deg, var(--pr-300) 0%, var(--pr-400) 100%);
+
+  --blur-strong: blur(6.25rem);
+  --blur-soft: blur(2.5rem);
+  --blur-light: blur(0.9375rem); 
+
+  /* ================================
+  TRANSITIONS
+  ================================ */
+  --transition-button: all 0.2s ease;
+  --transition-modal: opacity 0.4s ease; 
+
+  /* ================================
+  TRANSFORMS
+  ================================ */
+  --transform-button: scale(0.9);
+
+  /* ================================
+  IMAGES
+  ================================ */
+  --img-hover-brightness: 0.9;
+  --img-hover-transition: 0.2s ease; /* control de suavidad del efecto */
+}
+
+/* ==================================================
+RESPONSIVE: ESCALADO MÓVIL (Max-Width)
+================================================== 
+*/
+@media (max-width: var(--bp-lg)) {
+  :root {
+    font-size: 87.5%;
+  }
+}

@@ -1,0 +1,489 @@
+{
+  "pages": {
+    "environment": {
+     "header": {
+      "title": "Surroundings",
+      "subtitle": "Extremaduran countryside"
+    },
+    "aldea": {
+      "title": "La Aldea del Obispo",
+      "location": "Location",
+      "p1": "Nestled in the plains of Cáceres, La Aldea del Obispo is a small village that preserves the authentic spirit of rural Extremadura.",
+      "p2": "Among its landmarks stands the Parish Church of Our Lady of the Rosary, a Baroque-style temple built over an earlier structure.",
+      "p3": "From here, you can enjoy hiking routes such as the Lavadera Bridge trail along the Tozo River — perfect for connecting with nature."
+    },
+    "trujillo": {
+      "title": "Trujillo",
+      "location":"Location",
+      "p1": "Trujillo is one of the most historically significant cities in Extremadura. Its castle, main square, and noble houses tell the story of a town deeply linked to the age of explorers.",
+      "p2": "The city preserves a medieval atmosphere in every corner, full of charm and culture.",
+      "p3": "A must-do experience is joining a guided tour through the castle and the old town."
+    },
+    "bodegas": {
+      "title": "Bodegas Habla",
+      "location":"Location",
+      "p1": "Located in Trujillo, Bodegas Habla is one of Extremadura’s most innovative wineries, where tradition meets modern design.",
+      "p2": "Its contemporary architecture blends harmoniously with the natural landscape, and its wines are recognized internationally.",
+      "p3": "A guided tour or wine tasting is highly recommended for wine lovers."
+    },
+    "birding": {
+      "title": "Birding",
+      "location":"Location",
+      "p1": "Extremadura is one of Europe’s top destinations for birdwatching, home to over 300 bird species throughout the year.",
+      "p2": "Among the most emblematic are the black vulture, black stork, Spanish imperial eagle, and common crane.",
+      "p3": "Enjoy guided tours to observe these magnificent birds in their natural habitat."
+    },
+    "monfrague": {
+      "title": "Monfragüe",
+      "location":"Location",
+      "p1": "Monfragüe is Extremadura’s great natural sanctuary, declared a National Park in 2007.",
+      "p2": "Its most iconic viewpoint, Salto del Gitano, offers breathtaking views and is perfect for spotting birds of prey in flight.",
+      "p3": "An ideal destination for birdwatching and hiking."
+    },
+    "caceres": {
+      "title": "Cáceres",
+      "location":"Location",
+      "p1": "A UNESCO World Heritage City, Cáceres boasts one of the best-preserved medieval and Renaissance ensembles in Europe.",
+      "p2": "Walking through its cobbled streets feels like stepping back in time.",
+      "p3": "We recommend a nighttime guided tour of the historic quarter."
+    },
+    "jara": {
+      "title": "Villuercas Ibores Jara",
+      "location":"Location",
+      "p1": "A UNESCO Global Geopark combining mountains, fossils, and valleys of great geological value.",
+      "p2": "The area preserves traditional villages with a strong rural identity.",
+      "p3": "Don’t miss the famous ‘Extremaduran Appalachians’ hiking route."
+    },
+    "guadalupe": {
+      "title": "Guadalupe",
+      "location":"Location",
+      "p1": "The Royal Monastery of Santa María de Guadalupe is a UNESCO World Heritage Site and one of Spain’s most iconic religious landmarks.",
+      "p2": "The village retains its traditional architecture and charming cobbled streets.",
+      "p3": "A guided visit to the monastery and its museum is a must."
+    },
+    "vera": {
+      "title": "La Vera",
+      "location":"Location",
+      "p1": "A picturesque region at the foot of the Gredos Mountains, famous for its natural gorges and mild microclimate.",
+      "p2": "It’s the birthplace of La Vera paprika, a product with its own Protected Designation of Origin.",
+      "p3": "In summer, you can swim in natural pools such as the Garganta de Cuartos."
+    }
+    },
+    "home": {
+      "header": {
+        "title": "Casa del Aire",
+        "location": "Location",
+        "capacity": "6–8"
+      },
+      "images": {
+        "title": "Images"
+      },
+      "description": {
+        "title": "Description",
+        "p1": "Located just two hours from Madrid, in the village of La Aldea del Obispo (Cáceres, Extremadura), La Casa del Aire stands in the heart of the Extremaduran countryside. This cozy 19th-century stone house perfectly blends rustic charm with contemporary details.",
+        "p2": "Surrounded by a unique natural landscape, it’s the ideal place to unwind and explore the most iconic sites of the region: La Aldea del Obispo, Trujillo, Monfragüe National Park, Cáceres, the Villuercas-Ibores-Jara Geopark, Guadalupe, and the La Vera region.",
+        "p3": "You can also enjoy day trips to local attractions such as Bodegas Habla or experience birdwatching — one of the most special activities this land has to offer.",
+        "p4": "The house can accommodate up to 8 guests and is distributed over two floors with three double bedrooms.",
+        "p5": "On the ground floor, you’ll find a living room with a fireplace and two large sofas, a dining room, a fully equipped kitchen, and a bathroom. Upstairs, there are two double bedrooms, a full bathroom, and a spacious 25 m² terrace.",
+        "p6": "The large courtyard — featuring a barbecue, plunge pool, and terrace — connects to an independent apartment. This additional space includes a kitchen, dining area, bedroom, and bathroom, and has its own private access for extra comfort and privacy."
+      },
+      "spaces": {
+        "title": "Spaces",
+        "rooms": "3 double bedrooms",
+        "bathrooms": "3 bathrooms",
+        "dining": "Dining room",
+        "living": "Living room",
+        "fireplace": "Fireplace",
+        "bbq": "Barbecue",
+        "kitchen": "Kitchen",
+        "pool": "Pool",
+        "terrace": "Terrace"
+      },
+      "services": {
+        "title": "Amenities",
+        "heating": "Heating",
+        "air": "Air conditioning",
+        "wifi": "Wi-Fi",
+        "firewood": "Firewood"
+      },
+      "info": {
+        "title": "Information",
+        "max": "Maximum 8 guests.",
+        "min": "Minimum stay of 2 nights.",
+        "checkin": "Check-in from 2:00 p.m.",
+        "checkout": "Check-out before 12:00 p.m.",
+        "silence": "Quiet hours: 11:00 p.m. – 9:00 a.m.",
+        "cancel": "Free cancellation up to 7 days before arrival.",
+        "pets": "Pets are not allowed.",
+        "smoke": "Smoking is prohibited.",
+        "conditions": "View terms and conditions."
+      }
+    }
+  },
+
+  "components": {
+    "reviews": {
+      "title": "Reviews",
+      "loading": "Loading reviews…",
+      "footer": "View all reviews on"
+    },
+    "video-container": {
+      "caption": "Rural accommodation in the Extremaduran countryside"
+    },
+    "navbar": {
+      "reserve": "Book now"
+    },
+    "footer": {
+      "created-by": "Created by",
+      "conditions": "Conditions"
+    },
+    "modals": {
+      "share": {
+        "copy-link": "Copy link",
+        "facebook": "Share on Facebook",
+        "whatsapp": "Share on WhatsApp"
+      },
+      "reserve": {
+        "title": "Book your stay",
+        "description": "Check availability and confirm your reservation. If you have any questions, feel free to contact us.",
+        "link": "contact us"
+      },
+      "menu": {
+        "pages-section": "Pages",
+        "pages": {
+          "video": "Video",
+          "home": "Home",
+          "environment": "Surroundings"
+        },
+        "languages-section": "Languages",
+        "languages": {
+          "es": "Spanish (ES)",
+          "en": "English (EN)",
+          "fr": "French (FR)",
+          "pt": "Portuguese (PT)"
+        },
+        "contact-section": "Contact"
+      },
+      "images": {
+        "title": "Image title",
+        "caption": "Short image description.",
+        "counter": "1 / 10"
+      },
+      "conditions": {
+        "title": "General accommodation conditions",
+        "intro": "These conditions are designed to ensure a comfortable, safe, and respectful stay for you, other guests, and the local community. Please read the rules carefully before your arrival and during your stay.",
+        "sections": {
+          "checkin": {
+            "title": "Check-in and check-out times",
+            "items": [
+              "Check-in: From 4:00 p.m.",
+              "Check-out: Before 12:00 p.m.",
+              "For other times, please check with the property. You must inform us of your expected arrival time."
+            ]
+          },
+          "smoke": {
+            "title": "Smoke-free space",
+            "items": [
+              "Smoking is strictly prohibited inside all indoor areas of the house.",
+              "Failure to comply will result in a €50 penalty for deodorization."
+            ]
+          },
+          "pets": {
+            "title": "Pets",
+            "items": [
+              "Pets are not allowed inside or to stay in the house.",
+              "Failure to comply will result in a €30 penalty."
+            ]
+          },
+          "fireplace": {
+            "title": "Fireplace use",
+            "items": [
+              "Firewood, kindling, and other materials to light the fireplace are provided free of charge.",
+              "Please make responsible use of the materials.",
+              "For safety reasons, do not leave the fireplace door open.",
+              "Important note: The pinecones displayed in the living room are decorative and must not be used as fuel."
+            ]
+          },
+          "bbq": {
+            "title": "Barbecue use",
+            "items": [
+              "The barbecue operates on gas.",
+              "Upon request, a propane or butane cylinder will be provided free of charge."
+            ]
+          },
+          "pool": {
+            "title": "Pool rules",
+            "items": [
+              "The property is not responsible for any misuse of the pool.",
+              "Children must always be supervised on-site by a responsible adult.",
+              "Running on the edges of the pool or surrounding areas is not allowed due to the risk of slipping.",
+              "Pushing or engaging in dangerous games is prohibited.",
+              "Access is forbidden to individuals with contagious diseases and to animals in the pool area.",
+              "Swimming after consuming alcohol or substances that impair awareness is strictly prohibited."
+            ]
+          },
+          "rules": {
+            "title": "Occupancy, events, and quiet hours",
+            "items": [
+              "The house may not be used for bachelor/bachelorette parties or for activities that are noisy, harmful, dangerous, or illegal.",
+              "Use of the house is limited exclusively to registered guests. Over-occupancy will be reported to the relevant authorities.",
+              "Quiet hours are from 11:00 p.m. to 9:00 a.m.",
+              "The property reserves the right to cancel the stay of any guest who does not comply with these rules, at any time and without refund."
+            ]
+          },
+          "id": {
+            "title": "Mandatory identification (ID)",
+            "items": [
+              "All guests over 14 years old must complete a registration link with their ID information to comply with the mandatory traveler registry required by law."
+            ]
+          },
+          "eco": {
+            "title": "Environmental care and house maintenance",
+            "items": [
+              "Ecology: Please make sure that all taps are closed and that the heating/air conditioning and lights are turned off before leaving.",
+              "Recycling and waste: There are bins for recycling; please use them appropriately. Before leaving, ensure that trash is collected (there are containers near the house for disposal).",
+              "Kitchenware: Please leave dishes, glasses, and cutlery in the dishwasher. Pots, pans, and wine glasses do not need to be included."
+            ]
+          },
+          "lost": {
+            "title": "Lost items",
+            "items": [
+              "Please make sure to take all your personal belongings with you. The property is not responsible for any items lost or left behind in the house or on the premises."
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "gallery": {
+    "home": {
+      "01": {
+        "title": "Facade",
+        "caption": "Night view of the house’s main entrance, with the Church of Our Lady of the Rosary visible in the background. The house is located on the village’s main street, with easy parking."
+      },
+      "02": {
+        "title": "Facade",
+        "caption": "Front view of the main facade."
+      },
+      "03": {
+        "title": "Hall",
+        "caption": "View from the entrance hall toward the living room, highlighting the original granite structure preserved from the old building."
+      },
+      "04": {
+        "title": "Living room",
+        "caption": "Image of the living room fireplace, with two comfortable sofas on each side."
+      },
+      "05": {
+        "title": "Living room",
+        "caption": "Front view of the living area. In the foreground, a large handcrafted coffee table with two sofas flanking the fireplace."
+      },
+      "06": {
+        "title": "Living room",
+        "caption": "Another view of the cozy living room with fireplace. In the background, a niche connects to the dining room, displaying original clay vases and jugs from the old house."
+      },
+      "07": {
+        "title": "Entrance door",
+        "caption": "View of the entrance door from the living room. The lounge area features a 42-inch TV and the original brick vaults from the 1890 construction."
+      },
+      "08": {
+        "title": "Living room",
+        "caption": "TV area of the living room. At La Casa del Aire, you won’t have to worry about firewood — we provide it for you."
+      },
+      "09": {
+        "title": "Dining room",
+        "caption": "Another view of the dining room, showing the original vaulted ceilings. In the background, you can see the access to the kitchen and bathroom on this floor."
+      },
+      "10": {
+        "title": "Dining room",
+        "caption": "Close-up of the dining room, highlighting the original vaulted ceilings that add depth to the space."
+      },
+      "11": {
+        "title": "Bathroom",
+        "caption": "Full view of the ground-floor bathroom."
+      },
+      "12": {
+        "title": "Kitchen",
+        "caption": "Fully equipped kitchen with appliances. The space includes a work area and a breakfast nook."
+      },
+      "13": {
+        "title": "Kitchen",
+        "caption": "View of the kitchen, featuring a distinctly rustic style."
+      },
+      "14": {
+        "title": "Kitchen",
+        "caption": "The kitchen table is bathed in natural light thanks to its direct access to the patio."
+      },
+      "15": {
+        "title": "Patio",
+        "caption": "View of the patio and pool from the upper terrace."
+      },
+      "16": {
+        "title": "Patio",
+        "caption": "Detail of the pool area with the solarium and the original 18th-century stone wall. On the right is the entrance to the suite room."
+      },
+      "17": {
+        "title": "Outdoor dining area",
+        "caption": "Detail of the outdoor dining area surrounded by lush patio vegetation."
+      },
+      "18": {
+        "title": "Outdoor dining area",
+        "caption": "Night view of the outdoor dining area."
+      },
+      "19": {
+        "title": "Pool",
+        "caption": "Front view of the pool with the solarium and the original 18th-century stone wall. On the right, the entrance to the suite room."
+      },
+      "20": {
+        "title": "Pool",
+        "caption": "Detail view of the pool area with the solarium and the original 18th-century stone wall. On the right, access to the suite room."
+      },
+      "21": {
+        "title": "Pool",
+        "caption": "Another view of the pool, featuring the solarium and the original 18th-century stone wall. On the right, the entrance to the suite room."
+      },
+      "22": {
+        "title": "Pool",
+        "caption": "Front view of the pool, highlighting the solarium and the solid 18th-century stone wall. From this angle, you can see the proximity to the suite room entrance."
+      },
+      "23": {
+        "title": "Suite room",
+        "caption": "Kitchen with breakfast area in the suite room, which has its own private entrance from the back street."
+      },
+      "24": {
+        "title": "Patio",
+        "caption": "Fully equipped barbecue in the patio."
+      },
+      "25": {
+        "title": "Suite room",
+        "caption": "Suite room kitchenette in the foreground. The space includes a full wardrobe and a 42-inch TV. In the background, the bedroom and bathroom access."
+      },
+      "26": {
+        "title": "Suite bathroom",
+        "caption": "Full bathroom inside the suite."
+      },
+      "27": {
+        "title": "Suite bedroom",
+        "caption": "Suite bedroom with a window overlooking the bright back street."
+      },
+      "28": {
+        "title": "Entrance area",
+        "caption": "View of the bright entrance area with white staircase, original brick vaults, wooden coat rack, and armchair. This space connects to the cozy living room with fireplace."
+      },
+      "29": {
+        "title": "Stairs",
+        "caption": "White staircase leading to the first floor. In the foreground, an original clay basin from the house; in the background, a window overlooking the main street."
+      },
+      "30": {
+        "title": "Stairs",
+        "caption": "View of the staircase leading to the first floor and the exterior bedroom."
+      },
+      "31": {
+        "title": "Exterior bedroom",
+        "caption": "View of the exterior bedroom with a balcony overlooking the main street. The top floor features a wooden-beamed gabled ceiling."
+      },
+      "32": {
+        "title": "Upstairs bathroom",
+        "caption": "View of the full bathroom located on the upper floor."
+      },
+      "33": {
+        "title": "Main bedroom",
+        "caption": "Main bedroom with direct access to the private terrace."
+      },
+      "34": {
+        "title": "Main bedroom",
+        "caption": "Detail of the main bedroom with access to the terrace. The traditional wooden chairs with rush seats are original pieces from the house."
+      },
+      "35": {
+        "title": "Main bedroom",
+        "caption": "General view of the main bedroom with side wardrobes and central storage area. The decor maintains the same rustic and elegant style as the rest of the house."
+      },
+      "36": {
+        "title": "Terrace",
+        "caption": "View of the private terrace from the main bedroom. The space includes an outdoor dining area, built-in bench, table, and chairs."
+      },
+      "37": {
+        "title": "Terrace",
+        "caption": "Detail of the terrace with private access from the main bedroom."
+      },
+      "38": {
+        "title": "Back entrance",
+        "caption": "View from the back street. This facade shows the doors and windows of the suite bedroom and bathroom."
+      }
+    },
+    "environment": {
+      "01": {
+        "title": "Parish Church of Our Lady of the Rosary (La Aldea del Obispo)",
+        "caption": "A Baroque-style temple built on an earlier structure, preserving historical elements in its bell tower and stone walls. It is the main monument of the town and the cultural and religious center of the community."
+      },
+      "02": {
+        "title": "Tozo River (natural surroundings of La Aldea del Obispo)",
+        "caption": "A landscape of the Extremaduran dehesa crossed by the Tozo River, flowing quietly among holm oaks and meadows. Its calm waters and natural setting offer ideal routes for walking and enjoying local biodiversity."
+      },
+      "03": {
+        "title": "Trujillo Castle",
+        "caption": "A fortress of Arab origin built between the 9th and 12th centuries, crowning the highest point of the city. From its walls, you can enjoy spectacular panoramic views of the region and Trujillo’s historic center."
+      },
+      "04": {
+        "title": "Trujillo Main Square",
+        "caption": "The heart of the city, surrounded by Renaissance palaces and historic buildings. The equestrian statue of Francisco Pizarro stands out, along with the lively atmosphere of terraces and cultural events."
+      },
+      "05": {
+        "title": "Bodegas Habla – Facade",
+        "caption": "The facade of Bodegas Habla reflects a contemporary design that harmonizes with the natural environment of the Extremaduran dehesa. Its avant-garde architecture symbolizes the winery’s innovative philosophy and makes it a benchmark in wine tourism."
+      },
+      "06": {
+        "title": "Bodegas Habla – Barrel Room",
+        "caption": "A space where the wine rests in French oak barrels, following an aging process that gives character and quality to Habla’s signature wines. The room combines tradition and technology, creating a unique atmosphere that enhances each vintage."
+      },
+      "07": {
+        "title": "Birding – Griffon Vultures in Flight",
+        "caption": "Griffon vultures, with their majestic wings, soar through the Extremaduran skies, gliding for kilometers on warm air currents. Their presence is one of the main attractions for birdwatching enthusiasts."
+      },
+      "08": {
+        "title": "Birding – Seagulls in Their Nests",
+        "caption": "Seagulls use Extremadura’s reservoirs and wetlands as nesting habitats, forming colonies that are fascinating to observe. Their nesting behavior reveals the richness and diversity of the region’s birdlife."
+      },
+      "09": {
+        "title": "Facade",
+        "caption": "Night view of the house’s main entrance, with the Church of Our Lady of the Rosary visible in the background. The house is located on the village’s main street, with easy parking."
+      },
+      "10": {
+        "title": "Salto del Gitano, Monfragüe",
+        "caption": "One of the park’s most iconic spots, where dramatic cliffs rise above the Tagus River. It’s a privileged point for observing raptors such as griffon vultures, black storks, and imperial eagles."
+      },
+      "11": {
+        "title": "Tagus River Meander, Monfragüe",
+        "caption": "Panoramic view of the Tagus River winding between mountains covered in Mediterranean forest. The landscape conveys the park’s natural grandeur and its role as one of Spain’s most valuable protected areas."
+      },
+      "12": {
+        "title": "Monumental Cáceres by Night",
+        "caption": "Night view of the monumental complex of Cáceres, a UNESCO World Heritage Site. The lighting enhances the medieval walls, towers, and palaces that make this city one of the best-preserved historic centers in Europe."
+      },
+      "13": {
+        "title": "Sierra de las Villuercas",
+        "caption": "Panoramic view of the Sierra de las Villuercas, the heart of the UNESCO-designated geopark. Its rocky ridges and deep valleys reveal millions of years of geological history in a unique Extremaduran landscape."
+      },
+      "14": {
+        "title": "Natural Viewpoint in the Geopark",
+        "caption": "A viewpoint framed by rock formations offers breathtaking views of the geopark. The combination of nature and geological heritage makes this an essential stop for hiking and photography lovers."
+      },
+      "15": {
+        "title": "View of the Monastery of Guadalupe",
+        "caption": "The Royal Monastery of Santa María de Guadalupe, a UNESCO World Heritage Site, dominates the town’s skyline. Founded in the 14th century, it was an important pilgrimage center and preserves an impressive artistic and architectural ensemble."
+      },
+      "16": {
+        "title": "Cloister of the Monastery of Guadalupe",
+        "caption": "The monastery’s Mudejar cloister offers a serene and monumental atmosphere, with a Gothic pavilion in the center surrounded by gardens and arcades. A place that reflects the cultural and spiritual richness of this historic site."
+      },
+      "17": {
+        "title": "Natural Gorge in La Vera",
+        "caption": "One of the many crystal-clear gorges that run through the region of La Vera. Between waterfalls and natural pools, these spots are perfect for cooling off in summer and enjoying nature."
+      },
+      "18": {
+        "title": "Villanueva de la Vera",
+        "caption": "Charming street in Villanueva de la Vera, where traditional architecture with wooden frameworks, flowered balconies, and a warm atmosphere is preserved. This village, declared a Historic-Artistic Site, embodies the authentic essence of La Vera."
+      }
+    }
+  }
+}

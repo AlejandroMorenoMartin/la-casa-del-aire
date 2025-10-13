@@ -1,0 +1,489 @@
+{
+  "pages": {
+    "environment": {
+      "header": {
+        "title": "Environnement",
+        "subtitle": "Dehesa d'Estrémadure"
+      },
+      "aldea": {
+        "title": "La Aldea del Obispo",
+        "location":"Localisation",
+        "p1": "Nichée dans le plateau de Cáceres, La Aldea del Obispo est une petite commune qui conserve l'essence des villages d'Estrémadure.",
+        "p2": "Parmi ses constructions, l'église paroissiale Notre-Dame du Rosaire, de style baroque, érigée sur un ancien temple, est remarquable.",
+        "p3": "De là, vous pouvez vous lancer sur des sentiers de randonnée comme celui du 'Puente de la Lavadera' (Pont de la Lavoir) sur le fleuve Tozo, parfait pour se connecter à la nature."
+      },
+      "trujillo": {
+        "title": "Trujillo",
+        "location":"Localisation",
+        "p1": "Trujillo est l'une des villes historiques les plus importantes d'Estrémadure. Son château, sa Plaza Mayor et ses maisons nobles racontent l'histoire d'une ville liée aux explorateurs.",
+        "p2": "La ville conserve une atmosphère médiévale dans chaque recoin, pleine de charme et de culture.",
+        "p3": "Une expérience incontournable est de faire une visite guidée du château et du centre historique."
+      },
+      "bodegas": {
+        "title": "Bodegas Habla",
+        "location":"Localisation",
+        "p1": "Bodegas Habla, située à Trujillo, est l'un des domaines viticoles les plus innovants d'Estrémadure, alliant tradition et avant-garde.",
+        "p2": "Son architecture contemporaine s'harmonise avec l'environnement naturel et ses vins sont reconnus au niveau international.",
+        "p3": "Une visite guidée ou une dégustation est une expérience fortement recommandée pour les amateurs de vin."
+      },
+      "birding": {
+        "title": "Observation d'oiseaux",
+        "location":"Localisation",
+        "p1": "L'Estrémadure est l'une des destinations les plus importantes d'Europe pour le tourisme ornithologique, avec plus de 300 espèces d'oiseaux par an.",
+        "p2": "Parmi les plus emblématiques, on trouve le vautour moine, la cigogne noire, l'aigle impérial ibérique et la grue cendrée.",
+        "p3": "Profitez de visites guidées pour observer des oiseaux uniques dans leur habitat naturel."
+      },
+      "monfrague": {
+        "title": "Monfragüe",
+        "location":"Localisation",
+        "p1": "Monfragüe est le grand sanctuaire naturel d'Estrémadure, déclaré Parc National en 2007.",
+        "p2": "Le Salto del Gitano (Saut du Gitan) est son point le plus emblématique, offrant des vues spectaculaires sur le vol des rapaces.",
+        "p3": "Idéal pour les itinéraires ornithologiques et la randonnée."
+      },
+      "caceres": {
+        "title": "Cáceres",
+        "location":"Localisation",
+        "p1": "Ville classée au patrimoine mondial de l'UNESCO, avec l'un des ensembles médiévaux et de la Renaissance les mieux conservés d'Europe.",
+        "p2": "Se promener dans ses rues pavées est un voyage dans le temps.",
+        "p3": "Nous recommandons une visite guidée nocturne du centre historique."
+      },
+      "jara": {
+        "title": "Villuercas Ibores Jara",
+        "location":"Localisation",
+        "p1": "Géoparc déclaré par l'UNESCO qui combine des montagnes, des fossiles et des vallées d'une grande valeur géologique.",
+        "p2": "La zone conserve des villages traditionnels avec une forte identité rurale.",
+        "p3": "Ne manquez pas la Route des Appalaches d'Estrémadure."
+      },
+      "guadalupe": {
+        "title": "Guadalupe",
+        "location":"Localisation",
+        "p1": "Le Monastère Royal de Santa María de Guadalupe est classé au patrimoine mondial et est l'un des grands symboles religieux d'Espagne.",
+        "p2": "Le village conserve des rues pavées et une architecture traditionnelle.",
+        "p3": "Ne manquez pas une visite guidée du monastère et de son musée."
+      },
+      "vera": {
+        "title": "La Vera",
+        "location":"Localisation",
+        "p1": "Région aux pieds de Gredos, connue pour ses gorges naturelles et son microclimat.",
+        "p2": "Elle est le berceau du paprika de La Vera, avec une Appellation d'Origine.",
+        "p3": "En été, vous pouvez vous baigner dans des piscines naturelles comme la Gorge de Cuartos (Garganta de Cuartos)."
+      }
+    },
+    "home": {
+      "header": {
+        "title": "Casa del Aire",
+        "location": "Localisation",
+        "capacity": "6-8"
+      },
+      "images": {
+        "title": "Images"
+      },
+      "description": {
+        "title": "Description",
+        "p1": "Située à seulement deux heures de Madrid, dans la commune de La Aldea del Obispo (Cáceres, Estrémadure), La Casa del Aire s'élève en plein cœur de la dehesa d'Estrémadure. Cette chaleureuse maison en pierre du XIXe siècle allie parfaitement le charme rustique aux détails contemporains.",
+        "p2": "Entourée d'un environnement naturel unique, c'est l'endroit idéal pour se déconnecter et découvrir les paysages et les lieux les plus emblématiques de la région : La Aldea del Obispo, Trujillo, le Parc National de Monfragüe, Cáceres, le Géoparc Villuercas-Ibores-Jara, Guadalupe ou la région de La Vera.",
+        "p3": "De plus, vous pourrez faire des escapades vers des lieux d'intérêt comme Bodegas Habla ou profiter du Birding (tourisme ornithologique), l'une des expériences les plus spéciales qu'offre cette terre.",
+        "p4": "La maison peut accueillir jusqu'à 8 personnes et est répartie sur deux étages avec trois chambres doubles.",
+        "p5": "Au rez-de-chaussée, vous trouverez un salon avec cheminée et deux grands canapés, une salle à manger, une cuisine entièrement équipée et une salle de bain. À l'étage supérieur se trouvent deux chambres doubles, une salle de bain complète et une grande terrasse de 25 m².",
+        "p6": "La grande cour, avec barbecue, piscine (alberca) et terrasse, est connectée à un appartement indépendant. Cet espace supplémentaire comprend une cuisine, une salle à manger, une chambre et une salle de bain, et dispose d'un accès privé pour garantir plus de confort et d'intimité."
+      },
+      "spaces": {
+        "title": "Espaces",
+        "rooms": "3 chambres doubles",
+        "bathrooms": "3 salles de bain",
+        "dining": "Salle à manger",
+        "living": "Salon",
+        "fireplace": "Cheminée",
+        "bbq": "Barbecue",
+        "kitchen": "Cuisine",
+        "pool": "Piscine",
+        "terrace": "Terrasse"
+      },
+      "services": {
+        "title": "Services",
+        "heating": "Chauffage",
+        "air": "Climatisation",
+        "wifi": "Wifi",
+        "firewood": "Bois de chauffage"
+      },
+      "info": {
+        "title": "Informations",
+        "max": "Maximum 8 personnes.",
+        "min": "Séjour minimum de 2 nuits.",
+        "checkin": "Arrivée à partir de 14h00.",
+        "checkout": "Départ avant 12h00.",
+        "silence": "Heures de silence : 23h00 - 09h00.",
+        "cancel": "Annulation gratuite 7 jours avant la date d'arrivée.",
+        "pets": "Animaux non admis.",
+        "smoke": "Interdit de fumer.",
+        "conditions": "Consultez les conditions."
+      }
+    }
+  },
+
+  "components": {
+      "reviews": {
+        "title": "Avis",
+        "loading": "Chargement des avis…",
+        "footer": "Voir tous les avis sur"
+      },
+      "video-container": {
+        "caption": "Hébergement rural dans la dehesa d'Estrémadure"
+      },
+      "navbar": {
+        "reserve": "Réserver"
+      },
+      "footer": {
+        "created-by": "Créé par",
+        "conditions": "Conditions"
+      },
+      "modals": {
+        "share": {
+          "copy-link": "Copier le lien",
+          "facebook": "Partager sur Facebook",
+          "whatsapp": "Partager sur WhatsApp"
+        },
+        "reserve": {
+          "title": "Réservez votre séjour",
+          "description": "Vérifiez la disponibilité et confirmez votre réservation. Pour toute question, veuillez nous contacter.",
+          "link": "contactez-nous"
+        },
+        "menu": {
+          "pages-section": "Pages",
+          "pages": {
+            "video": "Vidéo",
+            "home": "Accueil",
+            "environment": "Environnement"
+          },
+          "languages-section": "Langues",
+          "languages": {
+            "es": "Espagnol (ES)",
+            "en": "Anglais (EN)",
+            "fr": "Français (FR)",
+            "pt": "Portugais (PT)"
+          },
+          "contact-section": "Contact"
+        },
+        "images": {
+          "title": "Titre de l'image",
+          "caption": "Brève description de l'image.",
+          "counter": "1 / 10"
+        },
+        "conditions": {
+          "title": "Conditions générales d'hébergement",
+          "intro": "Ces conditions sont conçues pour garantir un séjour confortable, sûr et respectueux tant pour vous que pour les autres hôtes et la communauté locale. Veuillez lire attentivement le règlement avant votre arrivée et pendant votre séjour.",
+          "sections": {
+            "checkin": {
+              "title": "Horaires d'arrivée et de départ",
+              "items": [
+                "Arrivée (Check-in) : À partir de 16h00.",
+                "Départ (Check-out) : Avant 12h00.",
+                "Pour d'autres horaires, veuillez consulter la propriété. Il est obligatoire d'informer de l'heure d'arrivée prévue."
+              ]
+            },
+            "smoke": {
+              "title": "Espace non-fumeur",
+              "items": [
+                "Il est strictement interdit de fumer à l'intérieur de tous les espaces intérieurs de la maison.",
+                "Le non-respect de cette règle entraînera une pénalité de 50 € au titre des frais de désodorisation."
+              ]
+            },
+            "pets": {
+              "title": "Animaux de compagnie",
+              "items": [
+                "L'entrée et l'hébergement d'animaux de compagnie ne sont pas autorisés dans la maison.",
+                "Le non-respect de cette règle entraînera une pénalité de 30 €."
+              ]
+            },
+            "fireplace": {
+              "title": "Utilisation de la cheminée",
+              "items": [
+                "Du bois, des allume-feu et d'autres matériaux pour allumer la cheminée sont mis à votre disposition gratuitement.",
+                "Nous vous demandons de faire un usage responsable du matériel.",
+                "Par mesure de sécurité, ne laissez pas la porte de la cheminée ouverte.",
+                "Note Importante : Les pommes de pin se trouvant dans le salon sont décoratives et ne doivent pas être utilisées comme combustible."
+              ]
+            },
+            "bbq": {
+              "title": "Utilisation du barbecue",
+              "items": [
+                "Le barbecue est au gaz.",
+                "Sur demande préalable, une bouteille de propane/butane vous sera fournie gratuitement."
+              ]
+            },
+            "pool": {
+              "title": "Règles de la piscine",
+              "items": [
+                "La propriété décline toute responsabilité découlant de l'utilisation inappropriée de la piscine (alberca).",
+                "Les mineurs doivent être sous la surveillance in situ d'un adulte responsable à tout moment.",
+                "Il est interdit de courir sur les margelles adjacentes à la piscine ni sur le bord extérieur en raison du risque de glissades.",
+                "Il est interdit de pousser ou de faire des jeux dangereux.",
+                "L'accès est interdit aux personnes atteintes de maladies infectieuses contagieuses ainsi qu'aux animaux dans l'ensemble de l'installation.",
+                "Il est interdit de se baigner après l'ingestion d'alcool ou d'autres types de substances pouvant altérer l'état de conscience."
+              ]
+            },
+            "rules": {
+              "title": "Occupation, événements et silence",
+              "items": [
+                "Il est interdit d'utiliser la maison pour organiser des enterrements de vie de célibataire ou des activités nuisibles, insalubres, nocives, dangereuses ou illicites.",
+                "L'usage et la jouissance de la maison sont limités exclusivement aux personnes hébergées et enregistrées. La sur-occupation sera signalée aux autorités compétentes.",
+                "Les heures de repos vont de 23h00 à 09h00 du matin suivant.",
+                "La propriété se réserve le droit d'annuler le séjour de toute personne ne respectant pas ces règles, à tout moment et sans possibilité de remboursement."
+              ]
+            },
+            "id": {
+              "title": "Documentation obligatoire (Pièce d'identité)",
+              "items": [
+                "Tous les occupants de la maison âgés de plus de 14 ans doivent remplir un lien avec leurs pièces d'identité (DNI/Passeport) pour la bonne exécution des fiches de voyageur (obligatoires par la loi)."
+              ]
+            },
+            "eco": {
+              "title": "Soins de l'environnement et de la maison",
+              "items": [
+                "Écologie : Nous vous remercions de bien vouloir vous assurer, à votre départ, d'avoir fermé les robinets, éteint le chauffage/la climatisation et éteint les lumières.",
+                "Recyclage et poubelles : Des poubelles et des récipients sont disponibles pour le recyclage. Nous vous remercions d'y déposer vos déchets. À votre départ, nous vous serions reconnaissants de bien vouloir rassembler les poubelles (des conteneurs sont disponibles près de la maison pour les déposer).",
+                "Vaisselle : Veuillez laisser les assiettes, verres et couverts dans le lave-vaisselle. Il n'est pas nécessaire d'y mettre les casseroles, poêles ni les verres à vin."
+              ]
+            },
+            "lost": {
+              "title": "Objets oubliés",
+              "items": [
+                "Assurez-vous de récupérer tous vos objets personnels. La propriété décline toute responsabilité pour les objets oubliés ou perdus dans la maison ou ses environs."
+              ]
+            }
+          }
+        }
+      }
+    },
+
+  "gallery": {
+    "home": {
+        "01": {
+            "title": "Façade",
+            "caption": "Vue nocturne de la façade d'accès à la maison, avec l'église de la Vierge du Rosaire visible en arrière-plan. La maison est située dans la rue principale du village, avec un parking facile."
+        },
+        "02": {
+            "title": "Façade",
+            "caption": "Vue frontale de la façade principale."
+        },
+        "03": {
+            "title": "Hall d'entrée",
+            "caption": "Vue du hall d'accès vers le salon, mis en évidence par le détail de la structure en granit, originale de l'ancienne habitation."
+        },
+        "04": {
+            "title": "Salon",
+            "caption": "Image de la cheminée du salon, où l'on aperçoit les confortables canapés des deux côtés."
+        },
+        "05": {
+            "title": "Salon",
+            "caption": "Vue frontale de l'espace salon. Au premier plan, nous voyons la grande table basse artisanale avec les deux canapés de chaque côté de la cheminée."
+        },
+        "06": {
+            "title": "Salon",
+            "caption": "Une autre vue de l'accueillant salon avec cheminée. Au fond, on observe la niche qui communique avec la salle à manger. On y trouve une série de vases et jarres en terre cuite originales de l'habitation."
+        },
+        "07": {
+            "title": "Porte d'accès",
+            "caption": "Vue de la porte d'accès depuis le salon. Le coin salon dispose d'une TV de 42 pouces ainsi que des voûtes et des éléments en briques d'origine de la construction de 1890."
+        },
+        "08": {
+            "title": "Salon",
+            "caption": "Zone du salon dédiée à la TV. À La Casa del Aire, vous n'aurez pas à vous soucier du bois de chauffage : nous vous le fournissons."
+        },
+        "09": {
+            "title": "Salle à manger",
+            "caption": "Une autre vue de la salle à manger, où l'on peut voir les voûtes originales de la maison. Au fond, nous avons l'accès à la cuisine et à la salle de bain de cet étage."
+        },
+        "10": {
+            "title": "Salle à manger",
+            "caption": "La salle à manger en détail : on aperçoit les voûtes originales de la maison qui donnent de la profondeur à l'espace."
+        },
+        "11": {
+            "title": "Salle de bain",
+            "caption": "Image de la salle de bain complète du rez-de-chaussée."
+        },
+        "12": {
+            "title": "Cuisine",
+            "caption": "Cuisine entièrement équipée avec électroménagers. L'espace comprend une zone de travail et un coin repas pour les petits-déjeuners."
+        },
+        "13": {
+            "title": "Cuisine",
+            "caption": "Vue de la cuisine avec un style rustique prononcé."
+        },
+        "14": {
+            "title": "Cuisine",
+            "caption": "La table de la cuisine bénéficie d'une large lumière naturelle, grâce à son accès direct au patio."
+        },
+        "15": {
+            "title": "Patio",
+            "caption": "Vue du patio et de la piscine (alberca) depuis la terrasse supérieure."
+        },
+        "16": {
+            "title": "Patio",
+            "caption": "Vue détaillée de la piscine (alberca) avec la zone solarium et le mur de pierre original du XVIIIe siècle. À droite, nous avons l'accès à la chambre suite."
+        },
+        "17": {
+            "title": "Salle à manger extérieure",
+            "caption": "Détail de la salle à manger extérieure et de la végétation du patio."
+        },
+        "18": {
+            "title": "Salle à manger extérieure",
+            "caption": "Vue nocturne de la salle à manger extérieure."
+        },
+        "19": {
+            "title": "Piscine (Alberca)",
+            "caption": "Vue frontale de la piscine (alberca) avec la zone solarium et le mur de pierre original du XVIIIe siècle. À droite, se trouve l'accès à la chambre suite."
+        },
+        "20": {
+            "title": "Piscine (Alberca)",
+            "caption": "Vue détaillée de la piscine (alberca) avec la zone solarium et le mur de pierre original du XVIIIe siècle. À droite, nous avons l'accès à la chambre suite."
+        },
+        "21": {
+            "title": "Piscine (Alberca)",
+            "caption": "Vue détaillée de la piscine (alberca) avec la zone solarium et le mur de pierre original du XVIIIe siècle. À droite, se trouve l'accès à la chambre suite."
+        },
+        "22": {
+            "title": "Piscine (Alberca)",
+            "caption": "Vue frontale de la piscine (alberca), mettant en évidence le solarium et le robuste mur de pierre original du XVIIIe siècle. De cette perspective, on capte la proximité de l'accès à la chambre suite."
+        },
+        "23": {
+            "title": "Chambre suite",
+            "caption": "Cuisine avec coin repas de la chambre suite avec accès indépendant à la rue arrière."
+        },
+        "24": {
+            "title": "Patio",
+            "caption": "Barbecue équipé dans le patio."
+        },
+        "25": {
+            "title": "Chambre suite",
+            "caption": "Coin repas de la chambre suite en gros plan. L'espace dispose d'une armoire complète et d'une TV de 42 pouces. Au fond, se trouvent la chambre et l'accès à la salle de bain."
+        },
+        "26": {
+            "title": "Chambre suite",
+            "caption": "Salle de bain complète en suite."
+        },
+        "27": {
+            "title": "Chambre suite",
+            "caption": "Chambre suite avec fenêtre donnant sur la lumineuse rue arrière."
+        },
+        "28": {
+            "title": "Porte d'accès",
+            "caption": "Vue de la zone d'accès lumineuse, avec escalier blanc, voûtes originales, portemanteau en bois et fauteuil. Cet espace communique avec l'accueillant salon avec cheminée et coin détente."
+        },
+        "29": {
+            "title": "Escaliers",
+            "caption": "Escalier blanc d'accès au premier étage. Au premier plan, un 'lebrillo' (grand bassin en céramique) en terre cuite original de la maison. Au fond, on observe la fenêtre qui donne sur la rue principale."
+        },
+        "30": {
+            "title": "Escaliers",
+            "caption": "Vue de l'escalier d'accès au premier étage avec l'accès à la chambre extérieure."
+        },
+        "31": {
+            "title": "Chambre extérieure",
+            "caption": "Vue de la chambre extérieure avec balcon sur la rue principale. La partie supérieure de la maison est dotée d'un toit à double pente réalisé entièrement avec des poutres et revêtu de bois."
+        },
+        "32": {
+            "title": "Salle de bain à l'étage",
+            "caption": "Vue de la salle de bain complète située à l'étage supérieur."
+        },
+        "33": {
+            "title": "Chambre principale",
+            "caption": "Chambre principale avec sortie directe sur la terrasse privée."
+        },
+        "34": {
+            "title": "Chambre principale",
+            "caption": "Détail de la chambre principale avec l'accès à la terrasse. Les chaises traditionnelles en jonc et en bois sont originales de la maison."
+        },
+        "35": {
+            "title": "Chambre principale",
+            "caption": "Vue générale de la chambre principale, avec armoires latérales et la zone centrale de rangement. Toute la décoration continue de refléter le caractère rustique et élégant du reste de la maison."
+        },
+        "36": {
+            "title": "Terrasse",
+            "caption": "Vue de la terrasse privée de la chambre principale. Cet espace dispose d'une salle à manger extérieure, d'un banc maçonné, d'une table et de chaises."
+        },
+        "37": {
+            "title": "Terrasse",
+            "caption": "Détail de la terrasse avec l'accès privé depuis la chambre principale."
+        },
+        "38": {
+            "title": "Accès arrière",
+            "caption": "Accès depuis la rue arrière. Sur cette façade, on voit la porte et les fenêtres de la chambre et de la salle de bain en suite."
+        }
+    },
+    "environment": {
+        "01": {
+          "title": "Église paroissiale de Nuestra Señora del Rosario (La Aldea del Obispo)",
+          "caption": "Temple d'origine baroque construit sur une édification antérieure, il conserve des éléments historiques dans son clocher et ses murs de pierre. C'est le principal monument de la localité, centre de la vie culturelle et religieuse du village."
+        },
+        "02": {
+          "title": "Rivière Tozo (environnement naturel de La Aldea del Obispo)",
+          "caption": "Paysage de dehesa d'Estrémadure traversé par la rivière Tozo, qui serpente entre les chênes verts et les prairies. Son cours, tranquille et entouré de nature, offre des itinéraires idéaux pour se promener et profiter de la biodiversité locale."
+        },
+        "03": {
+          "title": "Château de Trujillo",
+          "caption": "Forteresse d'origine arabe érigée entre les IXe et XIIe siècles, couronnant la partie la plus haute de la ville. Depuis ses murailles, on obtient des vues panoramiques spectaculaires sur la région et le centre historique de Trujillo."
+        },
+        "04": {
+          "title": "Plaza Mayor de Trujillo",
+          "caption": "Centre névralgique de la ville, entouré de palais de la Renaissance et de bâtiments historiques. La statue équestre de Francisco Pizarro et la vie animée qui se concentre dans ses terrasses et événements culturels sont à noter."
+        },
+        "05": {
+          "title": "Façade de Bodegas Habla",
+          "caption": "La façade de Bodegas Habla reflète un design contemporain qui s'intègre à l'environnement naturel de la dehesa d'Estrémadure. Son architecture avant-gardiste symbolise la philosophie innovante du domaine et en fait une référence œnotouristique."
+        },
+        "06": {
+          "title": "Chai à barriques de Bodegas Habla",
+          "caption": "Espace où le vin repose dans des fûts de chêne français, suivant un processus d'élevage qui apporte caractère et qualité aux vins d'auteur de Habla. La salle combine tradition et technologie, créant une ambiance unique qui exalte l'essence de chaque millésime."
+        },
+        "07": {
+          "title": "Birding - Vautours en vol",
+          "caption": "Les vautours fauves, avec leurs ailes majestueuses, survolent les cieux d'Estrémadure à la recherche des courants d'air qui leur permettent de planer sur des kilomètres. Leur présence est l'un des grands attraits pour les amateurs d'ornithologie."
+        },
+        "08": {
+          "title": "Birding - Mouettes dans leur nid",
+          "caption": "Les mouettes profitent des réservoirs et des zones humides d'Estrémadure comme habitat de reproduction, formant des colonies fascinantes à observer. Leur comportement autour des nids révèle la richesse et la diversité de l'avifaune de la région."
+        },
+        "09": {
+          "title": "Façade",
+          "caption": "Vue nocturne de la façade d'accès à la maison, avec l'église de la Vierge du Rosaire visible en arrière-plan. La maison est située dans la rue principale du village, avec un parking facile."
+        },
+        "10": {
+          "title": "Salto del Gitano à Monfragüe",
+          "caption": "L'un des sites les plus emblématiques du parc, où les falaises rocheuses s'élèvent de manière imposante au-dessus du Tage. C'est un point privilégié pour l'observation des rapaces tels que les vautours fauves, les cigognes noires et les aigles impériaux."
+        },
+        "11": {
+          "title": "Méandre du Tage à Monfragüe",
+          "caption": "Vue panoramique des méandres du Tage serpentant entre les montagnes couvertes de forêts méditerranéennes. Le paysage transmet la grandeur naturelle du parc et son rôle en tant qu'un des espaces protégés les plus précieux d'Espagne."
+        },
+        "12": {
+          "title": "Cáceres monumentale de nuit",
+          "caption": "Vue nocturne de l'ensemble monumental de Cáceres, classé au patrimoine mondial de l'UNESCO. L'éclairage met en valeur les remparts, les tours et les palais médiévaux qui ont fait de la ville l'un des centres historiques les mieux conservés d'Europe."
+        },
+        "13": {
+          "title": "Sierra de las Villuercas",
+          "caption": "Vue panoramique de la Sierra de las Villuercas, cœur du géoparc déclaré par l'UNESCO. Ses crêtes rocheuses et ses vallées profondes témoignent de millions d'années d'histoire géologique dans un paysage unique d'Estrémadure."
+        },
+        "14": {
+          "title": "Belvédère naturel dans le Géoparc",
+          "caption": "Un belvédère encadré par des formations rocheuses permet de contempler l'immensité du géoparc. La combinaison de nature et de patrimoine géologique fait de cet endroit un arrêt incontournable pour les amateurs de randonnée et de photographie."
+        },
+        "15": {
+          "title": "Vue du Monastère de Guadalupe",
+          "caption": "Le Monastère Royal de Santa María de Guadalupe, classé au patrimoine mondial, domine le paysage urbain de la ville. Fondé au XIVe siècle, il fut un important centre de pèlerinage et conserve un ensemble artistique et architectural impressionnant."
+        },
+        "16": {
+          "title": "Cloître du Monastère de Guadalupe",
+          "caption": "Le cloître mudéjar du monastère offre une ambiance sereine et monumentale, avec son petit temple gothique en son centre, entouré de jardins et d'arcades. Un lieu qui reflète la richesse culturelle et spirituelle de cette enclave historique."
+        },
+        "17": {
+          "title": "Gorge naturelle à La Vera",
+          "caption": "Une des nombreuses gorges d'eau cristalline qui traversent la région de La Vera. Entre cascades et piscines naturelles, ces lieux deviennent des espaces parfaits pour se rafraîchir en été et profiter de la nature."
+        },
+        "18": {
+          "title": "Villanueva de la Vera",
+          "caption": "Charmante rue de Villanueva de la Vera, où l'architecture traditionnelle est préservée avec des colombages, des balcons fleuris et une ambiance chaleureuse. Ce village, déclaré Ensemble Historique-Artistique, reflète l'essence la plus authentique de la région de La Vera."
+        }
+    }
+  }
+}

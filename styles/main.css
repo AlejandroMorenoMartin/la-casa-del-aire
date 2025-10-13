@@ -1,0 +1,18 @@
+/* ============================================
+Fundamentos globales  
+============================================ */
+@import url("./base/variables.css");
+@import url("./base/reset.css");
+@import url("./base/layout.css");
+@import url("./base/typography.css");
+
+/* ============================================
+COMPONENTS 
+============================================ */
+@import url("./components/buttons.css");
+@import url("./components/icons.css");
+@import url("./components/links.css");
+@import url("./components/modal.css");
+@import url("./components/components.css");
+
+

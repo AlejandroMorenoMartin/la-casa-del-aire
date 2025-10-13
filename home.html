@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Charset y viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <title>La Casa | La Casa del Aire en Extremadura</title>
+    <meta
+      name="description"
+      content="Descubre La Casa del Aire: espacios amplios, arquitectura tradicional y todas las comodidades para una estancia rural inolvidable en Extremadura."
+    />
+    <meta
+      name="keywords"
+      content="La Casa del Aire, casa rural, alojamiento, turismo rural Extremadura, arquitectura tradicional"
+    />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Favicons y PWA -->
+    <link rel="apple-touch-icon" href="./assets/icons/apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/icons/logo-32x32.png"
+    />
+    <link rel="icon" href="./assets/icons/favicon.ico" sizes="any" />
+    <link rel="manifest" href="./assets/manifest/site.webmanifest" />
+
+    <!-- Iconos -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Estilos generales -->
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <nav data-component="navbar"></nav>
+    <main class="main-content">
+      <!-- Header -->
+      <header class="main-content__header">
+        <div class="main-content__header-wrapper">
+          <div class="flex-column">
+            <h2 data-key="pages.home.header.title">Casa del Aire</h2>
+            <div class="main-content__header-actions flex-row">
+              <div class="flex-row__item">
+                <i class="fa-solid fa-location-dot icon" aria-hidden="true"></i>
+                <a
+                  href="https://maps.app.goo.gl/spd6VW1A2BxzAHvg8"
+                  class="regular link link-external"
+                  data-key="pages.home.header.location"
+                >
+                  Localización
+                </a>
+              </div>
+              <div class="flex-row__item">
+                <i class="fa-solid fa-users icon" aria-hidden="true"></i>
+                <span class="regular" data-key="pages.home.header.capacity">
+                  6-8
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-content__header-actions flex-row">
+          <button
+            class="button button-icon"
+            aria-label="Abrir galería de imágenes"
+            data-modal-target="modal-images"
+            data-gallery="home"
+            data-index="0"
+          >
+            <i class="fa-solid fa-images icon" aria-hidden="true"></i>
+          </button>
+          <button
+            class="button button-icon"
+            aria-label="Compartir"
+            data-modal-target="modal-share"
+          >
+            <i
+              class="fa-solid fa-arrow-up-from-bracket icon"
+              aria-hidden="true"
+            ></i>
+          </button>
+        </div>
+      </header>
+
+      <div class="main-content__body">
+        <!-- Iamges -->
+        <section class="main-content__section">
+          <p class="regular-bold" data-key="pages.home.images.title">
+            Imágenes
+          </p>
+          <div class="main-content__section-images">
+            <img            
+              src="../assets/images/casa/04.webp"
+              alt="Vista exterior de La Casa del Aire"
+              class="gallery-grid__item"
+              data-modal-target="modal-images"
+              data-gallery="home"
+              data-index="03"
+            />
+            <img
+              src="../assets/images/casa/22.webp"
+              alt="Salón principal con chimenea"
+              class="gallery-grid__item"
+              data-modal-target="modal-images"
+              data-gallery="home"
+              data-index="21"
+            />
+          </div>
+        </section>
+
+        <!-- Description -->
+        <section class="main-content__section">
+          <p class="regular-bold" data-key="pages.home.description.title">
+            Descripción
+          </p>
+          <p class="regular" data-key="pages.home.description.p1">
+            Situada a solo dos horas de Madrid, en la población de La Aldea del
+            Obispo (Cáceres, Extremadura), La Casa del Aire se alza en plena
+            dehesa extremeña. Esta acogedora casa de piedra del siglo XIX
+            combina a la perfección el encanto rústico con detalles
+            contemporáneos.
+          </p>
+          <p class="regular" data-key="pages.home.description.p2">
+            Rodeada de un entorno natural único, es el lugar ideal para
+            desconectar y descubrir los paisajes y rincones más emblemáticos de
+            la región: la propia Aldea del Obispo, Trujillo, el Parque Nacional
+            de Mofragüe, la ciudad de Cáceres, el Geoparque Villuercas Ibores
+            Jara, Guadalupe o la comarca de la Vera.
+          </p>
+          <p class="regular" data-key="pages.home.description.p3">
+            Además, podrás realizar escapadas a lugares de interés como Bodegas
+            Habla o disfrutar del Birding (turismo ornitológico), una de las
+            experiencias más especiales que ofrece esta tierra.
+          </p>
+          <p class="regular" data-key="pages.home.description.p4">
+            La casa tiene capacidad para alojar hasta 8 personas y se distribuye
+            en dos plantas con tres habitaciones dobles.
+          </p>
+          <p class="regular" data-key="pages.home.description.p5">
+            En la planta baja encontrarás un salón con chimenea y dos amplios
+            sofás, un comedor, una cocina totalmente equipada y un baño. En la
+            planta superior se ubican dos dormitorios dobles, un baño completo y
+            una amplia terraza de 25 m².
+          </p>
+          <p class="regular" data-key="pages.home.description.p6">
+            El gran patio, con barbacoa, alberca y terraza, conecta con un
+            apartamento independiente. Este espacio adicional ofrece cocina,
+            comedor, dormitorio y baño, y cuenta con acceso privado para
+            garantizar mayor comodidad y privacidad.
+          </p>
+        </section>
+
+        <!-- Espacios -->
+        <section class="main-content__section">
+          <p class="regular-bold" data-key="pages.home.spaces.title">
+            Espacios
+          </p>
+          <div class="flex-row">
+            <div class="flex-row__item">
+              <i class="fa-solid fa-bed icon"></i>
+              <span class="regular" data-key="pages.home.spaces.rooms"
+                >3 habitaciones dobles</span
+              >
+            </div>
+            <div class="flex-row__item">
+              <i class="fa-solid fa-toilet icon"></i>
+              <span class="regular" data-key="pages.home.spaces.bathrooms"
+                >3 baños</span
+              >
+            </div>
+            <div class="flex-row__item">
+              <i class="fa-solid fa-utensils icon"></i>
+              <span class="regular" data-key="pages.home.spaces.dining"
+                >Comedor</span
+              >
+            </div>
+            <div class="flex-row__item">
+              <i class="fa-solid fa-person-shelter icon"></i>
+              <span class="regular" data-key="pages.home.spaces.living"
+                >Salón</span
+              >
+            </div>
+            <div class="flex-row__item">
+              <i class="fa-solid fa-fire icon"></i>
+              <span class="regular" data-key="pages.home.spaces.fireplace"
+                >Chimenea</span
+              >
+            </div>
+            <div class="flex-row__item">
+              <i class="fa-solid fa-dumpster-fire icon"></i>
+              <span class="regular" data-key="pages.home.spaces.bbq"
+                >Barbacoa</span
+              >
+            </div>
+            <div class="flex-row__item">
+              <i class="fa-solid fa-kitchen-set icon"></i>
+              <span class="regular" data-key="pages.home.spaces.kitchen"
+                >Cocina</span
+              >
+            </div>
+            <div class="flex-row__item">
+              <i class="fa-solid fa-water-ladder icon"></i>
+              <span class="regular" data-key="pages.home.spaces.pool"
+                >Piscina</span
+              >
+            </div>
+            <div class="flex-row__item">
+              <i class="fa-solid fa-umbrella-beach icon"></i>
+              <span class="regular" data-key="pages.home.spaces.terrace"
+                >Terraza</span
+              >
+            </div>
+          </div>
+        </section>
+
+        <!-- Servicios -->
+        <section class="main-content__section">
+          <p class="regular-bold" data-key="pages.home.services.title">
+            Servicios
+          </p>
+          <div class="flex-row">
+            <div class="flex-row__item">
+              <i class="fa-solid fa-temperature-arrow-up icon"></i
+              ><span class="regular" data-key="pages.home.services.heating"
+                >Calefacción</span
+              >
+            </div>
+            <div class="flex-row__item">
+              <i class="fa-solid fa-temperature-arrow-down icon"></i
+              ><span class="regular" data-key="pages.home.services.air"
+                >Aire acondicionado</span
+              >
+            </div>
+            <div class="flex-row__item">
+              <i class="fa-solid fa-wifi icon"></i
+              ><span class="regular" data-key="pages.home.services.wifi"
+                >Wifi</span
+              >
+            </div>
+            <div class="flex-row__item">
+              <i class="fa-solid fa-cubes-stacked icon"></i
+              ><span class="regular" data-key="pages.home.services.firewood"
+                >Leña</span
+              >
+            </div>
+          </div>
+        </section>
+
+        <!-- Información -->
+        <section class="main-content__section">
+          <p class="regular-bold" data-key="pages.home.info.title">
+            Información
+          </p>
+          <div class="regular" data-key="pages.home.info.max">
+            Máximo 8 personas.
+          </div>
+          <div class="regular" data-key="pages.home.info.min">
+            Estancia mínima de 2 noches.
+          </div>
+          <div class="regular" data-key="pages.home.info.checkin">
+            Llegada a partir de las 14:00.
+          </div>
+          <div class="regular" data-key="pages.home.info.checkout">
+            Salida antes de las 12:00.
+          </div>
+          <div class="regular" data-key="pages.home.info.silence">
+            Horario de silencio: 23:00 - 09:00.
+          </div>
+          <div class="regular" data-key="pages.home.info.cancel">
+            Cancelación gratuita 7 días antes.
+          </div>
+          <div class="regular" data-key="pages.home.info.pets">
+            No permitida entrada de mascotas.
+          </div>
+          <div class="regular" data-key="pages.home.info.smoke">
+            Prohibido fumar.
+          </div>
+        </section>
+
+        <!-- Comentarios -->
+        <div data-component="reviews"></div>
+      </div>
+    </main>
+    <footer data-component="footer"></footer>
+    <div data-component="modal-menu"></div>
+    <div data-component="modal-reserve"></div>
+    <div data-component="modal-images"></div>
+    <div data-component="modal-share"></div>
+    <div data-component="modal-conditions"></div>
+    <div data-component="button-top"></div>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

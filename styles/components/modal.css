@@ -1,0 +1,206 @@
+/* =========================================
+MODAL BASE
+Común a todos
+========================================= */
+.modals {
+  position: fixed;
+  inset: 0;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+  z-index: var(--z-three);
+}
+
+.modal__overlay {
+  position: absolute;
+  inset: 0;
+  background: var(--overlay-dark);
+  z-index: var(--z-three);
+}
+
+.modal__content {
+  position: relative;
+  background: var(--wh-500);
+  border-radius: var(--br-8);
+  padding: var(--sp-md);
+  gap: var(--sp-md);
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  z-index: calc(var(--z-three) + 1);
+  opacity: 0;
+}
+
+.modal__section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-xxs);
+}
+
+/* Active state */
+.modals.is-active {
+  pointer-events: auto;
+  display: flex;
+  opacity: 1;
+  visibility: visible;
+}
+
+.modals.is-active .modal__content {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.modals:not(.is-active) .modal__content {
+  opacity: 0;
+  transform: translateY(var(--anim-translate));
+}
+
+/* =========================================
+MODAL-MENU
+Especifico del menu
+========================================= */
+.modal-menu .modal__content {
+  position: absolute;
+  right: 0;
+  top: var(--sp-xl);
+  width: var(--menu-width);
+  height: auto;
+  padding: var(--sp-sm);
+  border: var(--border-thin);
+  box-shadow: var(--drop-shadow);
+  background: var(--wh-500);
+}
+.modal-menu .modal__section {
+  gap: var(--sp-xs);
+}
+
+.modal-menu .modal__contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-sm);
+  justify-content: flex-start;
+}
+
+/* =========================================
+MODAL-RESERVE
+Especifico de reservas Amenitiz
+========================================= */
+.modal-reserve .modal__content {
+  width: 90vw;
+  max-width: var(--modal-width);
+  height: 90vh;
+  max-height: var(--modal-height);
+  overflow: hidden;
+  padding: var(--sp-md);
+  gap: var(--sp-md);
+}
+
+#amenitiz-widget {
+  flex: 1;
+  width: 100%;
+  overflow: hidden;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#amenitiz-widget iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: var(--br-4);
+  display: block;
+}
+
+.amenitiz-loader {
+  text-align: center;
+  font-size: var(--fs-regular);
+  font-weight: var(--fw-regular);
+  line-height: var(--lh-regular);
+  color: var(--bl-300);
+}
+
+/* =========================================
+MODAL-CONDITIONS
+Especifico de condiciones
+========================================= */
+.modal-conditions .modal__content {
+  width: 90vw;
+  max-width: var(--modal-width);
+  max-height: var(--modal-height);
+  overflow-y: auto;
+  padding: var(--sp-md);
+}
+
+/* =========================================
+MODAL-IMAGES
+Especifico de visualizacion de imagenes
+========================================= */
+.modal-images .modal__content {
+  width: 90vw;
+  max-width: var(--modal-width);
+  height: 90vh;
+  max-height: var(--modal-height);
+  padding: var(--sp-md);
+  gap: var(--sp-md);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.modal-images .modal__image-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: var(--br-4);
+}
+
+.modal-images .modal__image-wrapper img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: var(--br-4);
+}
+
+.gallery-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--sp-md);
+  padding-top: var(--sp-sm);
+}
+
+/* =========================================
+MODAL-SHARE
+Especifico de compartir página
+========================================= */
+.modal-share .modal__content {
+  gap: var(--sp-xxs);
+  padding: var(--sp-xxs);
+  border: var(--border-thin);
+  box-shadow: var(--drop-shadow);
+  max-width: fit-content;
+  height: auto;
+  border-radius: var(--br-8);
+  top: -7rem;
+  right: -26rem;
+}
+
+/* ============================================
+RESPONSIVE (≤1200px)
+============================================ */
+@media (max-width: 1200px) {
+  .modal-share .modal__content {    
+    top: -12rem;
+    right: -5rem;
+  }
+}

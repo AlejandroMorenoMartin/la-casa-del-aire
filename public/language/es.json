@@ -1,0 +1,489 @@
+{
+  "pages": {
+    "environment": {
+      "header": {
+        "title": "Entorno",
+        "subtitle": "Dehesa extremeña"
+      },
+      "aldea": {
+        "title": "La Aldea del Obispo",
+        "location":"Localización",
+        "p1": "Enclavada en la penillanura cacereña, La Aldea del Obispo es un pequeño municipio que conserva la esencia de los pueblos extremeños.",
+        "p2": "Entre sus construcciones destaca la iglesia parroquial de Nuestra Señora del Rosario, de estilo barroco, levantada sobre un templo anterior.",
+        "p3": "Desde aquí puedes emprender rutas senderistas como la del Puente de la Lavadera sobre el río Tozo, perfecta para conectar con la naturaleza."
+      },
+      "trujillo": {
+        "title": "Trujillo",
+        "location":"Localización",
+        "p1": "Trujillo es una de las ciudades históricas más relevantes de Extremadura. Su castillo, su plaza Mayor y sus casas solariegas cuentan la historia de una villa ligada a los descubridores.",
+        "p2": "La ciudad conserva una atmósfera medieval en cada rincón, llena de encanto y cultura.",
+        "p3": "Una experiencia imprescindible es realizar una visita guiada por el castillo y el casco histórico."
+      },
+      "bodegas": {
+        "title": "Bodegas Habla",
+        "location":"Localización",
+        "p1": "Bodegas Habla, situada en Trujillo, es una de las bodegas más innovadoras de Extremadura, donde se une la tradición con la vanguardia.",
+        "p2": "Su arquitectura contemporánea armoniza con el entorno natural y sus vinos son reconocidos a nivel internacional.",
+        "p3": "Una visita guiada o cata es una experiencia muy recomendable para los amantes del vino."
+      },
+      "birding": {
+        "title": "Birding",
+        "location":"Localización",
+        "p1": "Extremadura es uno de los destinos más importantes de Europa para el turismo ornitológico, con más de 300 especies de aves al año.",
+        "p2": "Entre las más emblemáticas destacan el buitre negro, la cigüeña negra, el águila imperial ibérica y la grulla común.",
+        "p3": "Disfruta de rutas guiadas para avistar aves únicas en su hábitat natural."
+      },
+      "monfrague": {
+        "title": "Monfragüe",
+        "location":"Localización",
+        "p1": "Monfragüe es el gran santuario natural de Extremadura, declarado Parque Nacional en 2007.",
+        "p2": "El Salto del Gitano es su punto más icónico, con vistas espectaculares al vuelo de las rapaces.",
+        "p3": "Ideal para rutas ornitológicas y senderismo."
+      },
+      "caceres": {
+        "title": "Cáceres",
+        "location":"Localización",
+        "p1": "Ciudad Patrimonio de la Humanidad, con uno de los conjuntos medievales y renacentistas mejor conservados de Europa.",
+        "p2": "Pasear por sus calles empedradas es viajar en el tiempo.",
+        "p3": "Recomendamos una visita nocturna guiada al casco histórico."
+      },
+      "jara": {
+        "title": "Villuercas Ibores Jara",
+        "location":"Localización",
+        "p1": "Geoparque declarado por la UNESCO que combina montañas, fósiles y valles de gran valor geológico.",
+        "p2": "La zona conserva pueblos tradicionales con fuerte identidad rural.",
+        "p3": "No te pierdas la Ruta de los Apalaches extremeños."
+      },
+      "guadalupe": {
+        "title": "Guadalupe",
+        "location":"Localización",
+        "p1": "El Real Monasterio de Santa María de Guadalupe es Patrimonio de la Humanidad y uno de los grandes símbolos religiosos de España.",
+        "p2": "El pueblo conserva calles empedradas y arquitectura tradicional.",
+        "p3": "No te pierdas una visita guiada al monasterio y su museo."
+      },
+      "vera": {
+        "title": "La Vera",
+        "location":"Localización",
+        "p1": "Comarca a los pies de Gredos, conocida por sus gargantas naturales y su microclima.",
+        "p2": "Es cuna del pimentón de La Vera, con Denominación de Origen.",
+        "p3": "En verano puedes bañarte en pozas naturales como la Garganta de Cuartos."
+      }
+    },
+    "home": {
+      "header": {
+        "title": "Casa del Aire",
+        "location": "Localización",
+        "capacity": "6-8"
+      },
+      "images": {
+        "title": "Imágenes"
+      },
+      "description": {
+        "title": "Descripción",
+        "p1": "Situada a solo dos horas de Madrid, en la población de La Aldea del Obispo (Cáceres, Extremadura), La Casa del Aire se alza en plena dehesa extremeña. Esta acogedora casa de piedra del siglo XIX combina a la perfección el encanto rústico con detalles contemporáneos.",
+        "p2": "Rodeada de un entorno natural único, es el lugar ideal para desconectar y descubrir los paisajes y rincones más emblemáticos de la región: La Aldea del Obispo, Trujillo, el Parque Nacional de Monfragüe, Cáceres, el Geoparque Villuercas-Ibores-Jara, Guadalupe o la comarca de La Vera.",
+        "p3": "Además, podrás realizar escapadas a lugares de interés como Bodegas Habla o disfrutar del Birding (turismo ornitológico), una de las experiencias más especiales que ofrece esta tierra.",
+        "p4": "La casa tiene capacidad para alojar hasta 8 personas y se distribuye en dos plantas con tres habitaciones dobles.",
+        "p5": "En la planta baja encontrarás un salón con chimenea y dos amplios sofás, un comedor, una cocina totalmente equipada y un baño. En la planta superior se ubican dos dormitorios dobles, un baño completo y una amplia terraza de 25 m².",
+        "p6": "El gran patio, con barbacoa, alberca y terraza, conecta con un apartamento independiente. Este espacio adicional ofrece cocina, comedor, dormitorio y baño, y cuenta con acceso privado para garantizar mayor comodidad y privacidad."
+      },
+      "spaces": {
+        "title": "Espacios",
+        "rooms": "3 habitaciones dobles",
+        "bathrooms": "3 baños",
+        "dining": "Comedor",
+        "living": "Salón",
+        "fireplace": "Chimenea",
+        "bbq": "Barbacoa",
+        "kitchen": "Cocina",
+        "pool": "Piscina",
+        "terrace": "Terraza"
+      },
+      "services": {
+        "title": "Servicios",
+        "heating": "Calefacción",
+        "air": "Aire acondicionado",
+        "wifi": "Wifi",
+        "firewood": "Leña"
+      },
+      "info": {
+        "title": "Información",
+        "max": "Máximo 8 personas.",
+        "min": "Estancia mínima de 2 noches.",
+        "checkin": "Llegada a partir de las 14:00.",
+        "checkout": "Salida antes de las 12:00.",
+        "silence": "Horario de silencio: 23:00 - 09:00.",
+        "cancel": "Cancelación gratuita 7 días antes de la fecha de llegada.",
+        "pets": "No permitida entrada de mascotas.",
+        "smoke": "Prohibido fumar.",
+        "conditions": "Consulta las condiciones."
+      }
+    }
+  },
+
+  "components": {
+    "reviews": {
+      "title": "Opiniones",
+      "loading": "Cargando reseñas…",
+      "footer": "Ver todas las reseñas en"
+    },
+    "video-container": {
+      "caption": "Alojamiento rural en la dehesa extremeña"
+    },
+    "navbar": {
+      "reserve": "Reservar"
+    },
+    "footer": {
+      "created-by": "Creado por",
+      "conditions": "Condiciones"
+    },
+    "modals": {
+      "share": {
+        "copy-link": "Copiar enlace",
+        "facebook": "Compartir en Facebook",
+        "whatsapp": "Compartir en WhatsApp"
+      },
+      "reserve": {
+        "title": "Reserva tu estancia",
+        "description": "Consulta disponibilidad y confirma tu reserva. Para cualquier duda, contacta con nosotros.",
+        "link": "contacta"
+      },
+      "menu": {
+        "pages-section": "Páginas",
+        "pages": {
+          "video": "Video",
+          "home": "Home",
+          "environment": "Entorno"
+        },
+        "languages-section": "Idiomas",
+        "languages": {
+          "es": "Español (ES)",
+          "en": "Inglés (EN)",
+          "fr": "Francés (FR)",
+          "pt": "Portugués (PT)"
+        },
+        "contact-section": "Contacto"
+      },
+      "images": {
+        "title": "Título de la imagen",
+        "caption": "Descripción breve de la imagen.",
+        "counter": "1 / 10"
+      },
+      "conditions": {
+        "title": "Condiciones generales de alojamiento",
+        "intro": "Estas condiciones están diseñadas para garantizar una estancia cómoda, segura y respetuosa tanto para usted como para el resto de huéspedes y la comunidad local. Rogamos lean atentamente la normativa antes de su llegada y durante su estancia.",
+        "sections": {
+          "checkin": {
+            "title": "Horarios de entrada y salida",
+            "items": [
+              "Entrada (Check-in): A partir de las 16:00 horas.",
+              "Salida (Check-out): Antes de las 12:00 horas.",
+              "Para otros horarios, por favor, consultar con la propiedad. Es obligatorio informar de la hora de llegada prevista."
+            ]
+          },
+          "smoke": {
+            "title": "Espacio sin humos",
+            "items": [
+              "Está terminantemente prohibido fumar dentro de todos los espacios interiores de la casa.",
+              "Incumplir esta norma supondrá una penalización de 50 € en concepto de desodorización."
+            ]
+          },
+          "pets": {
+            "title": "Animales de compañía",
+            "items": [
+              "No está permitida la entrada ni el alojamiento de animales de compañía en la casa.",
+              "El incumplimiento de esta norma supondrá una penalización de 30 €."
+            ]
+          },
+          "fireplace": {
+            "title": "Uso de la chimenea",
+            "items": [
+              "Disponen de leña, pastillas y otros materiales para encender la chimenea de forma totalmente gratuita.",
+              "Por favor, les pedimos que hagan un uso responsable del material.",
+              "Por seguridad, no dejen la puerta de la chimenea abierta.",
+              "Nota Importante: Las piñas que se encuentran en el salón son de decoración y no deben usarse como combustible."
+            ]
+          },
+          "bbq": {
+            "title": "Uso de la barbacoa",
+            "items": [
+              "La barbacoa es de gas.",
+              "Previa petición, se les suministrará una bombona de propano/butano de forma gratuita."
+            ]
+          },
+          "pool": {
+            "title": "Normas de la piscina",
+            "items": [
+              "La propiedad declina toda responsabilidad derivada del uso inapropiado de la alberca (piscina).",
+              "Los menores deben estar en todo momento bajo la supervisión in situ de un adulto responsable.",
+              "No se puede correr por los bordillos adyacentes a la piscina ni por el borde exterior debido al riesgo de resbalones.",
+              "No está permitido empujar ni realizar juegos peligrosos.",
+              "Está prohibido el acceso a personas con enfermedades infectocontagiosas y el acceso de animales a toda la instalación.",
+              "Está prohibido el baño tras la ingesta de alcohol u otro tipo de sustancias que puedan alterar el estado consciente."
+            ]
+          },
+          "rules": {
+            "title": "Ocupación, eventos y silencio",
+            "items": [
+              "No está permitido el uso de la casa para realizar despedidas de soltero/a ni actividades molestas, insalubres, nocivas, peligrosas o ilícitas.",
+              "El uso y disfrute de la casa está limitado exclusivamente a las personas alojadas y registradas. La sobreocupación será notificada a las autoridades competentes.",
+              "Las horas de descanso son desde las 23:00 horas hasta las 09:00 horas de la mañana siguiente.",
+              "La propiedad se reserva el derecho de anular la estancia a quien no cumpla con estas normas, en cualquier momento y sin posibilidad de reembolso."
+            ]
+          },
+          "id": {
+            "title": "Documentación obligatoria (DNI)",
+            "items": [
+              "Todos los ocupantes de la casa mayores de 14 años deben rellenar un enlace con sus DNI para el correcto cumplimiento de los partes de viajero (obligatorios por ley)."
+            ]
+          },
+          "eco": {
+            "title": "Cuidado del medio ambiente y la casa",
+            "items": [
+              "Ecología: Les agradecemos que, a su salida, se aseguren de haber cerrado los grifos, apagado la calefacción/aire acondicionado y apagado las luces.",
+              "Reciclaje y basura: Hay cubos y recipientes para el reciclaje. Les agradecemos que depositen allí sus residuos. A su salida, les agradeceríamos que la basura esté recogida (hay contenedores cerca de la casa para depositarla).",
+              "Menaje: Rogamos que dejen los platos, vasos y cubiertos dentro del lavavajillas. No es necesario introducir las cacerolas, sartenes ni copas de vino."
+            ]
+          },
+          "lost": {
+            "title": "Objetos olvidados",
+            "items": [
+              "Asegúrese de recoger todos sus objetos personales. La propiedad no se responsabiliza de los objetos olvidados o perdidos en la casa o en su entorno."
+            ]
+          }
+        }
+      }
+    }
+  },
+  
+  "gallery": {
+    "home": {
+        "01": {
+          "title": "Fachada",
+          "caption": "Vista nocturna de la fachada de acceso a la casa, con la iglesia de la Virgen del Rosario visible al fondo. La casa se encuentra en la calle principal del pueblo, con fácil aparcamiento."
+        },
+        "02": {
+          "title": "Fachada",
+          "caption": "Vista frontal de la fachada principal."
+        },
+        "03": {
+          "title": "Hall",
+          "caption": "Vista desde el hall de acceso hacia la zona del salón, destacada por el detalle de la estructura de granito, original de la vivienda antigua."
+        },
+        "04": {
+          "title": "Salón",
+          "caption": "Imagen de la chimenea del salón, donde se aprecian los confortables sofás a ambos lados."
+        },
+        "05": {
+          "title": "Salón",
+          "caption": "Vista frontal de la zona del salón. En primer plano vemos la gran mesa de centro artesanal con los dos sofás a ambos lados de la chimenea."
+        },
+        "06": {
+          "title": "Salón",
+          "caption": "Otra de las vistas del acogedor salón con chimenea. Al fondo se observa la hornacina que comunica con el comedor. En ella encontramos una serie de vasijas y jarrones de barro originales de la vivienda."
+        },
+        "07": {
+          "title": "Puerta de acceso",
+          "caption": "Vista de la puerta de acceso desde el salón. El área de estar cuenta con una TV de 42 pulgadas y con las bóvedas y elementos de ladrillo originales de la construcción de 1890."
+        },
+        "08": {
+          "title": "Salón",
+          "caption": "Zona del salón destinada a la TV. En La Casa del Aire no tendrás que preocuparte por la leña: te la facilitamos nosotros."
+        },
+        "09": {
+          "title": "Comedor",
+          "caption": "Otra de las vistas del comedor, donde podemos ver las bóvedas originales de la casa. Al fondo tenemos el acceso a la cocina y al baño de esta planta."
+        },
+        "10": {
+          "title": "Comedor",
+          "caption": "El comedor en detalle: se aprecian las bóvedas originales de la casa que dan profundidad al espacio."
+        },
+        "11": {
+          "title": "Baño",
+          "caption": "Imagen del baño completo de la planta baja."
+        },
+        "12": {
+          "title": "Cocina",
+          "caption": "Cocina completamente equipada con electrodomésticos. El espacio cuenta con una zona de trabajo y office para desayunos."
+        },
+        "13": {
+          "title": "Cocina",
+          "caption": "Vista de la cocina con un marcado estilo rústico."
+        },
+        "14": {
+          "title": "Cocina",
+          "caption": "La mesa de la cocina goza de una amplia luz natural, gracias a su acceso directo al patio."
+        },
+        "15": {
+          "title": "Patio",
+          "caption": "Vista del patio y de la alberca desde la terraza superior."
+        },
+        "16": {
+          "title": "Patio",
+          "caption": "Vista detalle de la alberca con la zona de solárium y la pared de piedra original del siglo XVIII. A la derecha, tenemos el acceso a la habitación suite."
+        },
+        "17": {
+          "title": "Comedor exterior",
+          "caption": "Detalle del comedor exterior y de la vegetación del patio."
+        },
+        "18": {
+          "title": "Comedor exterior",
+          "caption": "Vista nocturna del comedor exterior."
+        },
+        "19": {
+          "title": "Alberca",
+          "caption": "Vista frontal de la alberca con la zona de solárium y la pared de piedra original del siglo XVIII. A la derecha, se encuentra el acceso a la habitación suite."
+        },
+        "20": {
+          "title": "Alberca",
+          "caption": "Vista detalle de la alberca con la zona de solárium y la pared de piedra original del siglo XVIII. A la derecha tenemos el acceso a la habitación suite."
+        },
+        "21": {
+          "title": "Alberca",
+          "caption": "Vista detalle de la alberca con la zona de solárium y la pared de piedra original del siglo XVIII. A la derecha, se encuentra el acceso a la habitación suite."
+        },
+        "22": {
+          "title": "Alberca",
+          "caption": "Vista frontal de la alberca, destacando el solárium y la robusta pared de piedra original del siglo XVIII. Desde esta perspectiva, se capta la proximidad al acceso de la habitación suite."
+        },
+        "23": {
+          "title": "Habitación suite",
+          "caption": "Cocina con office de la habitación suite con acceso independiente a la calle trasera."
+        },
+        "24": {
+          "title": "Patio",
+          "caption": "Barbacoa equipada en el patio."
+        },
+        "25": {
+          "title": "Habitación suite",
+          "caption": "Office de la habitación suite en primer plano. El espacio cuenta con armario completo y TV de 42 pulgadas. Al fondo, se encuentran la habitación y el acceso al baño."
+        },
+        "26": {
+          "title": "Habitación suite",
+          "caption": "Baño completo en suite."
+        },
+        "27": {
+          "title": "Habitación suite",
+          "caption": "Habitación suite con ventana a la luminosa calle trasera."
+        },
+        "28": {
+          "title": "Puerta de acceso",
+          "caption": "Vista de la luminosa zona de acceso, con escalera blanca, bóvedas originales, perchero de madera y butaca. Este espacio conecta con el acogedor salón con chimenea y zona de estar."
+        },
+        "29": {
+          "title": "Escaleras",
+          "caption": "Escalera blanca de acceso a la planta primera. En primer plano, un lebrillo de barro original de la casa. Al fondo, se observa la ventana que da a la calle principal."
+        },
+        "30": {
+          "title": "Escaleras",
+          "caption": "Vista de la escalera de acceso a la primera planta con el acceso a la habitación exterior."
+        },
+        "31": {
+          "title": "Habitación exterior",
+          "caption": "Vista de la habitación exterior con balcón a la calle principal. La parte superior de la casa cuenta con un techo a dos aguas realizado íntegramente con vigas y forrado de madera."
+        },
+        "32": {
+          "title": "Baño planta superior",
+          "caption": "Vista del cuarto de baño completo situado en la planta superior."
+        },
+        "33": {
+          "title": "Habitación principal",
+          "caption": "Habitación principal con salida directa a la terraza privada."
+        },
+        "34": {
+          "title": "Habitación principal",
+          "caption": "Detalle de la habitación principal con el acceso a la terraza. Las sillas tradicionales de enea y madera son originales de la casa."
+        },
+        "35": {
+          "title": "Habitación principal",
+          "caption": "Vista general de la habitación principal, con armarios laterales y la zona central de almacenaje. Toda la decoración sigue reflejando el carácter rústico y elegante del resto de la casa."
+        },
+        "36": {
+          "title": "Terraza",
+          "caption": "Vista de la terraza privada de la habitación principal. Este espacio cuenta con un comedor exterior, banco de obra, mesa y sillas."
+        },
+        "37": {
+          "title": "Terraza",
+          "caption": "Detalle de la terraza con el acceso privado desde la habitación principal."
+        },
+        "38": {
+          "title": "Acceso trasero",
+          "caption": "Acceso desde la calle trasera. En esta fachada se ven la puerta y las ventanas de la habitación y el baño en suite."
+        }
+    },
+    "environment": {
+        "01": {
+          "title": "Iglesia Parroquial de Nuestra Señora del Rosario (La Aldea del Obispo)",
+          "caption": "Templo de origen barroco construido sobre una edificación anterior, conserva elementos históricos en su campanario y muros de piedra. Es el principal monumento de la localidad, centro de la vida cultural y religiosa del pueblo."
+        },
+        "02": {
+          "title": "Río Tozo (entorno natural de La Aldea del Obispo)",
+          "caption": "Paisaje de dehesa extremeña atravesado por el río Tozo, que discurre entre encinas y praderas. Su cauce, tranquilo y rodeado de naturaleza, ofrece rutas ideales para pasear y disfrutar de la biodiversidad local."
+        },
+        "03": {
+          "title": "Castillo de Trujillo",
+          "caption": "Fortaleza de origen árabe levantada entre los siglos IX y XII, coronando la parte más alta de la ciudad. Desde sus murallas se obtienen vistas panorámicas espectaculares de la comarca y del casco histórico trujillano."
+        },
+        "04": {
+          "title": "Plaza Mayor de Trujillo",
+          "caption": "Centro neurálgico de la ciudad, rodeada de palacios renacentistas y edificios históricos. Destaca la estatua ecuestre de Francisco Pizarro y la animada vida que se concentra en sus terrazas y eventos culturales."
+        },
+        "05": {
+          "title": "Fachada de Bodegas Habla",
+          "caption": "La fachada de Bodegas Habla refleja un diseño contemporáneo que se integra con el entorno natural de la dehesa extremeña. Su arquitectura vanguardista simboliza la filosofía innovadora de la bodega y la convierte en un referente enoturístico."
+        },
+        "06": {
+          "title": "Sala de Barricas de Bodegas Habla",
+          "caption": "Espacio donde el vino reposa en barricas de roble francés, siguiendo un proceso de crianza que aporta carácter y calidad a los vinos de autor de Habla. La sala combina tradición y tecnología, creando un ambiente único que realza la esencia de cada cosecha."
+        },
+        "07": {
+          "title": "Birding - Buitres en vuelo",
+          "caption": "Los buitres leonados, con sus majestuosas alas, sobrevuelan los cielos extremeños buscando las corrientes de aire que les permiten planear durante kilómetros. Su presencia es uno de los grandes atractivos para los amantes de la ornitología."
+        },
+        "08": {
+          "title": "Birding - Gaviotas en su nido",
+          "caption": "Las gaviotas aprovechan los embalses y humedales extremeños como hábitat de cría, formando colonias que resultan fascinantes de observar. Su comportamiento en torno a los nidos revela la riqueza y diversidad de la avifauna de la región."
+        },
+        "09": {
+          "title": "Fachada",
+          "caption": "Vista nocturna de la fachada de acceso a la casa, con la iglesia de la Virgen del Rosario visible al fondo. La casa se encuentra en la calle principal del pueblo, con fácil aparcamiento."
+        },
+        "10": {
+          "title": "Salto del Gitano en Monfragüe",
+          "caption": "Uno de los enclaves más icónicos del parque, donde los cortados rocosos se alzan imponentes sobre el río Tajo. Es un punto privilegiado para la observación de aves rapaces como buitres leonados, cigüeñas negras y águilas imperiales."
+        },
+        "11": {
+          "title": "Meandro del río Tajo en Monfragüe",
+          "caption": "Vista panorámica de los meandros del Tajo serpenteando entre sierras cubiertas de bosques mediterráneos. El paisaje transmite la grandeza natural del parque y su papel como uno de los espacios protegidos más valiosos de España."
+        },
+        "12": {
+          "title": "Cáceres monumental de noche",
+          "caption": "Vista nocturna del conjunto monumental de Cáceres, declarado Patrimonio de la Humanidad por la UNESCO. La iluminación resalta las murallas, torres y palacios medievales que han convertido a la ciudad en uno de los cascos históricos mejor conservados de Europa."
+        },
+        "13": {
+          "title": "Sierra de las Villuercas",
+          "caption": "Vista panorámica de la Sierra de las Villuercas, corazón del geoparque declarado por la UNESCO. Sus crestas rocosas y valles profundos muestran millones de años de historia geológica en un paisaje único de Extremadura."
+        },
+        "14": {
+          "title": "Mirador natural en el Geoparque",
+          "caption": "Un mirador enmarcado entre formaciones rocosas permite contemplar la inmensidad del geoparque. La combinación de naturaleza y patrimonio geológico convierte este lugar en una parada imprescindible para los amantes del senderismo y la fotografía."
+        },
+        "15": {
+          "title": "Vista del Monasterio de Guadalupe",
+          "caption": "El Real Monasterio de Santa María de Guadalupe, declarado Patrimonio de la Humanidad, domina el paisaje urbano de la villa. Fundado en el siglo XIV, fue un importante centro de peregrinación y conserva un impresionante conjunto artístico y arquitectónico."
+        },
+        "16": {
+          "title": "Claustro del Monasterio de Guadalupe",
+          "caption": "El claustro mudéjar del monasterio ofrece un ambiente sereno y monumental, con su templete gótico en el centro rodeado de jardines y arcadas. Un lugar que refleja la riqueza cultural y espiritual de este enclave histórico."
+        },
+        "17": {
+          "title": "Garganta natural en La Vera",
+          "caption": "Una de las muchas gargantas de agua cristalina que recorren la comarca de La Vera. Entre saltos de agua y pozas naturales, estos rincones se convierten en espacios perfectos para refrescarse en verano y disfrutar de la naturaleza."
+        },
+        "18": {
+          "title": "Villanueva de la Vera",
+          "caption": "Encantadora calle de Villanueva de la Vera, donde se conserva la arquitectura tradicional con entramados de madera, balcones floridos y un ambiente acogedor. Este pueblo, declarado Conjunto Histórico-Artístico, refleja la esencia más auténtica de la comarca de La Vera."
+      }
+    }
+  }
+}
