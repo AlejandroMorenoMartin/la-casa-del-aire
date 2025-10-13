@@ -20,7 +20,7 @@ jobs:
           username: ${{ secrets.SFTP_USER }}
           password: ${{ secrets.SFTP_PASSWORD }}
           port: ${{ secrets.SFTP_PORT }}
-          local_path: "./la-casa-del-aire/*"
+          local_path: "./*"
           remote_path: "/dev"
           sftp_only: false             # usamos rsync, permite excluir
           args: "--exclude 'assets/' --exclude '.github/' --exclude 'node_modules/' --exclude '.gitignore' --exclude 'package.json' --exclude 'package-lock.json' --exclude 'README.md'"
