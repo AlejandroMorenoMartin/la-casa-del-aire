@@ -10,7 +10,7 @@ COMPONENTS
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  padding: var(--sp-sm) var(--sp-md);  
+  padding: var(--sp-sm) var(--sp-md);
   width: 100%;
   z-index: var(--z-three);
   height: var(--sp-xl);
@@ -29,8 +29,8 @@ COMPONENTS
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: var(--sp-sm) var(--sp-md); 
-  background-color: var(--wh-500);  
+  padding: var(--sp-sm) var(--sp-md);
+  background-color: var(--wh-500);
   border-top: var(--border-thin);
   width: 100%;
 }
@@ -158,8 +158,18 @@ RESPONSIVE (≤1200px)
     font-size: 87.5%;
   }
 
-  .footer {
+  .navbar {
+    padding: var(--sp-sm);
+  }
+
+  .footer {       
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start;   
+    padding: var(--sp-sm);
+    gap: var(--sp-sm);    
+  }
+
+  .footer .flex-row__item:first-child {
+    flex-direction: column;
   }
 }

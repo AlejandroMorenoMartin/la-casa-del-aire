@@ -1,12 +1,12 @@
 /* =========================================
    ICONS
 ========================================= */
-.icon { 
+.icon {
   font-size: var(--icon-ss);
   box-sizing: content-box;
-  vertical-align: middle;   
-  color: inherit;   
-  transition: var(--transition-button); 
+  vertical-align: middle;
+  color: inherit;
+  transition: var(--transition-button);
 }
 
 .logo {
@@ -16,7 +16,7 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
 }
 
 .logo-index {
@@ -27,10 +27,19 @@
   color: var(--wh-100);
 }
 
-.logo-pages {  
-  color: var(--bl-500); 
+.logo-pages {
+  color: var(--bl-500);
 }
 
 .logo-pages:hover {
   color: var(--bl-100);
+}
+
+/* ============================================
+RESPONSIVE (≤1200px)
+============================================ */
+@media (max-width: 1200px) {
+  .logo {    
+    left: var(--sp-md);    
+  }
 }
