@@ -110,10 +110,10 @@
         "title": "Informação",
         "max": "Máximo 8 pessoas.",
         "min": "Estadia mínima de 2 noites.",
-        "checkin": "Chegada a partir das 14:00.",
+        "checkin": "Chegada a partir das 18:00.",
         "checkout": "Partida antes das 12:00.",
         "silence": "Horário de silêncio: 23:00 - 09:00.",
-        "cancel": "Cancelamento gratuito 7 dias antes da data de chegada.",
+        "cancel": "Cancelamento gratuito 14 dias antes da data de chegada.",
         "pets": "Não permitida a entrada de animais de estimação.",
         "smoke": "Proibido fumar.",
         "conditions": "Consulte as condições."
@@ -145,22 +145,24 @@
         },
         "reserve": {
           "title": "Reserve a sua estadia",
-          "description": "Consulte a disponibilidade e confirme a sua reserva. Para qualquer dúvida, contacte-nos.",
-          "link": "contacte-nos"
+          "description-one": "Pode consultar a disponibilidade no seguinte calendário.",
+          "description-two": "O aluguer da casa é do tipo integral (propriedade inteira) e a ocupação máxima é de 8 pessoas.",
+          "description-three": "A estadia mínima será de 2 noites. Pode consultar preços e estadias personalizadas para reservas de maior duração.",          
+          "link": "Consulte-nos"
         },
         "menu": {
           "pages-section": "Páginas",
           "pages": {
-            "video": "Vídeo",
+            "visit": "Visita",
             "home": "Início",
             "environment": "Arredores"
           },
           "languages-section": "Idiomas",
           "languages": {
-            "es": "Espanhol (ES)",
-            "en": "Inglês (EN)",
-            "fr": "Francês (FR)",
-            "pt": "Português (PT)"
+            "es": "ES",
+            "en": "EN",
+            "fr": "FR",
+            "pt": "PT"
           },
           "contact-section": "Contacto"
         },
@@ -437,28 +439,28 @@
           "caption": "Espaço onde o vinho repousa em barricas de carvalho francês, seguindo um processo de estágio que confere caráter e qualidade aos vinhos de autor de Habla. A sala combina tradição e tecnologia, criando um ambiente único que realça a essência de cada colheita."
         },
         "07": {
-          "title": "Observação de Aves - Abutres em voo",
+          "title": "Birding - Abutres",
           "caption": "Os abutres-fauves, com as suas asas majestosas, sobrevoam os céus estremenhos em busca das correntes de ar que lhes permitem planar durante quilómetros. A sua presença é um dos grandes atrativos para os amantes da ornitologia."
         },
         "08": {
-          "title": "Observação de Aves - Gaivotas no seu ninho",
-          "caption": "As gaivotas aproveitam os reservatórios e zonas húmidas estremenhas como habitat de criação, formando colónias que são fascinantes de observar. O seu comportamento em redor dos ninhos revela a riqueza e diversidade da avifauna da região."
+          "title": "Birding - Abetarda",
+          "caption": "A Abetarda é a ave voadora mais pesada do mundo e um tesouro biológico extremamente cauteloso das dehesas ibéricas, sendo rara e difícil de avistar."
         },
         "09": {
-          "title": "Fachada",
-          "caption": "Vista noturna da fachada de acesso à casa, com a igreja de Nuestra Señora del Rosario visível ao fundo. A casa encontra-se na rua principal da aldeia, com estacionamento fácil."
+        "title": "Salto del Gitano em Monfragüe",
+        "caption": "Um dos enclaves mais icónicos do parque, onde os penhascos rochosos se erguem imponentes sobre o rio Tejo. É um ponto privilegiado para a observação de aves de rapina, como abutres-leonados, cegonhas-pretas e águias-imperiais-ibéricas."
         },
         "10": {
-          "title": "Salto del Gitano em Monfragüe",
-          "caption": "Um dos enclaves mais icónicos do parque, onde os precipícios rochosos se erguem imponentes sobre o rio Tejo. É um ponto privilegiado para a observação de aves de rapina como abutres-fauves, cegonhas-pretas e águias-imperiais."
+            "title": "Meandro do rio Tejo em Monfragüe",
+            "caption": "Vista panorâmica dos meandros do Tejo a serpentear entre serras cobertas por florestas mediterrânicas. A paisagem transmite a grandeza natural do parque e o seu papel como um dos espaços protegidos mais valiosos de Espanha."
         },
         "11": {
-          "title": "Meandro do rio Tejo em Monfragüe",
-          "caption": "Vista panorâmica dos meandros do Tejo serpenteando entre serras cobertas de florestas mediterrânicas. A paisagem transmite a grandeza natural do parque e o seu papel como um dos espaços protegidos mais valiosos de Espanha."
+            "title": "Cáceres monumental de noite",
+            "caption": "Vista noturna do conjunto monumental de Cáceres, declarado Património da Humanidade pela UNESCO. A iluminação realça as muralhas, torres e palácios medievais que tornaram a cidade um dos centros históricos mais bem preservados da Europa."
         },
         "12": {
-          "title": "Cáceres monumental à noite",
-          "caption": "Vista noturna do conjunto monumental de Cáceres, declarado Património da Humanidade pela UNESCO. A iluminação realça as muralhas, torres e palácios medievais que converteram a cidade num dos centros históricos mais bem conservados da Europa."
+            "title": "Plaza Mayor de Cáceres",
+            "caption": "Espaço emblemático onde a história e a vida local confluem, rodeado por arcadas, palácios renascentistas e igrejas. A Plaza Mayor é a porta de entrada para o centro histórico, um ponto de encontro tanto para visitantes quanto para os locais."
         },
         "13": {
           "title": "Serra de las Villuercas",

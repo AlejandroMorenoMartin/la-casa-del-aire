@@ -110,10 +110,10 @@
         "title": "Information",
         "max": "Maximum 8 guests.",
         "min": "Minimum stay of 2 nights.",
-        "checkin": "Check-in from 2:00 p.m.",
+        "checkin": "Check-in from 6:00 p.m.",
         "checkout": "Check-out before 12:00 p.m.",
         "silence": "Quiet hours: 11:00 p.m. – 9:00 a.m.",
-        "cancel": "Free cancellation up to 7 days before arrival.",
+        "cancel": "Free cancellation up to 14 days before arrival.",
         "pets": "Pets are not allowed.",
         "smoke": "Smoking is prohibited.",
         "conditions": "View terms and conditions."
@@ -145,22 +145,24 @@
       },
       "reserve": {
         "title": "Book your stay",
-        "description": "Check availability and confirm your reservation. If you have any questions, feel free to contact us.",
-        "link": "contact us"
+        "description-one": "You can check the availability in the following calendar.",
+        "description-two": "The house is rented in full (entire property), and the maximum occupancy is 8 people.",
+        "description-three": "The minimum stay is 2 nights. You can check prices and custom stays for longer reservations.",        
+        "link": "Consult with us"
       },
       "menu": {
         "pages-section": "Pages",
         "pages": {
-          "video": "Video",
+          "visit": "Visit",
           "home": "Home",
           "environment": "Surroundings"
         },
         "languages-section": "Languages",
         "languages": {
-          "es": "Spanish (ES)",
-          "en": "English (EN)",
-          "fr": "French (FR)",
-          "pt": "Portuguese (PT)"
+          "es": "ES",
+          "en": "EN",
+          "fr": "FR",
+          "pt": "PT"
         },
         "contact-section": "Contact"
       },
@@ -437,28 +439,28 @@
         "caption": "A space where the wine rests in French oak barrels, following an aging process that gives character and quality to Habla’s signature wines. The room combines tradition and technology, creating a unique atmosphere that enhances each vintage."
       },
       "07": {
-        "title": "Birding – Griffon Vultures in Flight",
-        "caption": "Griffon vultures, with their majestic wings, soar through the Extremaduran skies, gliding for kilometers on warm air currents. Their presence is one of the main attractions for birdwatching enthusiasts."
+        "title": "Birding – Griffon Vultures",
+        "caption": "Griffon vultures, with their majestic wings, fly over the skies of Extremadura searching for air currents that allow them to glide for miles. Their presence is one of the great attractions for birdwatchers."
       },
       "08": {
-        "title": "Birding – Seagulls in Their Nests",
-        "caption": "Seagulls use Extremadura’s reservoirs and wetlands as nesting habitats, forming colonies that are fascinating to observe. Their nesting behavior reveals the richness and diversity of the region’s birdlife."
+        "title": "Birding – Great Bustard",
+        "caption": "The Great Bustard is the world's heaviest flying bird and an extremely cautious biological treasure of the Iberian dehesas, making it rare and difficult to sight."
       },
       "09": {
-        "title": "Facade",
-        "caption": "Night view of the house’s main entrance, with the Church of Our Lady of the Rosary visible in the background. The house is located on the village’s main street, with easy parking."
+        "title": "Salto del Gitano in Monfragüe",
+        "caption": "One of the park's most iconic spots, where rocky cliffs rise imposingly above the Tagus River. It's a prime location for observing birds of prey like griffon vultures, black storks, and Spanish imperial eagles."
       },
       "10": {
-        "title": "Salto del Gitano, Monfragüe",
-        "caption": "One of the park’s most iconic spots, where dramatic cliffs rise above the Tagus River. It’s a privileged point for observing raptors such as griffon vultures, black storks, and imperial eagles."
+          "title": "Tagus River Meander in Monfragüe",
+          "caption": "Panoramic view of the Tagus meanders winding through mountain ranges covered in Mediterranean forests. The landscape conveys the natural grandeur of the park and its role as one of Spain's most valuable protected areas."
       },
       "11": {
-        "title": "Tagus River Meander, Monfragüe",
-        "caption": "Panoramic view of the Tagus River winding between mountains covered in Mediterranean forest. The landscape conveys the park’s natural grandeur and its role as one of Spain’s most valuable protected areas."
+          "title": "Monumental Cáceres at night",
+          "caption": "Night view of the monumental complex of Cáceres, declared a World Heritage Site by UNESCO. The lighting highlights the medieval walls, towers, and palaces that have made the city one of the best-preserved old towns in Europe."
       },
       "12": {
-        "title": "Monumental Cáceres by Night",
-        "caption": "Night view of the monumental complex of Cáceres, a UNESCO World Heritage Site. The lighting enhances the medieval walls, towers, and palaces that make this city one of the best-preserved historic centers in Europe."
+          "title": "Plaza Mayor of Cáceres",
+          "caption": "An emblematic space where history and local life converge, surrounded by arcades, Renaissance palaces, and churches. The Plaza Mayor is the gateway to the old town, a meeting point for both visitors and locals."
       },
       "13": {
         "title": "Sierra de las Villuercas",

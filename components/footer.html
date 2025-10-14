@@ -1,22 +1,66 @@
 <!-- Footer -->
 <footer class="footer" id="footer">
-  <p class="small">
-    © 2025. La Casa del Aire.<span data-key="components.footer.created-by">
-      Creado por</span
-    >
+  <div class="flex-row__item">
+    <p class="small">
+      © 2025. La Casa del Aire.<span data-key="components.footer.created-by">
+        Creado por</span
+      >
+      <a
+        href="https://alejandromorenomartin.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="small link link-external"
+        >Alejandro Moreno</a
+      >
+    </p>
     <a
-      href="https://alejandromorenomartin.com"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="small link link-external"
-      >Alejandro Moreno</a
+      class="small link"
+      data-modal-target="modal-conditions"
+      data-key="components.footer.conditions"
     >
-  </p>
-  <a
-    class="small link"
-    data-modal-target="modal-conditions"
-    data-key="components.footer.conditions"
-  >
-    Condiciones
-  </a>
+      Condiciones
+    </a>
+  </div>
+  <!-- Idiomas -->
+  <div class="flex-row__item" aria-labelledby="modal-menu-languages">
+    <button
+      class="button button-content"
+      data-lang="es"
+      aria-label="Cambiar a español"
+    >
+      <span class="regular" data-key="components.modals.menu.languages.es">
+        ES
+      </span>
+    </button>
+
+    <button
+      class="button button-content"
+      data-lang="en"
+      aria-label="Switch to English"
+    >
+      <span class="regular" data-key="components.modals.menu.languages.en">
+        EN
+      </span>
+    </button>
+
+    <button
+      class="button button-content"
+      data-lang="fr"
+      aria-label="Passer au français"
+    >
+      <span class="regular" data-key="components.modals.menu.languages.fr">
+        FR
+      </span>
+    </button>
+
+    <button
+      class="button button-content"
+      data-lang="pt"
+      aria-label="Mudar para português"
+    >
+      <span class="regular" data-key="components.modals.menu.languages.pt">
+        PT
+      </span>
+    </button>
+  </div>
 </footer>

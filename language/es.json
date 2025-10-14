@@ -110,10 +110,10 @@
         "title": "Información",
         "max": "Máximo 8 personas.",
         "min": "Estancia mínima de 2 noches.",
-        "checkin": "Llegada a partir de las 14:00.",
+        "checkin": "Llegada a partir de las 18:00.",
         "checkout": "Salida antes de las 12:00.",
         "silence": "Horario de silencio: 23:00 - 09:00.",
-        "cancel": "Cancelación gratuita 7 días antes de la fecha de llegada.",
+        "cancel": "Cancelación gratuita 14 días antes de la fecha de llegada.",
         "pets": "No permitida entrada de mascotas.",
         "smoke": "Prohibido fumar.",
         "conditions": "Consulta las condiciones."
@@ -145,22 +145,24 @@
       },
       "reserve": {
         "title": "Reserva tu estancia",
-        "description": "Consulta disponibilidad y confirma tu reserva. Para cualquier duda, contacta con nosotros.",
-        "link": "contacta"
+        "description-one": "En el siguiente calendario puede ver la disponibilidad.",
+        "description-two": "El alquiler de la casa es de tipo íntegro y la ocupación máxima es de 8 personas.",
+        "description-three": "La estancia mínima será de 2 noches. Se pueden consultar precios y estancias personalizadas para reservas de más duración.",      
+        "link": "Consulta con nosotros"
       },
       "menu": {
         "pages-section": "Páginas",
         "pages": {
-          "video": "Video",
+          "visit": "Visita",
           "home": "Casa",
           "environment": "Entorno"
         },
         "languages-section": "Idiomas",
         "languages": {
-          "es": "Español (ES)",
-          "en": "Inglés (EN)",
-          "fr": "Francés (FR)",
-          "pt": "Portugués (PT)"
+          "es": "ES",
+          "en": "EN",
+          "fr": "FR",
+          "pt": "PT"
         },
         "contact-section": "Contacto"
       },
@@ -437,28 +439,28 @@
           "caption": "Espacio donde el vino reposa en barricas de roble francés, siguiendo un proceso de crianza que aporta carácter y calidad a los vinos de autor de Habla. La sala combina tradición y tecnología, creando un ambiente único que realza la esencia de cada cosecha."
         },
         "07": {
-          "title": "Birding - Buitres en vuelo",
+          "title": "Birding - Buitres",
           "caption": "Los buitres leonados, con sus majestuosas alas, sobrevuelan los cielos extremeños buscando las corrientes de aire que les permiten planear durante kilómetros. Su presencia es uno de los grandes atractivos para los amantes de la ornitología."
         },
         "08": {
-          "title": "Birding - Gaviotas en su nido",
-          "caption": "Las gaviotas aprovechan los embalses y humedales extremeños como hábitat de cría, formando colonias que resultan fascinantes de observar. Su comportamiento en torno a los nidos revela la riqueza y diversidad de la avifauna de la región."
+          "title": "Birding - Avutarda",
+          "caption": "La Avutarda es el ave voladora más pesada del mundo y un tesoro biológico extremadamente cauteloso de las dehesas ibéricas, siendo rara y difícil de avistar."
         },
         "09": {
-          "title": "Fachada",
-          "caption": "Vista nocturna de la fachada de acceso a la casa, con la iglesia de la Virgen del Rosario visible al fondo. La casa se encuentra en la calle principal del pueblo, con fácil aparcamiento."
-        },
-        "10": {
           "title": "Salto del Gitano en Monfragüe",
           "caption": "Uno de los enclaves más icónicos del parque, donde los cortados rocosos se alzan imponentes sobre el río Tajo. Es un punto privilegiado para la observación de aves rapaces como buitres leonados, cigüeñas negras y águilas imperiales."
         },
-        "11": {
+        "10": {
           "title": "Meandro del río Tajo en Monfragüe",
           "caption": "Vista panorámica de los meandros del Tajo serpenteando entre sierras cubiertas de bosques mediterráneos. El paisaje transmite la grandeza natural del parque y su papel como uno de los espacios protegidos más valiosos de España."
         },
-        "12": {
+        "11": {
           "title": "Cáceres monumental de noche",
           "caption": "Vista nocturna del conjunto monumental de Cáceres, declarado Patrimonio de la Humanidad por la UNESCO. La iluminación resalta las murallas, torres y palacios medievales que han convertido a la ciudad en uno de los cascos históricos mejor conservados de Europa."
+        },
+        "12": {
+          "title": "Plaza Mayor de Cáceres",
+          "caption": "Espacio emblemático donde confluyen historia y vida local, rodeado de soportales, palacios renacentistas e iglesias. La Plaza Mayor es la puerta de entrada al casco histórico, punto de encuentro tanto para visitantes como para cacereños."
         },
         "13": {
           "title": "Sierra de las Villuercas",

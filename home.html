@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
-    <nav data-component="navbar"></nav>
+    <nav data-component="navbar-pages"></nav>
     <main class="main-content">
       <!-- Header -->
       <header class="main-content__header">
@@ -96,7 +96,7 @@
             Imágenes
           </p>
           <div class="main-content__section-images">
-            <img            
+            <img
               src="../assets/images/casa/04.webp"
               alt="Vista exterior de La Casa del Aire"
               class="gallery-grid__item"
@@ -227,13 +227,13 @@
           </p>
           <div class="flex-row">
             <div class="flex-row__item">
-              <i class="fa-solid fa-temperature-arrow-up icon"></i
+              <i class="fa-solid fa-sun icon"></i
               ><span class="regular" data-key="pages.home.services.heating"
                 >Calefacción</span
               >
             </div>
             <div class="flex-row__item">
-              <i class="fa-solid fa-temperature-arrow-down icon"></i
+              <i class="fa-solid fa-snowflake icon"></i
               ><span class="regular" data-key="pages.home.services.air"
                 >Aire acondicionado</span
               >
@@ -286,6 +286,91 @@
 
         <!-- Comentarios -->
         <div data-component="reviews"></div>
+
+        <!-- Contacto -->
+        <section class="main-content__section modal__section">
+          <p class="regular-bold" data-key="pages.home.contact.title">
+            Contacto
+          </p>
+          <div class="modal__contact">
+            <!-- Facebook -->
+            <a
+              href="https://www.facebook.com/people/Casa-del-Aire/61566947403204/?mibextid=LQQJ4d"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="button button-icon"
+              aria-label="Abrir perfil de Facebook"
+            >
+              <i class="fa-brands fa-facebook icon"></i>
+            </a>
+
+            <!-- Instagram -->
+            <a
+              href="https://www.instagram.com/casadelaire_extremadura/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="button button-icon"
+              aria-label="Abrir perfil de Instagram"
+            >
+              <i class="fa-brands fa-instagram icon"></i>
+            </a>
+
+            <!-- WhatsApp -->
+            <a
+              href="https://wa.me/34637159169?text=Hola%2C%20vi%20La%20Casa%20del%20Aire%20y%20me%20gustar%C3%ADa%20poder%20hablar%20acerca%20de%20una%20reserva."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="button button-icon"
+              aria-label="Contactar por WhatsApp"
+            >
+              <i class="fa-brands fa-whatsapp icon"></i>
+            </a>
+
+            <!-- Email -->
+            <a
+              href="mailto:adan.housing@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="button button-icon"
+              aria-label="Enviar correo electrónico"
+            >
+              <i class="fa-solid fa-envelope icon"></i>
+            </a>
+
+            <!-- Gmail -->
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=adan.housing@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="button button-icon"
+              aria-label="Abrir composición en Gmail"
+            >
+              <i class="fa-brands fa-google icon"></i>
+            </a>
+
+            <!-- Yahoo -->
+            <a
+              href="http://compose.mail.yahoo.com/?to=adan.housing@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="button button-icon"
+              aria-label="Abrir composición en Yahoo"
+            >
+              <i class="fa-brands fa-yahoo icon"></i>
+            </a>
+
+            <!-- iCloud -->
+            <a
+              href="https://www.icloud.com/mail/compose?to=adan.housing@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="button button-icon"
+              aria-label="Abrir composición en iCloud Mail"
+            >
+              <i class="fa-brands fa-apple icon"></i>
+            </a>
+          </div>
+        </section>
       </div>
     </main>
     <footer data-component="footer"></footer>

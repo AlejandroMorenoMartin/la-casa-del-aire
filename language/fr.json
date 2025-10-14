@@ -110,10 +110,10 @@
         "title": "Informations",
         "max": "Maximum 8 personnes.",
         "min": "Séjour minimum de 2 nuits.",
-        "checkin": "Arrivée à partir de 14h00.",
+        "checkin": "Arrivée à partir de 18h00.",
         "checkout": "Départ avant 12h00.",
         "silence": "Heures de silence : 23h00 - 09h00.",
-        "cancel": "Annulation gratuite 7 jours avant la date d'arrivée.",
+        "cancel": "Annulation gratuite 14 jours avant la date d'arrivée.",
         "pets": "Animaux non admis.",
         "smoke": "Interdit de fumer.",
         "conditions": "Consultez les conditions."
@@ -145,22 +145,24 @@
         },
         "reserve": {
           "title": "Réservez votre séjour",
-          "description": "Vérifiez la disponibilité et confirmez votre réservation. Pour toute question, veuillez nous contacter.",
-          "link": "contactez-nous"
+          "description-one": "Vous pouvez consulter les disponibilités dans le calendrier ci-dessous.",
+          "description-two": "La maison est louée dans son intégralité (location entière), et l'occupation maximale est de 8 personnes.",
+          "description-three": "Le séjour minimum est de 2 nuits. Les prix et les séjours personnalisés pour les réservations de plus longue durée peuvent être consultés.",          
+          "link": "Consultez-nous"
         },
         "menu": {
           "pages-section": "Pages",
           "pages": {
-            "video": "Vidéo",
+            "visit": "Visite",
             "home": "Accueil",
             "environment": "Environnement"
           },
           "languages-section": "Langues",
           "languages": {
-            "es": "Espagnol (ES)",
-            "en": "Anglais (EN)",
-            "fr": "Français (FR)",
-            "pt": "Portugais (PT)"
+            "es": "ES",
+            "en": "EN",
+            "fr": "FR",
+            "pt": "PT"
           },
           "contact-section": "Contact"
         },
@@ -437,28 +439,28 @@
           "caption": "Espace où le vin repose dans des fûts de chêne français, suivant un processus d'élevage qui apporte caractère et qualité aux vins d'auteur de Habla. La salle combine tradition et technologie, créant une ambiance unique qui exalte l'essence de chaque millésime."
         },
         "07": {
-          "title": "Birding - Vautours en vol",
+          "title": "Birding - Vautours",
           "caption": "Les vautours fauves, avec leurs ailes majestueuses, survolent les cieux d'Estrémadure à la recherche des courants d'air qui leur permettent de planer sur des kilomètres. Leur présence est l'un des grands attraits pour les amateurs d'ornithologie."
         },
         "08": {
-          "title": "Birding - Mouettes dans leur nid",
-          "caption": "Les mouettes profitent des réservoirs et des zones humides d'Estrémadure comme habitat de reproduction, formant des colonies fascinantes à observer. Leur comportement autour des nids révèle la richesse et la diversité de l'avifaune de la région."
+          "title": "Birding - Outarde barbu",
+          "caption": "L'Outarde barbu est l'oiseau volant le plus lourd du monde et un trésor biologique extrêmement méfiant des dehesas ibériques, le rendant rare et difficile à observer."
         },
         "09": {
-          "title": "Façade",
-          "caption": "Vue nocturne de la façade d'accès à la maison, avec l'église de la Vierge du Rosaire visible en arrière-plan. La maison est située dans la rue principale du village, avec un parking facile."
+        "title": "Salto del Gitano à Monfragüe",
+        "caption": "L'un des sites les plus emblématiques du parc, où les falaises rocheuses s'élèvent de manière imposante au-dessus du Tage. C'est un point d'observation privilégié pour les oiseaux de proie tels que les vautours fauves, les cigognes noires et les aigles impériaux ibériques."
         },
         "10": {
-          "title": "Salto del Gitano à Monfragüe",
-          "caption": "L'un des sites les plus emblématiques du parc, où les falaises rocheuses s'élèvent de manière imposante au-dessus du Tage. C'est un point privilégié pour l'observation des rapaces tels que les vautours fauves, les cigognes noires et les aigles impériaux."
+            "title": "Méandre du Tage à Monfragüe",
+            "caption": "Vue panoramique des méandres du Tage serpentant à travers des chaînes de montagnes couvertes de forêts méditerranéennes. Le paysage transmet la grandeur naturelle du parc et son rôle en tant que l'un des espaces protégés les plus précieux d'Espagne."
         },
         "11": {
-          "title": "Méandre du Tage à Monfragüe",
-          "caption": "Vue panoramique des méandres du Tage serpentant entre les montagnes couvertes de forêts méditerranéennes. Le paysage transmet la grandeur naturelle du parc et son rôle en tant qu'un des espaces protégés les plus précieux d'Espagne."
+            "title": "Cáceres monumentale de nuit",
+            "caption": "Vue nocturne de l'ensemble monumental de Cáceres, déclaré site du patrimoine mondial par l'UNESCO. L'éclairage met en valeur les remparts, les tours et les palais médiévaux qui ont fait de la ville l'un des centres historiques les mieux conservés d'Europe."
         },
         "12": {
-          "title": "Cáceres monumentale de nuit",
-          "caption": "Vue nocturne de l'ensemble monumental de Cáceres, classé au patrimoine mondial de l'UNESCO. L'éclairage met en valeur les remparts, les tours et les palais médiévaux qui ont fait de la ville l'un des centres historiques les mieux conservés d'Europe."
+            "title": "Plaza Mayor de Cáceres",
+            "caption": "Un espace emblématique où l'histoire et la vie locale convergent, entouré d'arcades, de palais de la Renaissance et d'églises. La Plaza Mayor est la porte d'entrée de la vieille ville, un lieu de rencontre pour les visiteurs comme pour les habitants de Cáceres."
         },
         "13": {
           "title": "Sierra de las Villuercas",

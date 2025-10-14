@@ -9,7 +9,7 @@ body {
 
 h1 {
   font-size: var(--fs-h1);
-  font-weight: var(--fw-bold);
+  font-weight: var(--fw-light);
   line-height: var(--lh-light);
   color: var(--bl-500);
 }

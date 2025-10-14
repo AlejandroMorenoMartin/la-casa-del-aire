@@ -1,5 +1,5 @@
 /* =========================================
-   ICON BASE
+   ICONS
 ========================================= */
 .icon { 
   font-size: var(--icon-ss);
@@ -7,4 +7,30 @@
   vertical-align: middle;   
   color: inherit;   
   transition: var(--transition-button); 
+}
+
+.logo {
+  width: var(--sp-lg);
+  height: var(--sp-lg);
+  transition: var(--transition-button);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+.logo-index {
+  color: var(--wh-500);
+}
+
+.logo-index:hover {
+  color: var(--wh-100);
+}
+
+.logo-pages {  
+  color: var(--bl-500); 
+}
+
+.logo-pages:hover {
+  color: var(--bl-100);
 }
