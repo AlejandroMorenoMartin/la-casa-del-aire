@@ -110,13 +110,16 @@
         "title": "Information",
         "max": "Maximum 8 guests.",
         "min": "Minimum stay of 2 nights.",
-        "checkin": "Check-in from 6:00 p.m.",
+        "checkin": "Check-in from 4:00 p.m.",
         "checkout": "Check-out before 12:00 p.m.",
         "silence": "Quiet hours: 11:00 p.m. – 9:00 a.m.",
         "cancel": "Free cancellation up to 14 days before arrival.",
         "pets": "Pets are not allowed.",
         "smoke": "Smoking is prohibited.",
         "conditions": "View terms and conditions."
+      },
+      "plan": {
+        "title": "Floor plan"
       }
     }
   },
@@ -322,7 +325,7 @@
       },
       "16": {
         "title": "Patio",
-        "caption": "Detail of the pool area with the solarium and the original 18th-century stone wall. On the right is the entrance to the suite room."
+        "caption": "Detail of the pool area with the solarium and the original 19th-century stone wall. On the right is the entrance to the suite room."
       },
       "17": {
         "title": "Outdoor dining area",
@@ -334,19 +337,19 @@
       },
       "19": {
         "title": "Pool",
-        "caption": "Front view of the pool with the solarium and the original 18th-century stone wall. On the right, the entrance to the suite room."
+        "caption": "Front view of the pool with the solarium and the original 19th-century stone wall. On the right, the entrance to the suite room."
       },
       "20": {
         "title": "Pool",
-        "caption": "Detail view of the pool area with the solarium and the original 18th-century stone wall. On the right, access to the suite room."
+        "caption": "Detail view of the pool area with the solarium and the original 19th-century stone wall. On the right, access to the suite room."
       },
       "21": {
         "title": "Pool",
-        "caption": "Another view of the pool, featuring the solarium and the original 18th-century stone wall. On the right, the entrance to the suite room."
+        "caption": "Another view of the pool, featuring the solarium and the original 19th-century stone wall. On the right, the entrance to the suite room."
       },
       "22": {
         "title": "Pool",
-        "caption": "Front view of the pool, highlighting the solarium and the solid 18th-century stone wall. From this angle, you can see the proximity to the suite room entrance."
+        "caption": "Front view of the pool, highlighting the solarium and the solid 19th-century stone wall. From this angle, you can see the proximity to the suite room entrance."
       },
       "23": {
         "title": "Suite room",

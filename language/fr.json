@@ -110,13 +110,16 @@
         "title": "Informations",
         "max": "Maximum 8 personnes.",
         "min": "Séjour minimum de 2 nuits.",
-        "checkin": "Arrivée à partir de 18h00.",
+        "checkin": "Arrivée à partir de 16h00.",
         "checkout": "Départ avant 12h00.",
         "silence": "Heures de silence : 23h00 - 09h00.",
         "cancel": "Annulation gratuite 14 jours avant la date d'arrivée.",
         "pets": "Animaux non admis.",
         "smoke": "Interdit de fumer.",
         "conditions": "Consultez les conditions."
+      },
+      "plan": {
+        "title": "Plan"
       }
     }
   },
@@ -322,7 +325,7 @@
         },
         "16": {
             "title": "Patio",
-            "caption": "Vue détaillée de la piscine (alberca) avec la zone solarium et le mur de pierre original du XVIIIe siècle. À droite, nous avons l'accès à la chambre suite."
+            "caption": "Vue détaillée de la piscine (alberca) avec la zone solarium et le mur de pierre original du XIXe siècle. À droite, nous avons l'accès à la chambre suite."
         },
         "17": {
             "title": "Salle à manger extérieure",
@@ -334,19 +337,19 @@
         },
         "19": {
             "title": "Piscine (Alberca)",
-            "caption": "Vue frontale de la piscine (alberca) avec la zone solarium et le mur de pierre original du XVIIIe siècle. À droite, se trouve l'accès à la chambre suite."
+            "caption": "Vue frontale de la piscine (alberca) avec la zone solarium et le mur de pierre original du XIXe siècle. À droite, se trouve l'accès à la chambre suite."
         },
         "20": {
             "title": "Piscine (Alberca)",
-            "caption": "Vue détaillée de la piscine (alberca) avec la zone solarium et le mur de pierre original du XVIIIe siècle. À droite, nous avons l'accès à la chambre suite."
+            "caption": "Vue détaillée de la piscine (alberca) avec la zone solarium et le mur de pierre original du XIXe siècle. À droite, nous avons l'accès à la chambre suite."
         },
         "21": {
             "title": "Piscine (Alberca)",
-            "caption": "Vue détaillée de la piscine (alberca) avec la zone solarium et le mur de pierre original du XVIIIe siècle. À droite, se trouve l'accès à la chambre suite."
+            "caption": "Vue détaillée de la piscine (alberca) avec la zone solarium et le mur de pierre original du XIXe siècle. À droite, se trouve l'accès à la chambre suite."
         },
         "22": {
             "title": "Piscine (Alberca)",
-            "caption": "Vue frontale de la piscine (alberca), mettant en évidence le solarium et le robuste mur de pierre original du XVIIIe siècle. De cette perspective, on capte la proximité de l'accès à la chambre suite."
+            "caption": "Vue frontale de la piscine (alberca), mettant en évidence le solarium et le robuste mur de pierre original du XIXe siècle. De cette perspective, on capte la proximité de l'accès à la chambre suite."
         },
         "23": {
             "title": "Chambre suite",

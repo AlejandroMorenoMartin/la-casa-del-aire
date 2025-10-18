@@ -110,13 +110,16 @@
         "title": "Informação",
         "max": "Máximo 8 pessoas.",
         "min": "Estadia mínima de 2 noites.",
-        "checkin": "Chegada a partir das 18:00.",
+        "checkin": "Chegada a partir das 16:00.",
         "checkout": "Partida antes das 12:00.",
         "silence": "Horário de silêncio: 23:00 - 09:00.",
         "cancel": "Cancelamento gratuito 14 dias antes da data de chegada.",
         "pets": "Não permitida a entrada de animais de estimação.",
         "smoke": "Proibido fumar.",
         "conditions": "Consulte as condições."
+      },
+      "plan": {
+        "title": "Planta"
       }
     }
   },
@@ -322,7 +325,7 @@
         },
         "16": {
           "title": "Pátio",
-          "caption": "Vista detalhada da piscina (alberca) com a zona de solário e a parede de pedra original do século XVIII. À direita, temos o acesso ao quarto suite."
+          "caption": "Vista detalhada da piscina (alberca) com a zona de solário e a parede de pedra original do século XIX. À direita, temos o acesso ao quarto suite."
         },
         "17": {
           "title": "Sala de Jantar Exterior",
@@ -334,19 +337,19 @@
         },
         "19": {
           "title": "Piscina (Alberca)",
-          "caption": "Vista frontal da piscina (alberca) com a zona de solário e a parede de pedra original do século XVIII. À direita, encontra-se o acesso ao quarto suite."
+          "caption": "Vista frontal da piscina (alberca) com a zona de solário e a parede de pedra original do século XIX. À direita, encontra-se o acesso ao quarto suite."
         },
         "20": {
           "title": "Piscina (Alberca)",
-          "caption": "Vista detalhada da piscina (alberca) com a zona de solário e a parede de pedra original do século XVIII. À direita, temos o acesso ao quarto suite."
+          "caption": "Vista detalhada da piscina (alberca) com a zona de solário e a parede de pedra original do século XIX. À direita, temos o acesso ao quarto suite."
         },
         "21": {
           "title": "Piscina (Alberca)",
-          "caption": "Vista detalhada da piscina (alberca) com a zona de solário e a parede de pedra original do século XVIII. À direita, encontra-se o acesso ao quarto suite."
+          "caption": "Vista detalhada da piscina (alberca) com a zona de solário e a parede de pedra original do século XIX. À direita, encontra-se o acesso ao quarto suite."
         },
         "22": {
           "title": "Piscina (Alberca)",
-          "caption": "Vista frontal da piscina (alberca), destacando o solário e a robusta parede de pedra original do século XVIII. Desta perspetiva, capta-se a proximidade ao acesso do quarto suite."
+          "caption": "Vista frontal da piscina (alberca), destacando o solário e a robusta parede de pedra original do século XIX. Desta perspetiva, capta-se a proximidade ao acesso do quarto suite."
         },
         "23": {
           "title": "Quarto Suite",

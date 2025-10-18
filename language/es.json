@@ -110,13 +110,16 @@
         "title": "Información",
         "max": "Máximo 8 personas.",
         "min": "Estancia mínima de 2 noches.",
-        "checkin": "Llegada a partir de las 18:00.",
+        "checkin": "Llegada a partir de las 16:00.",
         "checkout": "Salida antes de las 12:00.",
         "silence": "Horario de silencio: 23:00 - 09:00.",
         "cancel": "Cancelación gratuita 14 días antes de la fecha de llegada.",
         "pets": "No permitida entrada de mascotas.",
         "smoke": "Prohibido fumar.",
         "conditions": "Consulta las condiciones."
+      },
+      "plan": {
+        "title": "Plano"
       }
     }
   },
@@ -322,7 +325,7 @@
         },
         "16": {
           "title": "Patio",
-          "caption": "Vista detalle de la alberca con la zona de solárium y la pared de piedra original del siglo XVIII. A la derecha, tenemos el acceso a la habitación suite."
+          "caption": "Vista detalle de la alberca con la zona de solárium y la pared de piedra original del siglo XIX. A la derecha, tenemos el acceso a la habitación suite."
         },
         "17": {
           "title": "Comedor exterior",
@@ -334,19 +337,19 @@
         },
         "19": {
           "title": "Alberca",
-          "caption": "Vista frontal de la alberca con la zona de solárium y la pared de piedra original del siglo XVIII. A la derecha, se encuentra el acceso a la habitación suite."
+          "caption": "Vista frontal de la alberca con la zona de solárium y la pared de piedra original del siglo XIX. A la derecha, se encuentra el acceso a la habitación suite."
         },
         "20": {
           "title": "Alberca",
-          "caption": "Vista detalle de la alberca con la zona de solárium y la pared de piedra original del siglo XVIII. A la derecha tenemos el acceso a la habitación suite."
+          "caption": "Vista detalle de la alberca con la zona de solárium y la pared de piedra original del siglo XIX. A la derecha tenemos el acceso a la habitación suite."
         },
         "21": {
           "title": "Alberca",
-          "caption": "Vista detalle de la alberca con la zona de solárium y la pared de piedra original del siglo XVIII. A la derecha, se encuentra el acceso a la habitación suite."
+          "caption": "Vista detalle de la alberca con la zona de solárium y la pared de piedra original del siglo XIX. A la derecha, se encuentra el acceso a la habitación suite."
         },
         "22": {
           "title": "Alberca",
-          "caption": "Vista frontal de la alberca, destacando el solárium y la robusta pared de piedra original del siglo XVIII. Desde esta perspectiva, se capta la proximidad al acceso de la habitación suite."
+          "caption": "Vista frontal de la alberca, destacando el solárium y la robusta pared de piedra original del siglo XIX. Desde esta perspectiva, se capta la proximidad al acceso de la habitación suite."
         },
         "23": {
           "title": "Habitación suite",
@@ -411,6 +414,14 @@
         "38": {
           "title": "Acceso trasero",
           "caption": "Acceso desde la calle trasera. En esta fachada se ven la puerta y las ventanas de la habitación y el baño en suite."
+        },
+        "39": {
+          "title": "Plano 1",
+          "caption": "La casa se organiza en dos plantas con patio y alberca. En la planta baja: salón, comedor, cocina, baño y acceso al patio. En la planta superior: dos habitaciones, baño, terraza y una suite independiente con cocina y baño."
+        },
+        "40": {
+          "title": "Plano 2",
+          "caption": "La casa se organiza en dos plantas con patio y alberca. En la planta baja: salón, comedor, cocina, baño y acceso al patio. En la planta superior: dos habitaciones, baño, terraza y una suite independiente con cocina y baño."
         }
     },
     "environment": {

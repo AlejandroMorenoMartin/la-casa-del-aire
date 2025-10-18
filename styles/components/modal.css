@@ -143,10 +143,8 @@ MODAL-IMAGES
 Especifico de visualizacion de imagenes
 ========================================= */
 .modal-images .modal__content {
-  width: 90vw;
-  max-width: var(--modal-width);
-  height: 90vh;
   max-height: var(--modal-height);
+  max-width: var(--modal-width);
   padding: var(--sp-md);
   gap: var(--sp-md);
   display: flex;
@@ -199,8 +197,22 @@ Especifico de compartir página
 RESPONSIVE (≤1200px)
 ============================================ */
 @media (max-width: 1200px) {
-  .modal-share .modal__content {    
+  .modal-share .modal__content {
     top: -12rem;
     right: -5rem;
+  }
+
+  .modal-images .modal__content {
+    max-height: 100vh;
+    height: 100vh;
+    max-width: 100vw;
+    width: 100vw;
+    border-radius: 0;
+    padding: var(--sp-sm);
+    gap: var(--sp-sm);
+  }
+
+  .modal-images .modal__content img {
+    max-height: 40vh;
   }
 }

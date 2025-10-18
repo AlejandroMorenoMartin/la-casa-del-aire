@@ -39,4 +39,6 @@ export const homeImages = [
   { src: "../assets/images/casa/36.webp" },
   { src: "../assets/images/casa/37.webp" },
   { src: "../assets/images/casa/38.webp" },
+  { src: "../assets/images/casa/house-plan01.webp" },
+  { src: "../assets/images/casa/house-plan02.webp" }
 ];
