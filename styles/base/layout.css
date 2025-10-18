@@ -212,4 +212,9 @@ RESPONSIVE (≤1200px)
   .main-content__section-carousel img:nth-child(n + 3) {
     display: none;
   }
+
+  .main-content__section-images img {
+    height: 100%;
+    object-fit: cover;
+  }
 }
