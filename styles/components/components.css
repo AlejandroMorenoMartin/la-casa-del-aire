@@ -35,6 +35,13 @@ COMPONENTS
   width: 100%;
 }
 
+.footer-credit {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-xxs); 
+  white-space: nowrap;
+}
+
 /* Video container */
 .video-container {
   position: relative;
@@ -142,6 +149,9 @@ RESPONSIVE (≤1200px)
 
   .footer .flex-row__item:first-child {
     flex-direction: column;
+    align-items: flex-start;
+    
+    width: 100%;
   }
 
   .reviews-grid {
