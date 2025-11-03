@@ -145,7 +145,8 @@
         }
       },
       "plan": {
-        "title": "Planta"
+        "title": "Planta",
+        "description": "Ver mapa"
       }
     }
 

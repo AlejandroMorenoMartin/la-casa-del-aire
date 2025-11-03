@@ -145,7 +145,8 @@
         }
       },
       "plan": {
-        "title": "Plan"
+        "title": "Plan",
+        "description": "Voir le plan"
       }
     }
 

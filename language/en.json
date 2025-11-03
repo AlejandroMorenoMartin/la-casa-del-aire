@@ -145,7 +145,8 @@
           }
         },
         "plan": {
-          "title": "Floor plan"
+          "title": "Floor plan",
+          "description": "See map"
         }
     }
 
