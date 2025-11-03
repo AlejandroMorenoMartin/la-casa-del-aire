@@ -73,55 +73,82 @@
       "header": {
         "title": "Casa del Aire",
         "location": "Location",
-        "capacity": "6–8"
-      },
-      "images": {
-        "title": "Images"
-      },
-      "description": {
-        "title": "Description",
-        "p1": "Located just two hours from Madrid, in the village of La Aldea del Obispo (Cáceres, Extremadura), La Casa del Aire stands in the heart of the Extremaduran countryside. This cozy 19th-century stone house perfectly blends rustic charm with contemporary details.",
-        "p2": "Surrounded by a unique natural landscape, it’s the ideal place to unwind and explore the most iconic sites of the region: La Aldea del Obispo, Trujillo, Monfragüe National Park, Cáceres, the Villuercas-Ibores-Jara Geopark, Guadalupe, and the La Vera region.",
-        "p3": "You can also enjoy day trips to local attractions such as Bodegas Habla or experience birdwatching — one of the most special activities this land has to offer.",
-        "p4": "The house can accommodate up to 8 guests and is distributed over two floors with three double bedrooms.",
-        "p5": "On the ground floor, you’ll find a living room with a fireplace and two large sofas, a dining room, a fully equipped kitchen, and a bathroom. Upstairs, there are two double bedrooms, a full bathroom, and a spacious 25 m² terrace.",
-        "p6": "The large courtyard — featuring a barbecue, plunge pool, and terrace — connects to an independent apartment. This additional space includes a kitchen, dining area, bedroom, and bathroom, and has its own private access for extra comfort and privacy."
-      },
-      "spaces": {
-        "title": "Spaces",
-        "rooms": "3 double bedrooms",
-        "bathrooms": "3 bathrooms",
-        "dining": "Dining room",
-        "living": "Living room",
-        "fireplace": "Fireplace",
-        "bbq": "Barbecue",
-        "kitchen": "Kitchen",
-        "pool": "Pool",
-        "terrace": "Terrace"
-      },
-      "services": {
-        "title": "Amenities",
-        "heating": "Heating",
-        "air": "Air conditioning",
-        "wifi": "Wi-Fi",
-        "firewood": "Firewood"
-      },
-      "info": {
-        "title": "Information",
-        "max": "Maximum 8 guests.",
-        "min": "Minimum stay of 2 nights.",
-        "checkin": "Check-in from 4:00 p.m.",
-        "checkout": "Check-out before 12:00 p.m.",
-        "silence": "Quiet hours: 11:00 p.m. – 9:00 a.m.",
-        "cancel": "Free cancellation up to 14 days before arrival.",
-        "pets": "Pets are not allowed.",
-        "smoke": "Smoking is prohibited.",
-        "conditions": "View terms and conditions."
-      },
-      "plan": {
-        "title": "Floor plan"
-      }
+        "capacity": "6-8"
+        },
+        "images": {
+          "title": "Images"
+        },
+        "description": {
+          "title": "Description",
+          "p1": "Located just two hours from Madrid, in the village of La Aldea del Obispo (Cáceres, Extremadura), La Casa del Aire stands in the heart of the Extremaduran dehesa. This charming 19th-century stone house perfectly combines rustic charm with contemporary details.",
+          "p2": "Surrounded by a unique natural environment, it is the ideal place to disconnect and discover the most emblematic landscapes and spots of the region: La Aldea del Obispo, Trujillo, Monfragüe National Park, Cáceres, the Villuercas-Ibores-Jara Geopark, Guadalupe or the La Vera region.",
+          "p3": "You can also take trips to places of interest such as Bodegas Habla or enjoy Birding (birdwatching tourism), one of the most special experiences this land has to offer.",
+          "p4": "The house can accommodate up to 8 people and is distributed over two floors with three double bedrooms.",
+          "p5": "On the ground floor you’ll find a living room with fireplace and two large sofas, a dining room, a fully equipped kitchen, and a bathroom. The upper floor has two double bedrooms, a full bathroom, and a large 25 m² terrace.",
+          "p6": "The spacious patio, with barbecue, pool, and terrace, connects to an independent apartment. This additional space offers a kitchen, dining room, bedroom, and bathroom, with private access to ensure greater comfort and privacy."
+        },
+        "spaces": {
+          "title": "Spaces",
+          "rooms": "3 double bedrooms",
+          "bathrooms": "3 bathrooms",
+          "dining": "Dining room",
+          "living": "Living room",
+          "fireplace": "Fireplace",
+          "bbq": "Barbecue",
+          "kitchen": "Kitchen",
+          "pool": "Pool",
+          "terrace": "Terrace"
+        },
+        "services": {
+          "title": "Services",
+          "heating": "Heating",
+          "air": "Air conditioning",
+          "wifi": "Wi-Fi",
+          "firewood": "Firewood"
+        },
+        "info": {
+          "title": "Information",
+          "max": "Maximum 8 people.",
+          "min": "Minimum stay of 2 nights.",
+          "checkin": "Check-in from 4:00 PM.",
+          "checkout": "Check-out before 12:00 PM.",
+          "silence": "Quiet hours: 11:00 PM - 9:00 AM.",
+          "cancel": "Free cancellation up to 14 days before arrival.",
+          "pets": "Pets not allowed.",
+          "smoke": "No smoking.",
+          "conditions": "Check the conditions."
+        },
+        "reviews": {
+          "card1": {
+            "date": "March 2025",
+            "commment": "We stayed in January, three couples at Casa del Aire, and everything was perfect. The house is well equipped with heating, a fully furnished kitchen, and a cozy dining area. The village is quiet with easy parking, well located for day trips, and the owners were very kind and helpful. Highly recommended!"
+          },
+          "card2": {
+            "date": "June 2024",
+            "commment": "The reception was very kind and personal. The house is even more beautiful and welcoming than in the photos. Simply spectacular. Very comfortable beds. Everything you need to enjoy a perfect stay. The village is very quiet. We’ll definitely be back."
+          },
+          "card3": {
+            "date": "December 2024",
+            "commment": "Our stay at this house was wonderful. Manuel and Adán helped us with everything we needed, making our days in this small paradise in the Extremaduran countryside absolutely perfect. The house is lovingly maintained and very well equipped. We’ll come back!"
+          },
+          "card4": {
+            "date": "June 2025",
+            "commment": "It was great, everything very complete. The only thing I’d improve is a solution for the wasps by the pool."
+          },
+          "card5": {
+            "date": "March 2025",
+            "commment": "A very comfortable and beautiful house, carefully designed and the owner very friendly, attentive to anything we might need. Highly recommended."
+          },
+          "card6": {
+            "date": "December 2023",
+            "commment": "Thank you, Adán, for making everything so easy. The house is wonderful. Besides having all the details to make you feel peaceful and at home (or better), it’s beautifully decorated. A true luxury house. The best Airbnb we’ve ever stayed in — clean, cozy, warm, quiet, and perfectly arranged. Congratulations!"
+          }
+        },
+        "plan": {
+          "title": "Floor plan"
+        }
     }
+
   },
 
   "components": {
@@ -414,6 +441,10 @@
       "38": {
         "title": "Back entrance",
         "caption": "View from the back street. This facade shows the doors and windows of the suite bedroom and bathroom."
+      },
+      "39": {
+        "title": "House plan",
+        "caption": "The house is organized on two floors with a patio and pool. On the ground floor: living room, dining room, kitchen, bathroom, and access to the patio. On the upper floor: two bedrooms, bathroom, terrace, and a separate suite with kitchen and bathroom."
       }
     },
     "environment": {

@@ -10,11 +10,19 @@ import { initBackToTop } from "./features/backToTop.js";
 import { initGoogleReviews } from "./features/googleReviews.js";
 import { initImageGallery } from "./features/imageGallery.js";
 import { initShare } from "./features/share.js";
+import { initCarousel } from "./features/carousel.js"; 
 
 async function init() {
+  // ===============================
+  // CARGA DE COMPONENTES E IDIOMA
+  // ===============================
   await loadComponents();
   await initI18n();
   initLangMenu();
+
+  // ===============================
+  // MODALES Y NAVEGACIÓN ACTIVA
+  // ===============================
   initModals();
   initNavActive();
 
@@ -24,18 +32,7 @@ async function init() {
   const disposeBackToTop = initBackToTop({
     threshold: 500,
     animate: true,
-  });
-
-  // ===============================
-  // GOOGLE REVIEWS
-  // ===============================
-  initGoogleReviews({
-    apiKey: "AIzaSyDsjDwPZPaExktmXj6RWSOayAeZuadKF_s",
-    placeId: "ChIJdxEDUH2XFQ0RbKJ0s7vGDZg",
-    containerSelector: "#google-reviews",
-    language: "es",
-    simulate: true,
-  });
+  });  
 
   // ===============================
   // COMPARTIR — SHARE
@@ -47,6 +44,14 @@ async function init() {
   // ===============================
   initImageGallery();
 
+  // ===============================
+  // CARRUSEL DE IMÁGENES (solo móvil)
+  // ===============================
+  initCarousel();
+
+  // ===============================
+  // EVENTO FINAL — APLICACIÓN LISTA
+  // ===============================
   document.dispatchEvent(new CustomEvent("app:ready"));
 }
 

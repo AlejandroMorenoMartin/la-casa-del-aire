@@ -84,70 +84,41 @@ COMPONENTS
 }
 
 /* Reviews */
-.reviews-list {
-  display: flex;
-  flex-direction: row;
-  gap: var(--sp-l, 1.25rem);
-}
-
-.review {
-  background: var(--wh-500);
-  border-radius: var(--br-4);
-  padding: var(--sp-sm);
-  width: 100%;
-}
-
-.review-header {
-  display: flex;
-  align-items: center;
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: var(--sp-sm);
 }
 
-.review-photo {
-  width: var(--sp-lg);
-  height: var(--sp-lg);
-  border-radius: var(--br-full);
-  object-fit: cover;
-  flex-shrink: 0;
-}
-
-.review-meta {
+.reviews-card {
   display: flex;
   flex-direction: column;
+  gap: var(--sp-sm);
+  background-color: var(--wh-500);
 }
 
-.review-meta strong {
-  font-size: var(--fs-regular);
-  font-weight: var(--fw-regular);
-  line-height: var(--lh-regular);
-  color: var(--bl-300);
+.reviews-card__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--sp-xs);
 }
 
-.review-meta time {
-  font-size: var(--fs-small);
-  font-weight: var(--fw-light);
-  line-height: var(--lh-medium);
-  color: var(--bl-200);
+.reviews-card__header a {
+  align-self: center;
 }
 
-.review .rating {
-  color: gold;
-  font-size: 1rem;
-  letter-spacing: 0.05em;
-  line-height: 1;
+.reviews-card__header img {
+  height: var(--sp-lg);
+  width: var(--sp-lg);
+  border-radius: var(--br-full);
 }
 
-.review-text {
-  font-size: var(--fs-regular);
-  font-weight: var(--fw-regular);
-  line-height: var(--lh-regular);
-  color: var(--bl-300);
-}
-
-.reviews-skeleton {
-  color: var(--gray-500, #6b7280);
-  text-align: center;
-  padding: var(--sp-l, 1rem);
+.reviews-card__info {
+  display: flex;
+  flex-direction: row;
+  gap: var(--sp-xs);
+  align-items: center;
 }
 
 /* ============================================
@@ -162,14 +133,18 @@ RESPONSIVE (≤1200px)
     padding: var(--sp-sm);
   }
 
-  .footer {       
+  .footer {
     flex-direction: column;
-    align-items: flex-start;   
+    align-items: flex-start;
     padding: var(--sp-sm);
-    gap: var(--sp-sm);    
+    gap: var(--sp-sm);
   }
 
   .footer .flex-row__item:first-child {
     flex-direction: column;
+  }
+
+  .reviews-grid {
+    grid-template-columns: 1fr;
   }
 }

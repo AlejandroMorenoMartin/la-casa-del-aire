@@ -80,12 +80,12 @@
       },
       "description": {
         "title": "Descrição",
-        "p1": "Situada a apenas duas horas de Madrid, na localidade de La Aldea del Obispo (Cáceres, Estremadura), A **Casa del Aire** ergue-se em plena **dehesa extremenha**. Esta acolhedora casa de pedra do século XIX combina na perfeição o charme rústico com detalhes contemporâneos.",
-        "p2": "Rodeada por um ambiente natural único, é o lugar ideal para descontrair e descobrir as paisagens e recantos mais emblemáticos da região: La Aldea del Obispo, Trujillo, o Parque Nacional de Monfragüe, Cáceres, o Geoparque Villuercas-Ibores-Jara, Guadalupe ou a comarca de La Vera.",
-        "p3": "Além disso, poderá fazer escapadas a locais de interesse como **Bodegas Habla** ou desfrutar do **Birding** (turismo ornitológico), uma das experiências mais especiais que esta terra oferece.",
-        "p4": "A casa tem capacidade para alojar até **8 pessoas** e distribui-se por dois pisos com **três quartos duplos**.",
-        "p5": "No **rés-do-chão** encontrará uma sala de estar com **lareira** e dois amplos sofás, uma sala de jantar, uma **cozinha totalmente equipada** e uma casa de banho. No **andar superior** situam-se dois quartos duplos, uma casa de banho completa e um amplo **terraço de 25 m²**.",
-        "p6": "O grande **pátio**, com churrasqueira, piscina (alberca) e terraço, liga a um apartamento independente. Este espaço adicional oferece cozinha, sala de jantar, quarto e casa de banho, e tem acesso privado para garantir maior conforto e privacidade."
+        "p1": "Localizada a apenas duas horas de Madrid, na vila de La Aldea del Obispo (Cáceres, Extremadura), a Casa del Aire ergue-se no coração da planície extremenha. Esta acolhedora casa de pedra do século XIX combina perfeitamente o charme rústico com detalhes contemporâneos.",
+        "p2": "Rodeada por um ambiente natural único, é o lugar ideal para relaxar e descobrir as paisagens e recantos mais emblemáticos da região: La Aldea del Obispo, Trujillo, o Parque Nacional de Monfragüe, Cáceres, o Geoparque Villuercas-Ibores-Jara, Guadalupe ou a região de La Vera.",
+        "p3": "Também pode fazer excursões a locais de interesse como as Bodegas Habla ou desfrutar do Birding (turismo ornitológico), uma das experiências mais especiais que esta terra oferece.",
+        "p4": "A casa tem capacidade para até 8 pessoas e está distribuída em dois andares com três quartos duplos.",
+        "p5": "No rés do chão encontra uma sala com lareira e dois amplos sofás, uma sala de jantar, uma cozinha totalmente equipada e uma casa de banho. No piso superior há dois quartos duplos, uma casa de banho completa e um grande terraço de 25 m².",
+        "p6": "O amplo pátio, com churrasqueira, piscina e terraço, liga-se a um apartamento independente. Este espaço adicional dispõe de cozinha, sala de jantar, quarto e casa de banho, com acesso privado para maior conforto e privacidade."
       },
       "spaces": {
         "title": "Espaços",
@@ -103,25 +103,52 @@
         "title": "Serviços",
         "heating": "Aquecimento",
         "air": "Ar condicionado",
-        "wifi": "Wifi",
+        "wifi": "Wi-Fi",
         "firewood": "Lenha"
       },
       "info": {
-        "title": "Informação",
+        "title": "Informações",
         "max": "Máximo 8 pessoas.",
         "min": "Estadia mínima de 2 noites.",
-        "checkin": "Chegada a partir das 16:00.",
-        "checkout": "Partida antes das 12:00.",
+        "checkin": "Check-in a partir das 16:00.",
+        "checkout": "Check-out antes das 12:00.",
         "silence": "Horário de silêncio: 23:00 - 09:00.",
-        "cancel": "Cancelamento gratuito 14 dias antes da data de chegada.",
-        "pets": "Não permitida a entrada de animais de estimação.",
+        "cancel": "Cancelamento gratuito até 14 dias antes da chegada.",
+        "pets": "Não são permitidos animais de estimação.",
         "smoke": "Proibido fumar.",
         "conditions": "Consulte as condições."
+      },
+      "reviews": {
+        "card1": {
+          "date": "Março de 2025",
+          "commment": "Ficámos em janeiro, três casais, na Casa del Aire, e tudo foi perfeito. A casa é muito bem equipada, com aquecimento, cozinha completa e uma sala de jantar acolhedora. A aldeia é tranquila, com estacionamento fácil e bem localizada para excursões. Os proprietários são muito simpáticos e prestáveis. Altamente recomendada!"
+        },
+        "card2": {
+          "date": "Junho de 2024",
+          "commment": "O acolhimento foi muito simpático e pessoal. A casa é ainda mais bonita e acolhedora do que nas fotos. Simplesmente espetacular. Camas muito confortáveis. Tudo o que é necessário para uma estadia perfeita. A aldeia é muito tranquila. Voltaremos com certeza."
+        },
+        "card3": {
+          "date": "Dezembro de 2024",
+          "commment": "A nossa estadia nesta casa foi maravilhosa. Manuel e Adán ajudaram-nos em tudo o que precisávamos, tornando os dias neste pequeno paraíso rural absolutamente perfeitos. A casa está muito bem cuidada e equipada. Voltaremos!"
+        },
+        "card4": {
+          "date": "Junho de 2025",
+          "commment": "Foi ótimo, tudo muito completo. O único ponto a melhorar seria uma solução para as vespas junto à piscina."
+        },
+        "card5": {
+          "date": "Março de 2025",
+          "commment": "Uma casa muito confortável, bonita e cuidada ao detalhe. O proprietário é muito simpático e sempre atento. Altamente recomendada."
+        },
+        "card6": {
+          "date": "Dezembro de 2023",
+          "commment": "Obrigado, Adán, por toda a ajuda. A casa é maravilhosa, decorada com muito bom gosto e extremamente confortável. É o melhor Airbnb em que já ficámos — limpa, acolhedora, quente, tranquila e perfeitamente organizada. Parabéns!"
+        }
       },
       "plan": {
         "title": "Planta"
       }
     }
+
   },
 
   "components": {
@@ -414,7 +441,11 @@
         "38": {
           "title": "Acesso Traseiro",
           "caption": "Acesso a partir da rua traseira. Nesta fachada, veem-se a porta e as janelas do quarto e da casa de banho em suite."
-        }
+        },
+        "39": {
+          "title": "Planta da casa",
+          "caption": "A casa está organizada em dois andares com pátio e piscina. No piso térreo: sala de estar, sala de jantar, cozinha, casa de banho e acesso ao pátio. No piso superior: dois quartos, casa de banho, terraço e uma suíte independente com cozinha e casa de banho."
+        } 
     },
     "environment": {
         "01": {

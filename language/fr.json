@@ -80,17 +80,17 @@
       },
       "description": {
         "title": "Description",
-        "p1": "Située à seulement deux heures de Madrid, dans la commune de La Aldea del Obispo (Cáceres, Estrémadure), La Casa del Aire s'élève en plein cœur de la dehesa d'Estrémadure. Cette chaleureuse maison en pierre du XIXe siècle allie parfaitement le charme rustique aux détails contemporains.",
-        "p2": "Entourée d'un environnement naturel unique, c'est l'endroit idéal pour se déconnecter et découvrir les paysages et les lieux les plus emblématiques de la région : La Aldea del Obispo, Trujillo, le Parc National de Monfragüe, Cáceres, le Géoparc Villuercas-Ibores-Jara, Guadalupe ou la région de La Vera.",
-        "p3": "De plus, vous pourrez faire des escapades vers des lieux d'intérêt comme Bodegas Habla ou profiter du Birding (tourisme ornithologique), l'une des expériences les plus spéciales qu'offre cette terre.",
-        "p4": "La maison peut accueillir jusqu'à 8 personnes et est répartie sur deux étages avec trois chambres doubles.",
-        "p5": "Au rez-de-chaussée, vous trouverez un salon avec cheminée et deux grands canapés, une salle à manger, une cuisine entièrement équipée et une salle de bain. À l'étage supérieur se trouvent deux chambres doubles, une salle de bain complète et une grande terrasse de 25 m².",
-        "p6": "La grande cour, avec barbecue, piscine (alberca) et terrasse, est connectée à un appartement indépendant. Cet espace supplémentaire comprend une cuisine, une salle à manger, une chambre et une salle de bain, et dispose d'un accès privé pour garantir plus de confort et d'intimité."
+        "p1": "Située à seulement deux heures de Madrid, dans le village de La Aldea del Obispo (Cáceres, Estrémadure), la Casa del Aire se dresse au cœur de la dehesa d’Estrémadure. Cette charmante maison en pierre du XIXe siècle allie parfaitement charme rustique et touches contemporaines.",
+        "p2": "Entourée d’un environnement naturel unique, c’est l’endroit idéal pour se détendre et découvrir les paysages et les coins les plus emblématiques de la région : La Aldea del Obispo, Trujillo, le parc national de Monfragüe, Cáceres, le géoparc Villuercas-Ibores-Jara, Guadalupe ou la région de La Vera.",
+        "p3": "Vous pourrez également visiter des lieux d’intérêt comme les Bodegas Habla ou profiter de l’ornithologie (birding), l’une des expériences les plus spéciales qu’offre cette terre.",
+        "p4": "La maison peut accueillir jusqu’à 8 personnes et se répartit sur deux étages avec trois chambres doubles.",
+        "p5": "Au rez-de-chaussée, vous trouverez un salon avec cheminée et deux grands canapés, une salle à manger, une cuisine entièrement équipée et une salle de bains. À l’étage, deux chambres doubles, une salle de bains complète et une grande terrasse de 25 m².",
+        "p6": "Le grand patio, avec barbecue, piscine et terrasse, communique avec un appartement indépendant. Cet espace supplémentaire dispose d’une cuisine, d’une salle à manger, d’une chambre et d’une salle de bains, avec un accès privé garantissant confort et intimité."
       },
       "spaces": {
         "title": "Espaces",
         "rooms": "3 chambres doubles",
-        "bathrooms": "3 salles de bain",
+        "bathrooms": "3 salles de bains",
         "dining": "Salle à manger",
         "living": "Salon",
         "fireplace": "Cheminée",
@@ -103,7 +103,7 @@
         "title": "Services",
         "heating": "Chauffage",
         "air": "Climatisation",
-        "wifi": "Wifi",
+        "wifi": "Wi-Fi",
         "firewood": "Bois de chauffage"
       },
       "info": {
@@ -112,16 +112,43 @@
         "min": "Séjour minimum de 2 nuits.",
         "checkin": "Arrivée à partir de 16h00.",
         "checkout": "Départ avant 12h00.",
-        "silence": "Heures de silence : 23h00 - 09h00.",
-        "cancel": "Annulation gratuite 14 jours avant la date d'arrivée.",
+        "silence": "Heures de silence : 23h00 - 9h00.",
+        "cancel": "Annulation gratuite jusqu’à 14 jours avant l’arrivée.",
         "pets": "Animaux non admis.",
-        "smoke": "Interdit de fumer.",
+        "smoke": "Interdiction de fumer.",
         "conditions": "Consultez les conditions."
+      },
+      "reviews": {
+        "card1": {
+          "date": "Mars 2025",
+          "commment": "Nous avons séjourné en janvier, trois couples, à la Casa del Aire, et tout a été parfait. La maison est très bien équipée, chaleureuse et confortable. Le village est calme, avec un stationnement facile. Très bien situé pour les excursions, et les propriétaires sont charmants. Hautement recommandé !"
+        },
+        "card2": {
+          "date": "Juin 2024",
+          "commment": "L’accueil a été très aimable et personnel. La maison est encore plus belle et accueillante que sur les photos. Simplement spectaculaire. Lits très confortables. Tout ce qu’il faut pour un séjour parfait. Le village est très calme. Nous reviendrons sans aucun doute."
+        },
+        "card3": {
+          "date": "Décembre 2024",
+          "commment": "Notre séjour dans cette maison a été merveilleux. Manuel et Adán nous ont aidés dans tout ce dont nous avions besoin, rendant ces jours dans ce petit paradis de la campagne d’Estrémadure absolument parfaits. La maison est soigneusement entretenue et très bien équipée. Nous reviendrons !"
+        },
+        "card4": {
+          "date": "Juin 2025",
+          "commment": "C’était génial, tout très complet. La seule amélioration possible : trouver une solution contre les guêpes près de la piscine."
+        },
+        "card5": {
+          "date": "Mars 2025",
+          "commment": "Une maison très confortable, belle, soignée dans les moindres détails et un propriétaire très aimable, toujours attentif à nos besoins. Fortement recommandé."
+        },
+        "card6": {
+          "date": "Décembre 2023",
+          "commment": "Merci Adán pour toutes les facilités. La maison est merveilleuse, décorée avec goût, calme et chaleureuse. C’est le meilleur Airbnb où nous avons séjourné : propre, confortable, bien chauffé et parfaitement organisé. Félicitations !"
+        }
       },
       "plan": {
         "title": "Plan"
       }
     }
+
   },
 
   "components": {
@@ -414,7 +441,11 @@
         "38": {
             "title": "Accès arrière",
             "caption": "Accès depuis la rue arrière. Sur cette façade, on voit la porte et les fenêtres de la chambre et de la salle de bain en suite."
-        }
+        },
+        "39": {
+          "title": "Plan de la maison",
+          "caption": "La maison est organisée sur deux étages avec un patio et une piscine. Au rez-de-chaussée : salon, salle à manger, cuisine, salle de bains et accès au patio. À l'étage : deux chambres, salle de bains, terrasse et une suite indépendante avec cuisine et salle de bains."
+        } 
     },
     "environment": {
         "01": {

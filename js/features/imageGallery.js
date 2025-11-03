@@ -109,7 +109,7 @@ export async function initImageGallery() {
   // ===============================
   // 🔹 Detectar apertura del modal (siempre activo)
   // ===============================
-  document.addEventListener("modal:opened", (e) => {
+  document.addEventListener("modal:opened", async (e) => {
     if (e.detail === "modal-images") {
       const el = window.lastGalleryTrigger;
       if (!el) {
@@ -119,6 +119,9 @@ export async function initImageGallery() {
 
       const gallery = el.dataset.gallery;
       const index = parseInt(el.dataset.index, 10) || 0;
+
+      // 🔹 Recargar traducciones con el idioma actual del <html>
+      await loadTranslations();
 
       console.log("📂 Abriendo galería:", gallery, "→ índice", index);
       selectGallery(gallery);

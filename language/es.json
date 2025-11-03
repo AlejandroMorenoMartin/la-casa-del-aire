@@ -118,13 +118,38 @@
         "smoke": "Prohibido fumar.",
         "conditions": "Consulta las condiciones."
       },
+      "reviews": {
+        "card1": {
+          "date": "Marzo 2025",
+          "commment": "Hemos estado en enero tres parejas en la Casa del Aire y tenemos que decir que todo ha sido perfecto. La casa muy bien acondicionada con calefacción, una cocina muy bien equipada y un comedor muy acogedor. El pueblo muy tranquilo, sin problemas para aparcar. Muy bien comunicado para las excursiones y los dueños muy amables y serviciales. Así que, recomendable 100%."
+        },
+        "card2": {
+          "date": "Junio 2024",
+          "commment": "La recepción fue muy amable y personal. La casa es mucho más bonita y acogedora que lo que se ve en las fotos. Simplemente espectacular. Muy cómodas las camas. Todo lo necesario para disfrutar de una estancia de diez. El pueblo es muy tranquilo. Sin duda volveremos."
+        },
+        "card3": {
+          "date": "Diciembre 2024",
+          "commment": "Nuestra estancia en esta casa fue maravillosa. Manuel y Adán nos ayudaron en todo lo que necesitábamos, haciendo que los días que estuvimos en este pequeño paraíso en el campo cacereño fueran absolutamente perfectos. La casa está cuidada con mimo y muy bien equipada. ¡Volveremos!"
+        },
+        "card4": {
+          "date": "Junio 2025",
+          "commment": "Estuvo genial, todo muy completo. Lo único que mejoraría es alguna solución para las avispas por la piscina."
+        },
+        "card5": {
+          "date": "Marzo 2025",
+          "commment": "Una casa muy cómoda, muy bonita, cuidada al detalle y el dueño muy amable, pendiente en todo momento de lo que pudiéramos necesitar. Muy recomendable."
+        },
+        "card6": {
+          "date": "Diciembre 2023",
+          "commment": "Muchas gracias, Adán, por todas las facilidades. La casa es una maravilla. Además de tener todos los detalles para sentirte en paz y como en casa (o mejor), es un gusto cómo está decorada. Un lujazo de casa. Es el mejor Airbnb en el que hemos estado. Limpio, cómodo, calentito, tranquilo y con la disposición de todas las estancias perfectas. ¡ENHORABUENA!"
+        }
+      },
       "plan": {
         "title": "Plano"
-      }
+      } 
     }
   },
-
-  "components": {
+ "components": {
     "reviews": {
       "title": "Opiniones",
       "loading": "Cargando reseñas…",
@@ -259,7 +284,7 @@
         }
       }
     }
-  },
+  },   
   
   "gallery": {
     "home": {
@@ -416,13 +441,9 @@
           "caption": "Acceso desde la calle trasera. En esta fachada se ven la puerta y las ventanas de la habitación y el baño en suite."
         },
         "39": {
-          "title": "Plano 1",
+          "title": "Plano de la casa",
           "caption": "La casa se organiza en dos plantas con patio y alberca. En la planta baja: salón, comedor, cocina, baño y acceso al patio. En la planta superior: dos habitaciones, baño, terraza y una suite independiente con cocina y baño."
-        },
-        "40": {
-          "title": "Plano 2",
-          "caption": "La casa se organiza en dos plantas con patio y alberca. En la planta baja: salón, comedor, cocina, baño y acceso al patio. En la planta superior: dos habitaciones, baño, terraza y una suite independiente con cocina y baño."
-        }
+        }        
     },
     "environment": {
         "01": {
@@ -493,10 +514,11 @@
           "title": "Garganta natural en La Vera",
           "caption": "Una de las muchas gargantas de agua cristalina que recorren la comarca de La Vera. Entre saltos de agua y pozas naturales, estos rincones se convierten en espacios perfectos para refrescarse en verano y disfrutar de la naturaleza."
         },
-        "18": {
+          "18": {
           "title": "Villanueva de la Vera",
           "caption": "Encantadora calle de Villanueva de la Vera, donde se conserva la arquitectura tradicional con entramados de madera, balcones floridos y un ambiente acogedor. Este pueblo, declarado Conjunto Histórico-Artístico, refleja la esencia más auténtica de la comarca de La Vera."
       }
     }
+    }
   }
-}
+
