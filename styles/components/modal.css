@@ -197,6 +197,15 @@ Especifico de compartir página
 RESPONSIVE (≤1200px)
 ============================================ */
 @media (max-width: 1200px) {
+  .modal-reserve .modal__content {
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    max-height: 100%;
+    overflow: hidden;
+    padding: var(--sp-md);
+    gap: var(--sp-md);
+  }
   .modal-share .modal__content {
     top: -12rem;
     right: -5rem;

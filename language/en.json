@@ -149,7 +149,6 @@
           "description": "See map"
         }
     }
-
   },
 
   "components": {
@@ -176,10 +175,8 @@
       },
       "reserve": {
         "title": "Book your stay",
-        "description-one": "You can check the availability in the following calendar.",
-        "description-two": "The house is rented in full (entire property), and the maximum occupancy is 8 people.",
-        "description-three": "The minimum stay is 2 nights. You can check prices and custom stays for longer reservations.",        
-        "link": "Consult with us"
+        "description-one": "The house is rented as a whole, and prices for customized stays are available upon request.",            
+        "link": "Contact"
       },
       "menu": {
         "pages-section": "Pages",

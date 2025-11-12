@@ -174,10 +174,8 @@
       },
       "reserve": {
         "title": "Reserva tu estancia",
-        "description-one": "En el siguiente calendario puede ver la disponibilidad.",
-        "description-two": "El alquiler de la casa es de tipo íntegro y la ocupación máxima es de 8 personas.",
-        "description-three": "La estancia mínima será de 2 noches. Se pueden consultar precios y estancias personalizadas para reservas de más duración.",      
-        "link": "Consulta con nosotros"
+        "description-one": "El alquiler de la casa es de tipo íntegro y se pueden consultar precios para estancias personalizadas.",              
+        "link": "Contacto"
       },
       "menu": {
         "pages-section": "Páginas",

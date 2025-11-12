@@ -149,7 +149,6 @@
         "description": "Voir le plan"
       }
     }
-
   },
 
   "components": {
@@ -176,10 +175,8 @@
         },
         "reserve": {
           "title": "Réservez votre séjour",
-          "description-one": "Vous pouvez consulter les disponibilités dans le calendrier ci-dessous.",
-          "description-two": "La maison est louée dans son intégralité (location entière), et l'occupation maximale est de 8 personnes.",
-          "description-three": "Le séjour minimum est de 2 nuits. Les prix et les séjours personnalisés pour les réservations de plus longue durée peuvent être consultés.",          
-          "link": "Consultez-nous"
+          "description-one": "La location de la maison est complète et les prix pour des séjours personnalisés peuvent être consultés.",                  
+          "link": "Contact"
         },
         "menu": {
           "pages-section": "Pages",

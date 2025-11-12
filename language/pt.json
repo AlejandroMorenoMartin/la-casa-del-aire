@@ -176,10 +176,8 @@
         },
         "reserve": {
           "title": "Reserve a sua estadia",
-          "description-one": "Pode consultar a disponibilidade no seguinte calendário.",
-          "description-two": "O aluguer da casa é do tipo integral (propriedade inteira) e a ocupação máxima é de 8 pessoas.",
-          "description-three": "A estadia mínima será de 2 noites. Pode consultar preços e estadias personalizadas para reservas de maior duração.",          
-          "link": "Consulte-nos"
+          "description-one": "O aluguer da casa é integral e é possível consultar os preços para estadias personalizadas.",                    
+          "link": "Contacto"
         },
         "menu": {
           "pages-section": "Páginas",
