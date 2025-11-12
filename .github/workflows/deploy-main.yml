@@ -1,18 +1,32 @@
-- name: Deploy la-casa-del-aire to SFTP server
- uses: wlixcc/SFTP-Deploy-Action@v1.2.6
- with:
+name: Deploy PROD (SFTP)
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Deploy to SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.6
+        with:
           server: ${{ secrets.SFTP_HOST }}
           username: ${{ secrets.SFTP_USER }}
           password: ${{ secrets.SFTP_PASSWORD }}
           port: ${{ secrets.SFTP_PORT }}
-          local_path: "./la-casa-del-aire/*"
-          remote_path: "/clickandbuilds/Casadelaire"
+          local_path: "./*"
+          remote_path: "/clickandbuilds/CasadelAire"
           sftp_only: true
           delete_remote_files: true
           exclude: |
-            assets/**
             .github/**
             node_modules/**
+            .git/**
             .gitignore
             package.json
             package-lock.json
